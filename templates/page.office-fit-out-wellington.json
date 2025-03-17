@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
@@ -160,7 +160,7 @@
         "a {color: rgba(129, 188, 182, 0.85); text-decoration-color: rgba(129, 188, 182, 0.85);}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\" style=\"text-align: left;\">\n<h2 style=\"text-align: center;\">Who Can Cater for All the Office Fitouts in Wellington?</h2>\n<p>There is only one <strong>office fit out in Wellington</strong> that matters. That is <em>your</em> <strong>office fit out in Wellington</strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?</p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?</p>\n<p><a href=\"http://www.smartofficefurniture.co.nz/\">Smart Office Furniture</a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.</p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.\n<a id=\"show-more\" href=\"#read-more\">Read More</a></p>",
+        "custom_liquid": "<div class=\"page-width\" style=\"text-align: left;\">\n<h2 style=\"text-align: center;\">Who Can Cater for All the Office Fitouts in Wellington?</h2>\n<p>There is only one <strong>office fit out in Wellington</strong> that matters. That is <em>your</em> <strong>office fit out in Wellington</strong>. In principle that means to do a great job for you, we only need to provide one suite of furniture: the one that is right for you. But which one is that?</p>\n<p>No one knows exactly what styles and models they are going to choose until they start browsing. And that means to do a great job for you, we need to be able to show you everything available. That would be a pretty big showroom &ndash; and who wants to spend all day wandering around a vast hangar full of furniture?</p>\n<p><a href=\"https://www.smartofficefurniture.co.nz/\">Smart Office Furniture</a> solve the problem by not having a showroom. We don&rsquo;t have storerooms or warehouses either. The world is full of furniture in storerooms and warehouses.</p>\n<p>What we do is give you access to a whole host of them and all they contain. You browse on our website. You order from us. We get the goods delivered to you.\n<a id=\"show-more\" href=\"#read-more\">Read More</a></p>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 36
@@ -363,9 +363,7 @@
     },
     "custom_liquid_mNx3iz": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "custom_liquid": "<div class=\"page-width\"><h2>Contact Us and Get Started with your Office Fitout in Wellington</h2>\n<p>The ordering process is simple, but with all these options to choose from, you may want to discuss things &ndash; and we will be delighted to help. You can call us or send us an email. Or fill in the online contact form below, indicating what you&rsquo;re looking for or would like clarification on. That will give us a heads-up so we can hit the ground running.\n</p>\n</div>",
         "color_scheme": "background-2",
