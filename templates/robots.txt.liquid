@@ -5,9 +5,17 @@
 {% for group in robots.default_groups %}
   {{- group.user_agent -}}
 
+  {% comment %}
   {% for rule in group.rules %}
     {{- rule -}}
   {% endfor %}
+  {% endcomment %}
+
+  {%- for rule in group.rules -%}
+    {%- unless rule.directive == 'Disallow' and rule.value contains '/policies/' -%}
+      {{ rule }}
+    {%- endunless -%}
+  {%- endfor -%}
 
   {%- if group.sitemap != blank -%}
     {{ group.sitemap }}
