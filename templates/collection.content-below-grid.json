@@ -1,0 +1,200 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 50,
+        "columns_desktop": 5,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "kk-banner": {
+      "type": "kk-collection-content",
+      "custom_css": [
+        "h2 {text-align: center;}",
+        ".collection-hero__description {max-width: 100%; padding-bottom: 36px;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "rich_text_74wy4W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WWkrPg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why Choose Smart Office Furniture?</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WWkrPg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_JtktAg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VH8XXJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/express-delivery.png",
+            "title": "Free Delivery NZ wide *",
+            "text": "<p>We offer free delivery within metro areas on most of our products.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rzEkfX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/NZ_Bird_59de0a89-c654-42a9-9486-c8e32a5b1d0e.jpg",
+            "title": "New Zealand Owned & Operated since 1996",
+            "text": "<p>Being locally owned and operated, we understand the New Zealand market and customer needs</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_96wtpr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Competitive_price.jpg",
+            "title": "Competitve Prices",
+            "text": "<p>By working closely with leading New Zealand manufacturers and importers to provide affordable, high-quality office furniture without compromise.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tnKbUy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Secure_Payment.jpg",
+            "title": "Secure Payment Options",
+            "text": "<p>Shop with confidence, knowing that your payment information is protected.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VH8XXJ",
+        "column_rzEkfX",
+        "column_96wtpr",
+        "column_tnKbUy"
+      ],
+      "custom_css": [
+        "h4 {color: rgb(129, 188, 182); text-align: center !important; font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "16613934324260c45d": {
+      "type": "image-banner",
+      "blocks": {
+        "166139343229263e64-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Needing a Complete Office Fitout?",
+            "heading_size": "h1"
+          }
+        },
+        "166139343229263e64-1": {
+          "type": "text",
+          "settings": {
+            "text": "Get in touch for an obligation free quotation!",
+            "text_style": "body"
+          }
+        },
+        "166139343229263e64-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get In Touch",
+            "button_link_1": "shopify://pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166139343229263e64-0",
+        "166139343229263e64-1",
+        "166139343229263e64-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/office-desk-in-window-light.jpg",
+        "image_2": "shopify://shop_images/girl-presents-on-whiteboard.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "kk-banner",
+    "rich_text_74wy4W",
+    "multicolumn_JtktAg",
+    "16613934324260c45d"
+  ]
+}
