@@ -307,8 +307,8 @@
       "settings": {
         "custom_liquid": "<div class=\"kk-location-content\"><h2>Premium Office Furniture Online in NZ</h2>\n<p>Are you searching for the perfect <strong>office furniture online</strong> to elevate your workspace in New Zealand? Then you have come to the right place. Welcome to Smart Office Furniture. Our extensive collection of premium <strong>office furniture</strong> is designed to enhance productivity and add a touch of elegance to any office setting. Whether you're furnishing a corporate office or setting up a cosy home office, we have everything you need to create an inspiring yet comfortable work environment. <a id=\"show-more\" href=\"#read-more\">Read More</a></p>\n<div id=\"read-more\">\n\n<h2>Office Furniture Online: The Convenience You Deserve</h2>\n<p>With our user-friendly online store, shopping for <strong>office furniture in New Zealand</strong> has never been easier. Say goodbye to the hassle of visiting multiple showrooms and flipping through countless catalogues. Now, you can browse through a vast array of <strong>cheap office furniture</strong> options from the comfort of your home or current office. Our website showcases an extensive selection of <a href=\"/collections/office-chairs\">office chairs</a>, desks, storage solutions, stationery and much more, all at your fingertips.</p>\n<p>And with efficient nationwide delivery, you can expect your chosen furniture pieces to arrive promptly and in pristine condition, either to your chosen address or the nearest town if you reside in a more rural location.</p>\n<h2>Office Furniture in NZ That Promises Quality You Can Trust</h2>\n<p>When it comes to <strong>office furniture in NZ</strong>, quality is paramount. We understand that durable and well-crafted furniture is not just an investment in style but also in long-term comfort and functionality. That's why we only offer products that provide the latest ergonomic capabilities. Whether you are in need of fixed height or flexible desks, swivel or boardroom chairs, <a href=\"/collections/reception-desks\">reception desks</a> or coffee tables, we have you covered. Find all of your office supplies with ease here at Smart Office Furniture.</p>\n<p>An organised workspace enhances productivity, and our range of storage solutions ensures that everything has its place. From spacious filing cabinets to shelving units and <a href=\"/collections/lockable-office-drawers\">lockable office drawers</a>, our office furniture selection will optimise your office layout.</p>\n<h2>Revamp Your Workspace with Top-Quality Office Furniture in New Zealand</h2>\n<p>And as the line between work and home blurs, a functional and aesthetically pleasing home office becomes essential. Our collection of <a href=\"/collections/home-office-desks\">home office furniture</a> includes compact desks for limited spaces, storage solutions and comfortable <a href=\"/collections/office-chairs\">desk chairs</a> that will complement your home's interior. We believe that working from home should be a pleasure, and our furniture offerings help you strike the perfect balance between comfort and professionalism.</p>\n<p>Rest assured that we don&rsquo;t compromise on aesthetics. We regularly update our product range so you will always have access to the latest styles. No matter the design scheme of your workspace, you are sure to find something you love in our range.</p>\n<h2>Elevate Your Commercial or Home Office Space Today With New Office Furniture in Auckland and NZ wide</h2>\nAre you looking for top-quality <strong>office furniture in Auckland</strong> and across NZ that blends style, functionality, and durability?\n<p>Whether you are setting up a new office or giving your current workspace a makeover, our office furniture solutions in New Zealand are tailored to meet your unique needs. Our wide selection of <strong>office furniture online</strong> meets diverse needs for businesses and individuals, transforming offices into inspiring, productive spaces.</p>\n<p>From storage to desks and <strong>office chairs, Auckland</strong> residents are covered with our extensive range of <strong>commercial office furniture in Auckland</strong>, Christchurch &amp; NZ wide.</p>\nEmbrace the convenience of shopping online, explore our diverse range of <strong>office furniture in NZ</strong>, and create an inspiring and comfortable environment for maximum productivity.\n<p>Revamp your workspace today with Smart Office Furniture!</p>\n<h2>Office Chairs &amp; Desks Delivered To Auckland and Beyond</h2>\nKey to any office setup is the chair. Our <a href=\"/collections/ergonomic-office-chairs\">ergonomic office chairs</a> provide optimal comfort and support, reducing the risk of back pain. Adjustable features and high-quality materials make them functional and delightful. The desk is your workspace's heart. Our selection of <strong>office desks in Auckland</strong> includes <a href=\"/collections/height-adjustable-sit-stand-desks\">height adjustable standing desks</a>, classic wooden desks, <a href=\"/collections/reception-desks\">reception desks</a> and more to cater to different needs. Embrace efficiency and style for maximum productivity. Discover perfect <strong>office furniture solutions in Auckland</strong> at Smart Office Furniture. <a id=\"hide-less\" href=\"#read-more\">Read Less</a>\n\n</div>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 60
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "featured_products": {
@@ -334,7 +334,100 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_LX9B9d": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xGRQrw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why Choose Smart Office Furniture?</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xGRQrw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_6TNBFn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Tz4FrE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/express-delivery.png",
+            "title": "Free Delivery NZ wide *",
+            "text": "<p>We offer free delivery within metro areas on most of our products.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XgpbW4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/NZ_Bird_59de0a89-c654-42a9-9486-c8e32a5b1d0e.jpg",
+            "title": "New Zealand Owned & Operated since 1996",
+            "text": "<p>Being locally owned and operated, we understand the New Zealand market and customer needs</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kCM4Cw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Competitive_price.jpg",
+            "title": "Competitve Prices",
+            "text": "<p>By working closely with leading New Zealand manufacturers and importers to provide affordable, high-quality office furniture without compromise.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KRXfKX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Secure_Payment.jpg",
+            "title": "Secure Payment Options",
+            "text": "<p>Shop with confidence, knowing that your payment information is protected.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Tz4FrE",
+        "column_XgpbW4",
+        "column_kCM4Cw",
+        "column_KRXfKX"
+      ],
+      "custom_css": [
+        "h4 {color: rgb(129, 188, 182); text-align: center !important; font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     },
@@ -413,6 +506,8 @@
     "1631576674bf289ea9",
     "custom_liquid_VkW6EH",
     "featured_products",
+    "rich_text_LX9B9d",
+    "multicolumn_6TNBFn",
     "image_banner",
     "d62d3caa-47d6-4652-a176-1e0fcdeddea9"
   ]
