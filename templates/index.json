@@ -387,46 +387,6 @@
         "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Smart Office New Zealand</p>",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br/>Office furniture NZ, office chairs, office desks, office workstations and more!<br/><br/><strong>Proudly NZ Owned & Operated.</strong> <strong>Thank you for shopping New Zealand local.</strong></p>"
-          }
-        },
-        "3577e5d3-a1b9-4cd5-9e9f-fc0022028257": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "3577e5d3-a1b9-4cd5-9e9f-fc0022028257"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "d62d3caa-47d6-4652-a176-1e0fcdeddea9": {
       "type": "featured-blog",
       "settings": {
@@ -454,7 +414,6 @@
     "custom_liquid_VkW6EH",
     "featured_products",
     "image_banner",
-    "rich_text",
     "d62d3caa-47d6-4652-a176-1e0fcdeddea9"
   ]
 }
