@@ -15,33 +15,21 @@
         "16425377969542c221-0": {
           "type": "heading",
           "settings": {
-            "heading": "SmartOffice Furniture",
-            "heading_size": "h0"
+            "heading": "Quality Office Furniture & Fit Outs at Affordable Prices since 1996",
+            "heading_size": "h1"
           }
         },
         "16425377969542c221-1": {
           "type": "text",
           "settings": {
-            "text": "Quality Office Furniture at Affordable Prices since 1996.     If you're looking for something specific that doesn't appear on our website, please contact us so we can source it for you from our extensive range of suppliers.",
+            "text": "",
             "text_style": "body"
-          }
-        },
-        "16425377969542c221-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "16425377969542c221-0",
-        "16425377969542c221-1",
-        "16425377969542c221-2"
+        "16425377969542c221-1"
       ],
       "custom_css": [
         ".banner__text.body {color: #fff;}"
@@ -58,15 +46,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
-      }
-    },
-    "ada176e6-d2c2-4449-a3a1-8eecba2021da": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h1 style=\"text-align:center; color: #81BCB6; font-size:26px\">Shop Office Furniture Online in New Zealand</h1>",
-        "color_scheme": "background-1",
-        "padding_top": 24,
-        "padding_bottom": 0
       }
     },
     "16315799045056d243": {
@@ -132,6 +111,15 @@
         "padding_bottom": 36
       }
     },
+    "ada176e6-d2c2-4449-a3a1-8eecba2021da": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"text-align:center; color: #81BCB6; font-size:26px\">Shop Office Furniture Online in New Zealand</h1>",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_TYdinE": {
       "type": "custom-liquid",
       "settings": {
@@ -168,6 +156,12 @@
             "collection": "height-adjustable-sit-stand-desks"
           }
         },
+        "featured_collection_A8VG8f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "educational-furniture"
+          }
+        },
         "7c690c16-1b60-4dfd-ae4e-b24010850534": {
           "type": "featured_collection",
           "disabled": true,
@@ -188,6 +182,7 @@
         "featured_collection_MzjVE6",
         "1047cd53-fe8b-4425-bb75-e25c21116077",
         "featured_collection_tRY7gM",
+        "featured_collection_A8VG8f",
         "7c690c16-1b60-4dfd-ae4e-b24010850534",
         "396c3a53-ba59-4299-9b0f-68bcce36968c"
       ],
@@ -363,13 +358,13 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Most Popular",
+        "title": "Our Most Popular Office Chairs",
         "heading_size": "h2",
-        "description": "<p>Our most popular selling products , lined up here for easy access to ordering.</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "most-popular",
-        "products_to_show": 10,
+        "collection": "office-chairs",
+        "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
@@ -568,8 +563,8 @@
   },
   "order": [
     "164253779604eede75",
-    "ada176e6-d2c2-4449-a3a1-8eecba2021da",
     "16315799045056d243",
+    "ada176e6-d2c2-4449-a3a1-8eecba2021da",
     "custom_liquid_TYdinE",
     "1631576674bf289ea9",
     "collection_list_37XRPa",
