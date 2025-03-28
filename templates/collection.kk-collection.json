@@ -187,6 +187,15 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_liquid_fMKAVC": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"elfsight-sapp-1bde05e5-aac9-45ea-b884-4f918d308359\"></div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -195,6 +204,7 @@
     "kk-banner",
     "rich_text_74wy4W",
     "multicolumn_JtktAg",
+    "custom_liquid_fMKAVC",
     "16613934324260c45d"
   ]
 }
