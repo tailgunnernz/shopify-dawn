@@ -35,6 +35,99 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_cjhwrt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Xh7nTc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why Choose Smart Office Furniture?</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xh7nTc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_WWw8nw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QRjrE9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/express-delivery.png",
+            "title": "Free Delivery NZ wide *",
+            "text": "<p>We offer free delivery within metro areas on most of our products.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qYfPX4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/NZ_Bird_59de0a89-c654-42a9-9486-c8e32a5b1d0e.jpg",
+            "title": "New Zealand Owned & Operated since 1996",
+            "text": "<p>Being locally owned and operated, we understand the New Zealand market and customer needs</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_krTcYe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Competitive_price.jpg",
+            "title": "Competitive Prices",
+            "text": "<p>By working closely with leading New Zealand manufacturers and importers to provide affordable, high-quality office furniture without compromise.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WFHaGh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Secure_Payment.jpg",
+            "title": "Secure Payment Options",
+            "text": "<p>Shop with confidence, knowing that your payment information is protected.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QRjrE9",
+        "column_qYfPX4",
+        "column_krTcYe",
+        "column_WFHaGh"
+      ],
+      "custom_css": [
+        "h4 {color: rgb(129, 188, 182); text-align: center !important; font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_DR8rcd": {
       "type": "custom-liquid",
       "settings": {
@@ -97,6 +190,8 @@
   "order": [
     "banner",
     "product-grid",
+    "rich_text_cjhwrt",
+    "multicolumn_WWw8nw",
     "custom_liquid_DR8rcd",
     "16613934324260c45d"
   ]
