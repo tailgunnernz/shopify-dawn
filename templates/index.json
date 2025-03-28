@@ -135,7 +135,7 @@
     "custom_liquid_TYdinE": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!-- Elfsight Google Reviews | Untitled Google Reviews -->\n<script src=\"https://static.elfsight.com/platform/platform.js\" async></script>\n<div class=\"elfsight-app-7766ae1e-2608-470e-be7a-0a82d10af625\" data-elfsight-app-lazy></div>",
+        "custom_liquid": "<div class=\"elfsight-sapp-1bde05e5-aac9-45ea-b884-4f918d308359\"></div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
