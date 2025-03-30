@@ -4,6 +4,7 @@
   - Allows for custom success message to be added
 {% endcomment %}
 
+<div class="page-width page-width--narrow">
 {% form 'customer', class: 'custom__newsletter-form' %}
   {%- unless form.posted_successfully? -%}
     <h2 class="h1">{{ section.settings.heading }}</h2>
@@ -70,6 +71,7 @@
     <p>{{ section.settings.paragraphSuccess }}</p>
   {%- endif -%}
 {% endform %}
+</div>
 
 {% schema %}
 {
