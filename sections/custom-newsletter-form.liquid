@@ -5,7 +5,7 @@
 {% endcomment %}
 
 <div class="page-width page-width--narrow" style="text-align: center;">
-{% form 'customer', class: 'custom__newsletter-form' %}
+{% form 'customer', class: 'custom__newsletter-form-section' %}
   {%- unless form.posted_successfully? -%}
     <h2 class="h1">{{ section.settings.heading }}</h2>
     <p>{{ section.settings.paragraph }}</p>
