@@ -20,106 +20,25 @@
     "custom_liquid_i7WFVk": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width section-content scroll-trigger animate--fade-in center\">\n<h1 class=\"h0\">Contact Us</h1>\n</div>",
+        "custom_liquid": "<div class=\"page-width section-content scroll-trigger animate--fade-in center\">\n<h1 class=\"h0\">Newsletter Signup</h1>\n</div>",
         "color_scheme": "scheme-5",
         "padding_top": 24,
         "padding_bottom": 32
       }
     },
-    "multicolumn_C6CUFR": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_yEyd6L": {
-          "type": "column",
-          "settings": {
-            "title": "Get In Touch",
-            "text": "<p><strong>We have friendly sales staff who are waiting to take your call now.</strong><br/><br/>Freephone: <a href=\"tel:0800900800\" title=\"Call 0800900800\"><strong>0800 900800</strong></a><br/>Phone: <a href=\"tel:+6444736682\" title=\"Call +6444736682\"><strong>(+64) 4 473 6682</strong></a><br/>Fax: <a href=\"tel:+6442821197\" title=\"Fax +6442821197\"><strong>(+64) 4 282 1197</strong></a><br/>Email:             <a href=\"mailto:sales@flagmakers.co.nz\" title=\"mailto:sales@flagmakers.co.nz\"><strong>sales@flagmakers.co.nz</strong></a></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_bQfrtK": {
-          "type": "column",
-          "settings": {
-            "title": "Wellington Showroom & Plant",
-            "text": "<p><strong>Open Hours:   8:30am to 5.00pm<br/>Monday to Friday<br/><br/></strong>Flagmakers<br/>8 Waione Street<br/>Petone, Lower Hutt<br/>New Zealand</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_yEyd6L",
-        "column_bQfrtK"
-      ],
-      "custom_css": [
-        "@media (min-width: 990px) {div > div {max-width: 72.6rem; padding-left: 0; padding-right: 0; }}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 40
-      }
-    },
-    "form": {
-      "type": "contact-form",
+    "custom_newsletter_form_eLGdcc": {
+      "type": "custom-newsletter-form",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 80
-      }
-    },
-    "image_banner_7E3cAW": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_MyVL6f": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Get Directions",
-            "button_link_1": "https://maps.app.goo.gl/Wx5ZmvLhQBhrKdi77",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_MyVL6f"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/contact_map.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "paragraph": "Please use the form below to sign up to our newsletter",
+        "headingSuccess": "Thank You!",
+        "paragraphSuccess": "You've successfully subscribed. If required, one of our team will be in touch shortly."
       }
     }
   },
   "order": [
     "main",
     "custom_liquid_i7WFVk",
-    "multicolumn_C6CUFR",
-    "form",
-    "image_banner_7E3cAW"
+    "custom_newsletter_form_eLGdcc"
   ]
 }
