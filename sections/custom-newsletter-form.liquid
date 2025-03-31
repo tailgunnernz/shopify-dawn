@@ -84,6 +84,10 @@
     const emailInput = form.querySelector('input[name="contact[email]"]');
     const tagsInput = form.querySelector('input[name="contact[tags]"]');
 
+    console.log(urlParams);
+    console.log(emailInput);
+    console.log(tagsInput);
+
     // if email and tags are present in the query string, set them in the form
     if (email) {
       emailInput.value = email;
