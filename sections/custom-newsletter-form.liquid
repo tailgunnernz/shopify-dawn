@@ -4,7 +4,7 @@
   - Allows for custom success message to be added
 {% endcomment %}
 
-<div class="page-width page-width--narrow" style="text-align: center; padding-top: {{ section.settings.paddingTop }}; padding-bottom: {{ section.settings.paddingBottom }};">
+<div class="page-width page-width--narrow" style="text-align: center; padding-top: {{ section.settings.paddingTop }}px; padding-bottom: {{ section.settings.paddingBottom }}px;">
 {% form 'customer', class: 'custom__newsletter-form-section' %}
   {%- unless form.posted_successfully? -%}
     <h2 class="h1">{{ section.settings.heading }}</h2>
