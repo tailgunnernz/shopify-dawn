@@ -73,6 +73,26 @@
 {% endform %}
 </div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // check query string for email and tags parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const email = urlParams.get('email');
+    const tags = urlParams.get('tags');
+    const form = document.querySelector('.{{ formclass }}');
+    const emailInput = form.querySelector('input[name="contact[email]"]');
+    const tagsInput = form.querySelector('input[name="contact[tags]"]');
+
+    // if email and tags are present in the query string, set them in the form
+    if (email) {
+      emailInput.value = email;
+    }
+    if (tags) {
+      tagsInput.value = tags;
+    }
+  })
+</script>
+
 {% schema %}
 {
   "name": "Custom Newsletter Form",
