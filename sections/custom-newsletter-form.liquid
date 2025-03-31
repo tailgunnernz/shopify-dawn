@@ -74,7 +74,7 @@
 {% endform %}
 </div>
 
-{% javascript %}
+<script>
   document.addEventListener('DOMContentLoaded', function() {
     // check query string for email and tags parameters
     const urlParams = new URLSearchParams(window.location.search);
@@ -96,7 +96,7 @@
       tagsInput.value = tags;
     }
   })
-{% endjavascript %}
+</script>
 
 {% schema %}
 {
