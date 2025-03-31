@@ -6,7 +6,7 @@
 
 <div class="page-width page-width--narrow" style="text-align: center; padding-top: {{ section.settings.paddingTop }}px; padding-bottom: {{ section.settings.paddingBottom }}px;">
   {% assign formclass = 'custom__newsletter-form-section--' | append: section.id %}
-  {% form 'customer', class: formClass %}
+  {% form 'customer', class: formclass %}
   {%- unless form.posted_successfully? -%}
     <h2 class="h1">{{ section.settings.heading }}</h2>
     <p>{{ section.settings.paragraph }}</p>
