@@ -33,8 +33,8 @@
         "paragraph": "Please use the form below to sign up to our newsletter.",
         "headingSuccess": "Thank You!",
         "paragraphSuccess": "You've successfully subscribed. If required, one of our team will be in touch shortly.",
-        "paddingTop": 32,
-        "paddingBottom": 32
+        "paddingTop": 60,
+        "paddingBottom": 60
       }
     }
   },
