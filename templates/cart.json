@@ -13,7 +13,7 @@
       "type": "apps",
       "blocks": {
         "shopacado_volume_discounts_cart_notification_bar_BVBbeF": {
-          "type": "shopify://apps/shopacado-volume-discounts/blocks/cart-notification-bar/5950831a-4e4e-40a4-82b0-674110b50a14",
+          "type": "shopify://apps/shopacado-discounts/blocks/cart-notification-bar/5950831a-4e4e-40a4-82b0-674110b50a14",
           "settings": {
             "background_color": "#ffffff",
             "text_color": "#000000",
@@ -60,9 +60,7 @@
         "heading_zryXDg",
         "text_8xgDtq"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -77,13 +75,11 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -132,6 +128,15 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_L8FnPH": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% liquid \n  assign couponcode = blank\n  for item in cart.items\n    for collection in item.product.collections \n      if collection.metafields.custom.automatic_discount_code != blank \n        assign couponcode = collection.metafields.custom.automatic_discount_code \n        break\n      endif\n    endfor\n  endfor \n%}\n\n{% if couponcode != blank %}<script>\n  var couponcode = \"{{ couponcode }}\";\n  var cart = {{ cart | json }};\n  var discountCode = cart.discount_code;\n  if (discountCode != couponcode) {\n    fetch('/cart/update.js', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json',\n        'Accept': 'application/json'\n      },\n      body: JSON.stringify({\n        updates: {\n          discount_code: couponcode\n        }\n      })\n    });\n  }\n</script>{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -140,6 +145,7 @@
     "rich_text_mzk6ag",
     "cart-footer",
     "featured-collection",
-    "custom_liquid_aeczVM"
+    "custom_liquid_aeczVM",
+    "custom_liquid_L8FnPH"
   ]
 }
