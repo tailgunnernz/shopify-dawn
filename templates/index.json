@@ -384,11 +384,11 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Event_packages-03.png",
-            "caption": "Spring Deals",
-            "heading": "Event Packages",
-            "text": "<p><strong>Different packages for different needs!</strong><br/>Select from our bronze, silver and gold event packages containing a variety of quality products for your next event!<br/><br/>Need something specific? Choose any combination and we will provide you a packaged price.<br/><strong> </strong></p>",
-            "button_label": "View Event Packages",
-            "button_link": "https://www.flagmakers.co.nz/collections/event-packages"
+            "caption": "Event Packages",
+            "heading": "Build your own package!",
+            "text": "<p><strong>Design Your Own Event Package and <br/>Save on What You Need!</strong><br/><strong> </strong>Customize your event flag package by selecting from the options below. Mix and match to create the perfect setup for your event and save 10% on your order. </p>",
+            "button_label": "Build your own package",
+            "button_link": "shopify://collections/event-packages-mix-match"
           }
         },
         "row_gyxV7p": {
