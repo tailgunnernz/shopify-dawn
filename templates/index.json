@@ -313,6 +313,7 @@
         },
         "row_94zrMY": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/anzac-07.png",
             "caption": "Lest we forget",
