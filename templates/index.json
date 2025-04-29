@@ -107,20 +107,30 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_7tQQ7r": {
+          "type": "column",
+          "settings": {
+            "title": "Afterpay",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "5e1d16ff-2172-4a19-a6ec-404321f1c0af",
         "16315799045056d243-2",
         "16315799045056d243-1",
-        "16315799045056d243-0"
+        "16315799045056d243-0",
+        "column_7tQQ7r"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
