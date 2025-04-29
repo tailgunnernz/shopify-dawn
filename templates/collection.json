@@ -95,8 +95,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Secure_Payment.jpg",
-            "title": "Secure Payment Options",
-            "text": "<p>Shop with confidence, knowing that your payment information is protected.</p>",
+            "title": "Secure Payment Options & Afterpay",
+            "text": "<p>Enjoy peace of mind with protected payments and the option to buy now, pay later with Afterpay.</p>",
             "link_label": "",
             "link": ""
           }
