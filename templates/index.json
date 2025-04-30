@@ -14,6 +14,7 @@
       "blocks": {
         "slide_nqVRU6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/105_DURAPOLE_EXTENDED-18.jpg",
             "heading": "",
@@ -51,7 +52,7 @@
         "slide_pXKKny": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Website_banner_-_value_flags_CUSTOM-02.png",
+            "image": "shopify://shop_images/durapole_banner_2_2d481813-e767-43a0-af06-d38d52d4e496.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -302,6 +303,7 @@
       "blocks": {
         "row_xa4gVk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/END_OF_FINANCAL_YEAR_CAMPAGIN_-_extended.jpg",
             "caption": "Advanced One-piece design",
@@ -337,7 +339,6 @@
         },
         "row_HYpBmX": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
