@@ -3094,3 +3094,9 @@ header.page-width {
 	transition: all 0.2s ease-in-out;
 }
 
+@media (max-width: 550px) {
+    .kk-homepage-content {
+  
+}
+  ]
+
