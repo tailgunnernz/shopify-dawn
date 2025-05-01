@@ -221,7 +221,7 @@
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "square",
@@ -248,7 +248,34 @@
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_mKqGwr": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop Our Best Selling Storage Cuboards & Cabinets",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "office-cupboards",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "square",
@@ -322,8 +349,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Secure_Payment.jpg",
-            "title": "Secure Payment Options",
-            "text": "<p>Shop with confidence, knowing that your payment information is protected.</p>",
+            "title": "Secure Payment Options & Afterpay",
+            "text": "<p>Enjoy peace of mind with protected payments and the option to buy now, pay later with Afterpay.</p>",
             "link_label": "",
             "link": ""
           }
@@ -344,7 +371,7 @@
         "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -429,16 +456,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "custom_liquid_BpqYgr": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Carousel</title>\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css\">\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n        }\n        .container {\n            text-align: center;\n            margin-top: 20px;\n        }\n        .swiper-container {\n            width: 80%;\n            margin: 20px auto;\n            position: relative;\n        }\n        .swiper-slide {\n            border: 2px solid black !important;\n            display: flex !important;\n            flex-direction: column;\n            align-items: center;\n            text-align: center;\n            background: #fff;\n            padding: 20px;\n            border: 1px solid #ddd;\n            border-radius: 10px;\n            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);\n            width: 250px !important; /* Fixed width */\n            height: 350px !important; /* Ensures all boxes are same height */\n            justify-content: space-between; /* Ensures content is evenly distributed */\n        }\n        .swiper-slide img {\n            width: 150px;\n            height: auto;\n            margin-bottom: 10px;\n        }\n        .product-title {\n            font-size: 18px;\n            font-weight: bold;\n            margin: 5px 0;\n            min-height: 50px; /* Ensures titles align */\n        }\n        .product-price {\n            color: #27ae60;\n            font-size: 16px;\n            margin: 5px 0;\n        }\n        .buy-btn {\n            background: #007bff;\n            color: white;\n            padding: 10px 15px;\n            border: none;\n            border-radius: 5px;\n            cursor: pointer;\n            text-decoration: none;\n        }\n        .buy-btn:hover {\n            background: #0056b3;\n        }\n        .view-all-btn {\n            background-color: rgb(129, 188, 182);\n            color: white;\n            padding: 10px 15px;\n            border: none;\n            border-radius: 5px;\n            cursor: pointer;\n            text-decoration: none;\n            margin-top: 20px;\n        }\n        .view-all-btn:hover {\n            background-color: rgb(101, 154, 148);\n        }\n        .swiper-button-next, .swiper-button-prev {\n            position: absolute;\n            top: 50%;\n            transform: translateY(-50%);\n            background-color: rgba(0, 0, 0, 0.5);\n            color: white;\n            padding: 10px;\n            border-radius: 50%;\n            cursor: pointer;\n        }\n        .swiper-button-next {\n            right: 10px;\n        }\n        .swiper-button-prev {\n            left: 10px;\n        }\n        .swiper-pagination {\n            position: absolute;\n            bottom: 10px;\n            width: 100%;\n            text-align: center;\n        }\n    </style>\n</head>\n<body>\n\n    <div class=\"container\">\n        <h2>Our Best Selling Office Chairs</h2>\n    </div>\n\n    {% assign collection = collections['office-chairs'] %}\n\n    <div class=\"swiper-container\">\n        <div class=\"swiper-wrapper\">\n            {% for product in collection.products limit: 12 %}\n            <div class=\"swiper-slide\">\n                <img src=\"{{ product.featured_image | img_url: '300x300' }}\" alt=\"{{ product.title }}\">\n                <div class=\"product-title\">{{ product.title }}</div>\n                <div class=\"product-price\">\n                    {% if product.compare_at_price > product.price %}\n                        <span class=\"old-price\" style=\"text-decoration: line-through;\">{{ product.compare_at_price | money }}</span>\n                    {% endif %}\n                    <span class=\"current-price\">{{ product.price | money }}</span>\n                </div>\n                <a href=\"{{ product.url }}\" class=\"buy-btn\">Buy Now</a>\n            </div>\n            {% endfor %}\n        </div>\n\n        <!-- Pagination & Navigation -->\n        <div class=\"swiper-pagination\"></div>\n        <div class=\"swiper-button-next\"></div>\n        <div class=\"swiper-button-prev\"></div>\n    </div>\n\n    <div class=\"container\">\n        <a href=\"{{ collections['office-chairs'].url }}\" class=\"view-all-btn\">View All Office Chairs</a>\n    </div>\n\n    <script src=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js\"></script>\n    <script>\n        var swiper = new Swiper('.swiper-container', {\n            loop: true,  // Ensures the carousel loops back to the start\n            autoplay: {\n                delay: 3000,\n                disableOnInteraction: false,\n            },\n            slidesPerView: 4,\n            spaceBetween: 20,\n            pagination: {\n                el: '.swiper-pagination',\n                clickable: true,\n            },\n            navigation: {\n                nextEl: '.swiper-button-next',\n                prevEl: '.swiper-button-prev',\n            },\n            breakpoints: {\n                480: { slidesPerView: 1 },\n                768: { slidesPerView: 2 },\n                1024: { slidesPerView: 3 },\n                1400: { slidesPerView: 5 }\n            }\n        });\n    </script>\n\n</body>\n</html>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -450,11 +467,11 @@
     "custom_liquid_VkW6EH",
     "featured_products",
     "featured_collection_qdJinq",
+    "featured_collection_mKqGwr",
     "rich_text_LX9B9d",
     "multicolumn_6TNBFn",
     "image_banner",
     "d62d3caa-47d6-4652-a176-1e0fcdeddea9",
-    "custom_liquid_Lw9MNn",
-    "custom_liquid_BpqYgr"
+    "custom_liquid_Lw9MNn"
   ]
 }
