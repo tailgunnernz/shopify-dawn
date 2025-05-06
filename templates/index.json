@@ -14,14 +14,13 @@
       "blocks": {
         "slide_nqVRU6": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/105_DURAPOLE_EXTENDED-18.jpg",
+            "image": "shopify://shop_images/ROLL_UP_12_PRICE-06.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "https://www.flagmakers.co.nz/collections/feather-and-teardrop-flags-premium-high-strength",
+            "link": "shopify://collections/roll-up-pull-up-banners",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
