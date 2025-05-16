@@ -15,21 +15,33 @@
         "16425377969542c221-0": {
           "type": "heading",
           "settings": {
-            "heading": "Quality Office Furniture & Fit Outs at Affordable Prices since 1996",
-            "heading_size": "h1"
+            "heading": "SmartOffice Furniture",
+            "heading_size": "h0"
           }
         },
         "16425377969542c221-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Quality Office Furniture at Affordable Prices since 1996.     If you're looking for something specific that doesn't appear on our website, please contact us so we can source it for you from our extensive range of suppliers.",
             "text_style": "body"
+          }
+        },
+        "16425377969542c221-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "16425377969542c221-0",
-        "16425377969542c221-1"
+        "16425377969542c221-1",
+        "16425377969542c221-2"
       ],
       "custom_css": [
         ".banner__text.body {color: #fff;}"
@@ -46,6 +58,15 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "ada176e6-d2c2-4449-a3a1-8eecba2021da": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"text-align:center; color: #81BCB6; font-size:26px\">Shop Office Furniture Online in New Zealand</h1>",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 0
       }
     },
     "16315799045056d243": {
@@ -87,7 +108,7 @@
             "link": ""
           }
         },
-        "column_rV4ykx": {
+        "column_7tQQ7r": {
           "type": "column",
           "settings": {
             "title": "Afterpay",
@@ -102,7 +123,7 @@
         "16315799045056d243-2",
         "16315799045056d243-1",
         "16315799045056d243-0",
-        "column_rV4ykx"
+        "column_7tQQ7r"
       ],
       "settings": {
         "title": "",
@@ -117,32 +138,62 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "ada176e6-d2c2-4449-a3a1-8eecba2021da": {
+    "custom_liquid_TYdinE": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1 style=\"text-align:center; color: #81BCB6; font-size:26px\">Shop Office Furniture Online in New Zealand</h1>",
+        "custom_liquid": "<div class=\"elfsight-sapp-1bde05e5-aac9-45ea-b884-4f918d308359\"></div>",
         "color_scheme": "background-1",
-        "padding_top": 12,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
     "1631576674bf289ea9": {
       "type": "collection-list",
       "blocks": {
-        "1631576674bf289ea9-1": {
+        "1631576674bf289ea9-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "office-chairs"
+            "collection": "height-adjustable-sit-stand-desks"
           }
         },
-        "featured_collection_MzjVE6": {
+        "0824393f-0d19-4d85-ad50-22d8eee5f77f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "office-desks-tables"
+            "collection": "cubit-office-suite"
+          }
+        },
+        "a2fc47ae-5b1c-4864-bd05-f7e7f5106017": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ergoplan-office-suite"
+          }
+        },
+        "5864bede-285e-4652-bf1f-e0db8146249b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pulse-office-collection"
+          }
+        },
+        "61df3893-1174-41bd-8219-66ede825e4e8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-desks-fixed-height-desks"
+          }
+        },
+        "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "corner-desks-workstations"
+          }
+        },
+        "36cac800-480d-46cb-81f8-6a91841d697b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-storage-lockers-mobiles"
           }
         },
         "1047cd53-fe8b-4425-bb75-e25c21116077": {
@@ -151,16 +202,64 @@
             "collection": "office-cupboards"
           }
         },
-        "featured_collection_tRY7gM": {
+        "1631576674bf289ea9-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "height-adjustable-sit-stand-desks"
+            "collection": "office-chairs"
           }
         },
-        "featured_collection_A8VG8f": {
+        "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc": {
           "type": "featured_collection",
           "settings": {
-            "collection": "educational-furniture"
+            "collection": "executive-leather-office-chairs"
+          }
+        },
+        "b36cb990-392e-4097-a9b6-60680f268b28": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-chairs-architectural-chairs"
+          }
+        },
+        "84b84fbd-1a87-458d-baf6-c3eb47627332": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-conference-seating"
+          }
+        },
+        "aeeb40c5-504f-4bc3-ad8b-ae2143faf147": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-boardroom-seating"
+          }
+        },
+        "6ed3c262-4c3c-4234-ae20-676310fbdafb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boardroom-tables"
+          }
+        },
+        "6eaf31b4-2304-4b97-8174-dc8de6100c6b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-seating-barstools-cafe-seating"
+          }
+        },
+        "a4ada6e5-60c0-4312-ad5a-9e40f885d627": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-bar-leaners"
+          }
+        },
+        "f8ac1d30-1e0c-45a0-a502-0ee699abd3ff": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-coffee-tables"
+          }
+        },
+        "1631576674bf289ea9-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-furniture-tables-flip-folding-tables"
           }
         },
         "7c690c16-1b60-4dfd-ae4e-b24010850534": {
@@ -179,11 +278,24 @@
         }
       },
       "block_order": [
-        "1631576674bf289ea9-1",
-        "featured_collection_MzjVE6",
+        "1631576674bf289ea9-0",
+        "0824393f-0d19-4d85-ad50-22d8eee5f77f",
+        "a2fc47ae-5b1c-4864-bd05-f7e7f5106017",
+        "5864bede-285e-4652-bf1f-e0db8146249b",
+        "61df3893-1174-41bd-8219-66ede825e4e8",
+        "ca8d9526-c9fa-49ac-92c6-1f86b53c42b5",
+        "36cac800-480d-46cb-81f8-6a91841d697b",
         "1047cd53-fe8b-4425-bb75-e25c21116077",
-        "featured_collection_tRY7gM",
-        "featured_collection_A8VG8f",
+        "1631576674bf289ea9-1",
+        "169f0aa5-7cf3-4fe0-acdf-af711a9f2fcc",
+        "b36cb990-392e-4097-a9b6-60680f268b28",
+        "84b84fbd-1a87-458d-baf6-c3eb47627332",
+        "aeeb40c5-504f-4bc3-ad8b-ae2143faf147",
+        "6ed3c262-4c3c-4234-ae20-676310fbdafb",
+        "6eaf31b4-2304-4b97-8174-dc8de6100c6b",
+        "a4ada6e5-60c0-4312-ad5a-9e40f885d627",
+        "f8ac1d30-1e0c-45a0-a502-0ee699abd3ff",
+        "1631576674bf289ea9-2",
         "7c690c16-1b60-4dfd-ae4e-b24010850534",
         "396c3a53-ba59-4299-9b0f-68bcce36968c"
       ],
@@ -200,15 +312,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_TYdinE": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"elfsight-sapp-1bde05e5-aac9-45ea-b884-4f918d308359\"></div>",
-        "color_scheme": "background-1",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "custom_liquid_VkW6EH": {
       "type": "custom-liquid",
       "settings": {
@@ -221,71 +324,17 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shop Our Best Selling Office Chairs",
+        "title": "Most Popular",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Our most popular selling products , lined up here for easy access to ordering.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "office-chairs",
-        "products_to_show": 5,
+        "collection": "most-popular",
+        "products_to_show": 10,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_qdJinq": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Shop Our Best Selling Desks",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "office-desks-tables",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_mKqGwr": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Shop Our Best Selling Storage Cuboards & Cabinets",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "office-cupboards",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
+        "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "square",
@@ -306,7 +355,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Why Choose Smart Office Furniture?</p>",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         }
       },
@@ -349,7 +398,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Competitive_price.jpg",
-            "title": "Competitve Prices",
+            "title": "Competitive Prices",
             "text": "<p>By working closely with leading New Zealand manufacturers and importers to provide affordable, high-quality office furniture without compromise.</p>",
             "link_label": "",
             "link": ""
@@ -378,7 +427,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
@@ -457,31 +506,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_liquid_Lw9MNn": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "164253779604eede75",
-    "16315799045056d243",
     "ada176e6-d2c2-4449-a3a1-8eecba2021da",
-    "1631576674bf289ea9",
+    "16315799045056d243",
     "custom_liquid_TYdinE",
+    "1631576674bf289ea9",
     "custom_liquid_VkW6EH",
     "featured_products",
-    "featured_collection_qdJinq",
-    "featured_collection_mKqGwr",
     "rich_text_LX9B9d",
     "multicolumn_6TNBFn",
     "image_banner",
-    "d62d3caa-47d6-4652-a176-1e0fcdeddea9",
-    "custom_liquid_Lw9MNn"
+    "d62d3caa-47d6-4652-a176-1e0fcdeddea9"
   ]
 }
