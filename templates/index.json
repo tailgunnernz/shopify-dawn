@@ -16,11 +16,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/1-2_price_durapole_June_25_website_banner-03.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/roll-up-pull-up-banners",
+            "link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
