@@ -33,14 +33,14 @@
         "slide_gk4cTh": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Stoney_Creek.jpg",
+            "image": "shopify://shop_images/product_feature_2.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
-            "button_label": "Shop Stoney Creek",
-            "link": "shopify://collections/stoney-creek",
+            "button_label": "Shop Winter Deal",
+            "link": "shopify://collections/winter-promo-collection",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
