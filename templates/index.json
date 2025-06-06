@@ -76,7 +76,7 @@
             "button_label": "Shop Steel Blue",
             "link": "shopify://collections/steel-blue",
             "button_style_secondary": false,
-            "box_align": "top-right",
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
