@@ -172,13 +172,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "link_list_UPMk3b": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Popular Collections",
-              "menu": "footer-menu"
-            }
-          },
           "text_Dn3wmF": {
             "type": "text",
             "settings": {
@@ -199,13 +192,20 @@
               "heading": "Helpful Links",
               "menu": "useful-links"
             }
+          },
+          "link_list_UPMk3b": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Popular Collections",
+              "menu": "footer-menu"
+            }
           }
         },
         "block_order": [
-          "link_list_UPMk3b",
           "text_Dn3wmF",
           "footer-2",
-          "footer-1"
+          "footer-1",
+          "link_list_UPMk3b"
         ],
         "settings": {
           "color_scheme": "inverse",
