@@ -172,6 +172,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "text_Dn3wmF": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p>Providing quality office furniture across New Zealand with distribution from Auckland, Wellington, and Christchurch. Trusted by businesses since 1996.</p>"
+            }
+          },
           "footer-2": {
             "type": "text",
             "settings": {
@@ -186,18 +193,19 @@
               "menu": "useful-links"
             }
           },
-          "text_Dn3wmF": {
-            "type": "text",
+          "link_list_UPMk3b": {
+            "type": "link_list",
             "settings": {
-              "heading": "",
-              "subtext": "<p>Providing quality office furniture across New Zealand with distribution from Auckland, Wellington, and Christchurch. Trusted by businesses since 1996.</p>"
+              "heading": "Popular Collections",
+              "menu": "footer-menu"
             }
           }
         },
         "block_order": [
+          "text_Dn3wmF",
           "footer-2",
           "footer-1",
-          "text_Dn3wmF"
+          "link_list_UPMk3b"
         ],
         "settings": {
           "color_scheme": "inverse",
