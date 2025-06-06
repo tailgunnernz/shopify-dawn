@@ -66,28 +66,10 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_89PTpq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/saleclearance_post_3_38e540d6-8ad7-4f31-a42d-e8e2c0d04f27.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Sqwincher",
-            "link": "shopify://collections/sqwincher",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_MdR74w": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/steel_blue_1.png",
+            "image": "shopify://shop_images/SB2.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -107,7 +89,6 @@
         "slide_gk4cTh",
         "slide_ydd6RK",
         "slide_T7jDkJ",
-        "slide_89PTpq",
         "slide_MdR74w"
       ],
       "settings": {
