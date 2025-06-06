@@ -185,11 +185,19 @@
               "heading": "Helpful Links",
               "menu": "useful-links"
             }
+          },
+          "text_Dn3wmF": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p>Providing quality office furniture across New Zealand with distribution from Auckland, Wellington, and Christchurch. Trusted by businesses since 1996.</p>"
+            }
           }
         },
         "block_order": [
           "footer-2",
-          "footer-1"
+          "footer-1",
+          "text_Dn3wmF"
         ],
         "settings": {
           "color_scheme": "inverse",
