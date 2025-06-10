@@ -413,13 +413,24 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_VRaYCG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/checklist.png",
+            "title": "Try Before You Buy",
+            "text": "<p>Experience our ergonomic chairs firsthand, trial them in your office or visit our showroom to test them out.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_Tz4FrE",
         "column_XgpbW4",
         "column_kCM4Cw",
-        "column_KRXfKX"
+        "column_KRXfKX",
+        "column_VRaYCG"
       ],
       "custom_css": [
         "h4 {color: rgb(129, 188, 182); text-align: center !important; font-size: 18px;}"
@@ -429,7 +440,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
