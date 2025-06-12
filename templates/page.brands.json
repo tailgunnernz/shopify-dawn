@@ -1,20 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "padding_top": 80,
         "padding_bottom": 84
@@ -22,19 +20,17 @@
     },
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f": {
       "type": "fa-page-header",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Explore our brands",
-        "header_image": "shopify:\/\/shop_images\/brands-hero.jpg",
+        "header_image": "shopify://shop_images/brands-hero.jpg",
         "image_overlay": true
       }
     },
     "75e581bc-2a5d-46f9-ac89-4afa307d3115": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n<h2 class=\"h1\">Discover Exceptional Brands - Your Source for\nQuality Footwear and Apparel<\/h2>\n{% render 'fa-line' %}\n<div>\nWe take pride in offering an alternative range of footwear and apparel that goes beyond the generic options commonly\nfound in New Zealand. With our extensive knowledge and passion for quality, we strive to bring you the finest footwear,\nincluding safety and outdoor varieties, as well as a vast array of apparel and safety equipment.\n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n<h2 class=\"h1\">Discover Exceptional Brands - Your Source for\nQuality Footwear and Apparel</h2>\n{% render 'fa-line' %}\n<div>\nWe take pride in offering an alternative range of footwear and apparel that goes beyond the generic options commonly\nfound in New Zealand. With our extensive knowledge and passion for quality, we strive to bring you the finest footwear,\nincluding safety and outdoor varieties, as well as a vast array of apparel and safety equipment.\n</div>\n</div>",
         "color_scheme": "",
         "padding_top": 80,
         "padding_bottom": 0
@@ -46,287 +42,288 @@
         "9aee50ff-b5be-4d16-abe9-8271c4016992": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carhartt-logo-758BAFD83B-seeklogo.com.png",
+            "image": "shopify://shop_images/carhartt-logo-758BAFD83B-seeklogo.com.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/carhartt"
+            "link": "shopify://collections/carhartt"
           }
         },
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-3.png",
+            "image": "shopify://shop_images/brands-logos-3.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/fxd"
+            "link": "shopify://collections/fxd"
           }
         },
         "e4ffe1d9-de0c-44a9-8c61-4bd61dad83e5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-6.png",
+            "image": "shopify://shop_images/brands-logos-6.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/grisport"
+            "link": "shopify://collections/grisport"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9c37": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/67888286_901897850173232_6969401198805778432_n.jpg",
+            "image": "shopify://shop_images/67888286_901897850173232_6969401198805778432_n.jpg",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/stoney-creek"
+            "link": "shopify://collections/stoney-creek"
           }
         },
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-2.png",
+            "image": "shopify://shop_images/brands-logos-2.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/3m"
+            "link": "shopify://collections/3m"
           }
         },
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-4.png",
+            "image": "shopify://shop_images/brands-logos-4.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/norsewear"
+            "link": "shopify://collections/norsewear"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb32": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-32.png",
+            "image": "shopify://shop_images/brands-logos-32.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/as-colours"
+            "link": "shopify://collections/as-colours"
           }
         },
         "d22bec76-65b0-49a0-8794-e68f2e9f54f3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-5.png",
+            "image": "shopify://shop_images/brands-logos-5.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/syzmik"
+            "link": "shopify://collections/syzmik"
           }
         },
         "66b9684a-b2c5-4314-89c2-03c629814c44": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-7.png",
+            "image": "shopify://shop_images/brands-logos-7.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/kaiwaka"
+            "link": "shopify://collections/kaiwaka"
           }
         },
         "af4bfb7a-2f24-4d52-9880-9d84e25bfd41": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-8.png",
+            "image": "shopify://shop_images/brands-logos-8.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/bison"
+            "link": "shopify://collections/bison"
           }
         },
         "6aa29239-f1ce-4ab9-8923-7e00bd86b691": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-9.png",
+            "image": "shopify://shop_images/brands-logos-9.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/swanndri"
+            "link": "shopify://collections/swanndri"
           }
         },
         "9a7d07c4-65f1-4333-be12-b77b99616093": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-10.png",
+            "image": "shopify://shop_images/brands-logos-10.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/steel-blue"
+            "link": "shopify://collections/steel-blue"
           }
         },
         "fdbdd938-9285-4c39-883b-b527e342b086": {
           "type": "column",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-11.png",
+            "image": "shopify://shop_images/brands-logos-11.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/sqwincher"
+            "link": "shopify://collections/sqwincher"
           }
         },
         "7088e01c-8325-4c9f-80b8-8399d32d445f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-12.png",
+            "image": "shopify://shop_images/brands-logos-12.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/hard-yakka"
+            "link": "shopify://collections/hard-yakka"
           }
         },
         "32ac709c-a27b-4f52-ad57-47c8a8df575f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-14.png",
+            "image": "shopify://shop_images/brands-logos-14.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/led-lenser-1"
+            "link": "shopify://collections/led-lenser-1"
           }
         },
         "b393b1d6-ff00-42a1-9269-8bd93b61b4de": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-15.png",
+            "image": "shopify://shop_images/brands-logos-15.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/thorzt-1"
+            "link": "shopify://collections/thorzt-1"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effc": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-16.png",
+            "image": "shopify://shop_images/brands-logos-16.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/wise"
+            "link": "shopify://collections/wise"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effa": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-17.png",
+            "image": "shopify://shop_images/brands-logos-17.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/zero"
+            "link": "shopify://collections/zero"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-18.png",
+            "image": "shopify://shop_images/brands-logos-18.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/outback"
+            "link": "shopify://collections/outback"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-19.png",
+            "image": "shopify://shop_images/brands-logos-19.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/sterling"
+            "link": "shopify://collections/sterling"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-20.png",
+            "image": "shopify://shop_images/brands-logos-20.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/pro-choice-safety"
+            "link": "shopify://collections/pro-choice-safety"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455efff": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-21.png",
+            "image": "shopify://shop_images/brands-logos-21.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/fenice"
+            "link": "shopify://collections/fenice"
           }
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effg": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-22.png",
+            "image": "shopify://shop_images/brands-logos-22.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/huberd"
+            "link": "shopify://collections/huberd"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-24.png",
+            "image": "shopify://shop_images/brands-logos-24.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/jb-wear"
+            "link": "shopify://collections/jb-wear"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-26.png",
+            "image": "shopify://shop_images/brands-logos-26.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/crispi"
+            "link": "shopify://collections/crispi"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb10": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-27.png",
+            "image": "shopify://shop_images/brands-logos-27.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/esko"
+            "link": "shopify://collections/esko"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb11": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-28.png",
+            "image": "shopify://shop_images/brands-logos-28.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/buff"
+            "link": "shopify://collections/buff"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb12": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-29.png",
+            "image": "shopify://shop_images/brands-logos-29.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/bright-wipe"
+            "link": "shopify://collections/bright-wipe"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb30": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-30.png",
+            "image": "shopify://shop_images/brands-logos-30.png",
             "title": "",
             "text": "",
             "link_label": "View",
@@ -336,111 +333,111 @@
         "628b885a-87d4-4c59-bbed-08e7f8e9cb31": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-31.png",
+            "image": "shopify://shop_images/brands-logos-31.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/clogger-1"
+            "link": "shopify://collections/clogger-1"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb33": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-fashionbiz.png",
+            "image": "shopify://shop_images/brands-logos-fashionbiz.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/biz-collection"
+            "link": "shopify://collections/biz-collection"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb34": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-34.png",
+            "image": "shopify://shop_images/brands-logos-34.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/control-co"
+            "link": "shopify://collections/control-co"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb35": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-35.png",
+            "image": "shopify://shop_images/brands-logos-35.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/goop"
+            "link": "shopify://collections/goop"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb36": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-36.png",
+            "image": "shopify://shop_images/brands-logos-36.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/bata"
+            "link": "shopify://collections/bata"
           }
         },
         "628b885a-87d4-4c59-bb38-08e7f8e9cb38": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-38.png",
+            "image": "shopify://shop_images/brands-logos-38.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/ansell"
+            "link": "shopify://collections/ansell"
           }
         },
         "628b88a-87d4-4c59-bbed-08e7f8e9cb39": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-39.png",
+            "image": "shopify://shop_images/brands-logos-39.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/beverley"
+            "link": "shopify://collections/beverley"
           }
         },
         "62888a-87d4-4c59-bbed-08e7f8e9cb40": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-40.png",
+            "image": "shopify://shop_images/brands-logos-40.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/weft"
+            "link": "shopify://collections/weft"
           }
         },
         "628b885a-87d4-4c59-bbed-08e7f8e9cb41": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-41.png",
+            "image": "shopify://shop_images/brands-logos-41.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/apex"
+            "link": "shopify://collections/apex"
           }
         },
         "62888a-87d4-4c59-bbed-08e7f8e9cb42": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-42.png",
+            "image": "shopify://shop_images/brands-logos-42.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/help-it"
+            "link": "shopify://collections/help-it"
           }
         },
         "62888a-87d4-4c59-bbed-08e7f8e9cb43": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brands-logos-43.png",
+            "image": "shopify://shop_images/brands-logos-43.png",
             "title": "",
             "text": "",
             "link_label": "View",
-            "link": "shopify:\/\/collections\/flame-fighter"
+            "link": "shopify://collections/flame-fighter"
           }
         }
       },
