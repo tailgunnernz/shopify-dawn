@@ -419,7 +419,7 @@
           "settings": {
             "image": "shopify://shop_images/checklist.png",
             "title": "Try Before You Buy",
-            "text": "<p>Experience our ergonomic chairs firsthand, trial them in your office or visit our showroom to test them out.</p>",
+            "text": "<p>Experience our office furniture firsthand, trial them in your office or visit our showroom to test them out.</p>",
             "link_label": "",
             "link": ""
           }
