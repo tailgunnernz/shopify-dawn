@@ -202,6 +202,7 @@
         },
         "e8c796be-e8cb-46bc-81a5-8cad3455effc": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/brands-logos-16.png",
             "title": "",
