@@ -215,6 +215,17 @@
             "button_link": "shopify://collections/festive-flags-1"
           }
         },
+        "row_UmQJJK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ALL_BLACKS_COLLECTION_IMG_SQAURE.jpg",
+            "caption": "Official Licensee",
+            "heading": "All Blacks®",
+            "text": "<p>Flagmakers Ltd is an Official Licensee to the All Blacks®.</p>",
+            "button_label": "View all All Blacks®",
+            "button_link": "shopify://collections/all-blacks"
+          }
+        },
         "row_qGDEbf": {
           "type": "row",
           "settings": {
@@ -239,6 +250,7 @@
         },
         "row_XcgE9e": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Event_packages-03.png",
             "caption": "Event Packages",
@@ -278,6 +290,7 @@
         "row_7UmiBK",
         "row_HYpBmX",
         "row_cELnW4",
+        "row_UmQJJK",
         "row_qGDEbf",
         "row_tW98W9",
         "row_XcgE9e",
@@ -390,12 +403,23 @@
         },
         "column_xqfyqL": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/habithealthgazbeo-07.png",
             "title": "Event Products",
             "text": "<p>Liven up your event with colourful award winning products.</p>",
             "link_label": "View all Event Products",
             "link": "shopify://collections/event-products"
+          }
+        },
+        "column_WhdKNN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/habithealthgazbeo-07.png",
+            "title": "Build your own Event package!",
+            "text": "<p>Customise your event package by selecting from the options below. Mix and match to save 10% on your order!</p>",
+            "link_label": "View all Event Products",
+            "link": "shopify://collections/event-packages-mix-match"
           }
         },
         "column_izG3TE": {
@@ -429,6 +453,7 @@
         "column_4it7cj",
         "column_kLyQ4P",
         "column_xqfyqL",
+        "column_WhdKNN",
         "column_izG3TE",
         "column_QhTfaC"
       ],
