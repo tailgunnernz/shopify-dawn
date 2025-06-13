@@ -194,11 +194,23 @@
         },
         "row_HYpBmX": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
             "heading": "Durapole Range. Commercial Grade.",
             "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
+            "button_label": "View Durapole Range",
+            "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
+          }
+        },
+        "row_EiTLpk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
+            "caption": "Advanced One-piece design",
+            "heading": "Durapole Range. Commercial Grade.",
+            "text": "<p><strong>Buy 1 Durapole Flag or Display and get the 2nd HALF PRICE! Discount automatically applied at checkout. </strong></p><p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
           }
@@ -289,6 +301,7 @@
         "row_94zrMY",
         "row_7UmiBK",
         "row_HYpBmX",
+        "row_EiTLpk",
         "row_cELnW4",
         "row_UmQJJK",
         "row_qGDEbf",
