@@ -33,12 +33,12 @@
         "slide_7fX7tb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/event_packages_available_GEN-05.jpg",
+            "image": "shopify://shop_images/All_Blacks_banner-01.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/event-packages-mix-match",
+            "link": "shopify://collections/all-blacks",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
