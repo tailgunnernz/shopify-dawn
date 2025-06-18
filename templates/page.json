@@ -40,6 +40,12 @@
             "collection": "all-blacks"
           }
         },
+        "featured_collection_V7NjHm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "black-ferns"
+          }
+        },
         "featured_collection_r8HxHb": {
           "type": "featured_collection",
           "settings": {
@@ -105,6 +111,7 @@
       },
       "block_order": [
         "featured_collection_3jQDek",
+        "featured_collection_V7NjHm",
         "featured_collection_r8HxHb",
         "featured_collection_UT3EHh",
         "featured_collection_rM64fM",
