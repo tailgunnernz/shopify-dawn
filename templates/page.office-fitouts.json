@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
@@ -26,7 +35,7 @@
         ".banner__text.body {color: #fff;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
+        "image": "shopify://shop_images/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -45,14 +54,14 @@
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Smart Office New Zealand<\/p>",
+            "heading": "<p>Smart Office New Zealand</p>",
             "heading_size": "h0"
           }
         },
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br\/>Office furniture NZ, office chairs, office desks, office workstations and more!<br\/><br\/><strong>Proudly NZ Owned & Operated.<\/strong> <strong>Thank you for shopping New Zealand local.<\/strong><\/p>"
+            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br/>Office furniture NZ, office chairs, office desks, office workstations and more!<br/><br/><strong>Proudly NZ Owned & Operated.</strong> <strong>Thank you for shopping New Zealand local.</strong></p>"
           }
         }
       },
@@ -103,7 +112,7 @@
         "7f2250d2-9d0e-4d88-a6da-6d3965df0bbb": {
           "type": "column",
           "settings": {
-            "title": "Shop Online 24\/7",
+            "title": "Shop Online 24/7",
             "text": "",
             "link_label": "",
             "link": ""
@@ -139,21 +148,21 @@
         "heading_ABe9bw": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Personalised Office Fit Out Services Designed Especially For You<\/h2>",
+            "heading": "<h2>Personalised Office Fit Out Services Designed Especially For You</h2>",
             "heading_size": "h1"
           }
         },
         "text_FUaD7G": {
           "type": "text",
           "settings": {
-            "text": "<p>As a leading supplier of <a href=\"\/\">office furniture in New Zealand<\/a>, we specialise in providing comprehensive <strong>interior office fit out<\/strong> services tailored to your unique requirements. We take pride in our reputation as one of the leading suppliers of office furniture and fit outs in New Zealand. We’ve built long lasting relationships with our suppliers to ensure that you get the best quality office furniture for your fit out, at the best prices, no matter whether you’re a small start up or a large corporation. <\/p>"
+            "text": "<p>As a leading supplier of <a href=\"/\">office furniture in New Zealand</a>, we specialise in providing comprehensive <strong>interior office fit out</strong> services tailored to your unique requirements. We take pride in our reputation as one of the leading suppliers of office furniture and fit outs in New Zealand. We’ve built long lasting relationships with our suppliers to ensure that you get the best quality office furniture for your fit out, at the best prices, no matter whether you’re a small start up or a large corporation. </p>"
           }
         },
         "button_8Ef6k4": {
           "type": "button",
           "settings": {
             "button_label": "Request A Free Quote",
-            "button_link": "shopify:\/\/pages\/contact",
+            "button_link": "shopify://pages/contact",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -181,7 +190,7 @@
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "height-adjustable-sit-stand-desks"
+            "collection": "electric-standing-desks"
           }
         },
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-2": {
@@ -330,11 +339,9 @@
     },
     "custom_liquid_DQewwy": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<h2>Providing Office Fit Outs Across New Zealand<\/h2>\n<p>At Smart Office Furniture NZ, we understand that a well-designed office environment is essential for fostering creativity, collaboration, and efficiency. That's why we offer a range of <strong>commercial office fit out solutions for companies<\/strong> and businesses like yours. Whether you&rsquo;re in need of an <strong>office fit out in Auckland<\/strong>, Wellington, Christchurch, or anywhere else in New Zealand, our dedicated team is here to help you create the perfect workspace for your business.<\/p>\n<p>Our <strong>office fit out services<\/strong> are designed to be both inclusive and personalised. From initial consultation to final installation, we work closely with you every step of the way to ensure that your vision becomes a reality. Our team of experts have the knowledge and experience to handle projects of any size or complexity, and we always strive to deliver exceptional results that exceed your expectations.\n<h2>Choose an Exceptional Office Fit Out with Quality and Style to Match<\/h2>\n<p>At Smart Office Furniture NZ, we believe that office fit outs should be both functional and stylish. That's why we take the time to understand your specific needs and preferences, ensuring that every aspect of your <strong>office fit out<\/strong> is tailored to enhance productivity and comfort. Whether you're looking for ergonomic workstations, modern meeting rooms, or vibrant breakout areas, we have the expertise and resources to bring your vision to life.<\/p>\n<p>In addition to our personalised service, we also offer competitive pricing on all our <strong>office fit out services<\/strong>. We understand that budget constraints are a reality for many businesses, which is why we work hard to provide cost-effective solutions without compromising on quality. With Smart Office Furniture NZ, you can rest assured that you're getting the best value for your investment.<\/p>\n<h2>Contact Us Today for your No Obligation Office Fit Out Quote!<\/h2>\n<p>Are you ready to transform your office space? Or are you simply curious as to what we can offer your business? Get started today by requesting a free, no-obligation quotation from Smart Office Furniture NZ. Simply click the \"get in touch\" button on our website, and one of our friendly team members will be in contact with you to discuss your requirements and provide you with a tailored quote.<\/p>\n<p>Don't settle for a mediocre office environment &ndash; choose <a href=\"\/\" style=\"color: rgba(129, 188, 182, 0.85); text-decoration-color: rgba(129, 188, 182, 0.85);\">Smart Office Furniture<\/a> for all your <strong>office fit out<\/strong> needs. With our dedication to personalised service, competitive pricing, and exceptional results, we're here to help you create a workspace that inspires success. We look forward to hearing from you!<\/p>. \n<\/div>",
+        "custom_liquid": "<div class=\"page-width\">\n<h2>Providing Office Fit Outs Across New Zealand</h2>\n<p>At Smart Office Furniture NZ, we understand that a well-designed office environment is essential for fostering creativity, collaboration, and efficiency. That's why we offer a range of <strong>commercial office fit out solutions for companies</strong> and businesses like yours. Whether you&rsquo;re in need of an <strong>office fit out in Auckland</strong>, Wellington, Christchurch, or anywhere else in New Zealand, our dedicated team is here to help you create the perfect workspace for your business.</p>\n<p>Our <strong>office fit out services</strong> are designed to be both inclusive and personalised. From initial consultation to final installation, we work closely with you every step of the way to ensure that your vision becomes a reality. Our team of experts have the knowledge and experience to handle projects of any size or complexity, and we always strive to deliver exceptional results that exceed your expectations.\n<h2>Choose an Exceptional Office Fit Out with Quality and Style to Match</h2>\n<p>At Smart Office Furniture NZ, we believe that office fit outs should be both functional and stylish. That's why we take the time to understand your specific needs and preferences, ensuring that every aspect of your <strong>office fit out</strong> is tailored to enhance productivity and comfort. Whether you're looking for ergonomic workstations, modern meeting rooms, or vibrant breakout areas, we have the expertise and resources to bring your vision to life.</p>\n<p>In addition to our personalised service, we also offer competitive pricing on all our <strong>office fit out services</strong>. We understand that budget constraints are a reality for many businesses, which is why we work hard to provide cost-effective solutions without compromising on quality. With Smart Office Furniture NZ, you can rest assured that you're getting the best value for your investment.</p>\n<h2>Contact Us Today for your No Obligation Office Fit Out Quote!</h2>\n<p>Are you ready to transform your office space? Or are you simply curious as to what we can offer your business? Get started today by requesting a free, no-obligation quotation from Smart Office Furniture NZ. Simply click the \"get in touch\" button on our website, and one of our friendly team members will be in contact with you to discuss your requirements and provide you with a tailored quote.</p>\n<p>Don't settle for a mediocre office environment &ndash; choose <a href=\"/\" style=\"color: rgba(129, 188, 182, 0.85); text-decoration-color: rgba(129, 188, 182, 0.85);\">Smart Office Furniture</a> for all your <strong>office fit out</strong> needs. With our dedication to personalised service, competitive pricing, and exceptional results, we're here to help you create a workspace that inspires success. We look forward to hearing from you!</p>. \n</div>",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -371,7 +378,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get In Touch",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -385,8 +392,8 @@
         "template--16273051025607__69faa1f7-132d-4a31-b5b8-65b5de68b5bf-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/office-desk-in-window-light.jpg",
-        "image_2": "shopify:\/\/shop_images\/girl-presents-on-whiteboard.jpg",
+        "image": "shopify://shop_images/office-desk-in-window-light.jpg",
+        "image_2": "shopify://shop_images/girl-presents-on-whiteboard.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,

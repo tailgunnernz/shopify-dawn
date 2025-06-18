@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
@@ -26,7 +35,7 @@
         ".banner__text.body {color: #fff;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
+        "image": "shopify://shop_images/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -45,14 +54,14 @@
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Smart Office New Zealand<\/p>",
+            "heading": "<p>Smart Office New Zealand</p>",
             "heading_size": "h0"
           }
         },
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br\/>Office furniture NZ, office chairs, office desks, office workstations and more!<br\/><br\/><strong>Proudly NZ Owned & Operated.<\/strong> <strong>Thank you for shopping New Zealand local.<\/strong><\/p>"
+            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br/>Office furniture NZ, office chairs, office desks, office workstations and more!<br/><br/><strong>Proudly NZ Owned & Operated.</strong> <strong>Thank you for shopping New Zealand local.</strong></p>"
           }
         }
       },
@@ -103,7 +112,7 @@
         "7f2250d2-9d0e-4d88-a6da-6d3965df0bbb": {
           "type": "column",
           "settings": {
-            "title": "Shop Online 24\/7",
+            "title": "Shop Online 24/7",
             "text": "",
             "link_label": "",
             "link": ""
@@ -139,7 +148,7 @@
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "height-adjustable-sit-stand-desks"
+            "collection": "electric-standing-desks"
           }
         },
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-2": {
@@ -288,11 +297,9 @@
     },
     "710a377c-138c-4e07-a410-5fdd44cd657f": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"kk-location-content\" style=\"padding-bottom: 36px\"> <h2>Elevate Your Workspace with Quality Office Furniture in Auckland<\/h2>\n<p>Are you in search of top-quality <strong>office furniture in Auckland<\/strong> that combines style, functionality, and durability? Then look no further. Our wide selection of office furniture is designed to meet the diverse needs of both businesses and individuals in Auckland. Whether you are furnishing a corporate office or setting up a home workspace, we have the perfect furniture solutions to transform your office into an inspiring and productive environment.<\/p>\n<p>From storage solutions to office desks, stationery to <strong>office chairs, Auckland<\/strong> residents are covered here at Smart Office Furniture. <a id=\"show-more\" href=\"#read-more\">Read More<\/a><\/p>\n\n<div id=\"read-more\">\n<h2>Why Choose Smart Office Furniture?<\/h2>\n<p>We believe that selecting the right office furniture goes beyond simply choosing the most attractive design. It's about creating an environment that maximises productivity, boosts morale, and aligns with your brand identity. Our experienced team of experts are here to assist you every step of the way. Whether you need guidance on space planning or are unsure of the best furniture solutions for you needs, we are here to help.<\/p>\n<p>Investing in office furniture is a long-term commitment. In spending money, you want to ensure longevity. Here at <a href=\"\/\">Smart Office Furniture<\/a>, we understand the importance of quality and durability. Our office furniture is built to withstand the stresses of daily use, ensuring that you get the best value for your investment.<\/p>\n<p>Don’t waste time travelling from showroom to showroom and flicking through multiple catalogues. Our online store makes browsing quick, easy and convenient. And with a range of delivery options, your order will arrive without delay. Whether you are in Auckland's bustling CBD or the surrounding suburbs, our office furniture solutions are readily available to elevate your office to new heights.<\/p>\n<h2>Enhancing Workspaces with Quality Office Chairs Across Auckland and Beyond<\/h2>\n<p>A key element of any office set up is the chair you sit in. Our <a href=\"\/collections\/ergonomic-office-chairs\">ergonomic office chairs<\/a> are thoughtfully designed to provide optimal comfort and support, ensuring a healthy posture and reducing the risk of back pain associated with prolonged sitting. With adjustable features and high-quality materials, our office chairs are not only functional but also a delight to use.<\/p>\n<h2>Office Desks Delivered to Auckland<\/h2>\n<p>Your desk is the heart of your workspace, and we offer an impressive selection of <strong>office desks in Auckland<\/strong> to suit different needs and preferences. Whether you require a spacious executive desk to command your office or a sleek and compact desk for limited spaces, our range of office desks caters to all requirements inlcudings <a href=\"\/collections\/height-adjustable-sit-stand-desks\">height adjustable standing desks<\/a>. Embrace efficiency and style as you make the most of your work hours with our carefully curated desk options.<\/p>\n<h2>Optimise Your Workspace with Commercial and Home Office Furniture in Auckland<\/h2>\n<p>Discover the perfect office furniture solutions in Auckland that will transform your workspace into a hub of creativity and productivity. Enhance your office environment with ergonomic chairs, functional desks, and quality storage solutions. From residential solutions to <strong>commercial office furniture, Auckland<\/strong> residents can rely on Smart Office Furniture each and every time.<\/p>\n<p>So what are you waiting for? Browse our range of <a href=\"\/\">office funiture online<\/a> or get in touch with our friendly team today.<\/p>\n<a id=\"hide-less\" href=\"#read-more\">Read Less<\/a><\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"kk-location-content\" style=\"padding-bottom: 36px\"> <h2>Elevate Your Workspace with Quality Office Furniture in Auckland</h2>\n<p>Are you in search of top-quality <strong>office furniture in Auckland</strong> that combines style, functionality, and durability? Then look no further. Our wide selection of office furniture is designed to meet the diverse needs of both businesses and individuals in Auckland. Whether you are furnishing a corporate office or setting up a home workspace, we have the perfect furniture solutions to transform your office into an inspiring and productive environment.</p>\n<p>From storage solutions to office desks, stationery to <strong>office chairs, Auckland</strong> residents are covered here at Smart Office Furniture. <a id=\"show-more\" href=\"#read-more\">Read More</a></p>\n\n<div id=\"read-more\">\n<h2>Why Choose Smart Office Furniture?</h2>\n<p>We believe that selecting the right office furniture goes beyond simply choosing the most attractive design. It's about creating an environment that maximises productivity, boosts morale, and aligns with your brand identity. Our experienced team of experts are here to assist you every step of the way. Whether you need guidance on space planning or are unsure of the best furniture solutions for you needs, we are here to help.</p>\n<p>Investing in office furniture is a long-term commitment. In spending money, you want to ensure longevity. Here at <a href=\"/\">Smart Office Furniture</a>, we understand the importance of quality and durability. Our office furniture is built to withstand the stresses of daily use, ensuring that you get the best value for your investment.</p>\n<p>Don’t waste time travelling from showroom to showroom and flicking through multiple catalogues. Our online store makes browsing quick, easy and convenient. And with a range of delivery options, your order will arrive without delay. Whether you are in Auckland's bustling CBD or the surrounding suburbs, our office furniture solutions are readily available to elevate your office to new heights.</p>\n<h2>Enhancing Workspaces with Quality Office Chairs Across Auckland and Beyond</h2>\n<p>A key element of any office set up is the chair you sit in. Our <a href=\"/collections/ergonomic-office-chairs\">ergonomic office chairs</a> are thoughtfully designed to provide optimal comfort and support, ensuring a healthy posture and reducing the risk of back pain associated with prolonged sitting. With adjustable features and high-quality materials, our office chairs are not only functional but also a delight to use.</p>\n<h2>Office Desks Delivered to Auckland</h2>\n<p>Your desk is the heart of your workspace, and we offer an impressive selection of <strong>office desks in Auckland</strong> to suit different needs and preferences. Whether you require a spacious executive desk to command your office or a sleek and compact desk for limited spaces, our range of office desks caters to all requirements inlcudings <a href=\"/collections/height-adjustable-sit-stand-desks\">height adjustable standing desks</a>. Embrace efficiency and style as you make the most of your work hours with our carefully curated desk options.</p>\n<h2>Optimise Your Workspace with Commercial and Home Office Furniture in Auckland</h2>\n<p>Discover the perfect office furniture solutions in Auckland that will transform your workspace into a hub of creativity and productivity. Enhance your office environment with ergonomic chairs, functional desks, and quality storage solutions. From residential solutions to <strong>commercial office furniture, Auckland</strong> residents can rely on Smart Office Furniture each and every time.</p>\n<p>So what are you waiting for? Browse our range of <a href=\"/\">office funiture online</a> or get in touch with our friendly team today.</p>\n<a id=\"hide-less\" href=\"#read-more\">Read Less</a></div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -303,7 +310,7 @@
       "settings": {
         "title": "Most Popular",
         "heading_size": "h2",
-        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.<\/p>",
+        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "most-popular",
@@ -346,10 +353,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get In Touch",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "Learn More",
-            "button_link_2": "shopify:\/\/pages\/office-fit-outs",
+            "button_link_2": "shopify://pages/office-fit-outs",
             "button_style_secondary_2": false
           }
         }
@@ -360,8 +367,8 @@
         "template--16273051025607__69faa1f7-132d-4a31-b5b8-65b5de68b5bf-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/office-desk-in-window-light.jpg",
-        "image_2": "shopify:\/\/shop_images\/girl-presents-on-whiteboard.jpg",
+        "image": "shopify://shop_images/office-desk-in-window-light.jpg",
+        "image_2": "shopify://shop_images/girl-presents-on-whiteboard.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,

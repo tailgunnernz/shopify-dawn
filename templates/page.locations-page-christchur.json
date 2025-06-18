@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
@@ -26,7 +35,7 @@
         ".banner__text.body {color: #fff;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
+        "image": "shopify://shop_images/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -45,14 +54,14 @@
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Smart Office New Zealand<\/p>",
+            "heading": "<p>Smart Office New Zealand</p>",
             "heading_size": "h0"
           }
         },
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br\/>Office furniture NZ, office chairs, office desks, office workstations and more!<br\/><br\/><strong>Proudly NZ Owned & Operated.<\/strong> <strong>Thank you for shopping New Zealand local.<\/strong><\/p>"
+            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br/>Office furniture NZ, office chairs, office desks, office workstations and more!<br/><br/><strong>Proudly NZ Owned & Operated.</strong> <strong>Thank you for shopping New Zealand local.</strong></p>"
           }
         }
       },
@@ -103,7 +112,7 @@
         "7f2250d2-9d0e-4d88-a6da-6d3965df0bbb": {
           "type": "column",
           "settings": {
-            "title": "Shop Online 24\/7",
+            "title": "Shop Online 24/7",
             "text": "",
             "link_label": "",
             "link": ""
@@ -139,7 +148,7 @@
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "height-adjustable-sit-stand-desks"
+            "collection": "electric-standing-desks"
           }
         },
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-2": {
@@ -288,11 +297,9 @@
     },
     "710a377c-138c-4e07-a410-5fdd44cd657f": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"kk-location-content\" style=\"padding-bottom: 36px\">  <h2>Ergonomic and Versatile Office Furniture in Christchurch<\/h2>\n<p>When it comes to creating an efficient and productive work environment, <a href=\"\/\">office furniture in New Zealand<\/a> plays a crucial role. Investing in high-quality, ergonomic, and aesthetically pleasing office furniture is essential in enhancing employee comfort, boosting productivity, and leave a lasting impression on clients and other visitors to the workspace. Here at <a href=\"\/\">Smart Office Furniture<\/a>, we understand these needs and offer a variety of furniture solutions to suit the needs of all businesses. From modern office chairs to versatile desks and innovative storage solutions, from commercial to <strong>home office furniture, Christchurch<\/strong> residents can shop our range with confidence. <a id=\"show-more\" href=\"#read-more\">Read More<\/a>\n<div id=\"read-more\">\n<\/p>\n\n<h2>Office Chairs in Christchurch That Cater to All of Your Employees<\/h2>\n<p>The chair that you choose for your workspace has a huge impact on both your productivity and your overall health and well-being. Whether you are revamping your whole office space or adding some new furniture for an ever-growing workforce, you have come to the right place. We have a comprehensive selection of <strong>office chairs in Christchurch<\/strong> so you are sure to find what you are looking for in our range.<\/p>\n<p>And with an expert team on hand, we are here to help should you need some extra assistance. When spending so long sat at a desk, it&rsquo;s important to prioritise quality. Because let&rsquo;s be honest, feeling comfortable at your workspace is a sure-fire way to kick-start each working day.<\/p>\n\n<h2>Versatile Office Desks in Christchurch to Maximise Productivity<\/h2>\n<p>Choosing the right office desk is a critical decision for a productive workspace. Consider the work style and daily tasks of yourself and your employees, and whether you need ample surface area for spreading out documents or a compact desk for limited space. Offering ergonomic features that support good posture, like <a href=\"\/collections\/height-adjustable-sit-stand-desks\">adjustable height standing desk<\/a> options, our range of <strong>office desks in Christchurch<\/strong> cater to all needs.<\/p>\n<p>Our comprehensive collection of <strong>office furniture in Christchurch<\/strong> enables you to choose a desk that will complement your office decor while providing functionality. Creating an organised and efficient workspace that enhances focus and productivity has never been easier.<\/p>\n\n<h2>Shop Online for Your Convenience<\/h2>\n<p>Gone are the days of visiting store after store and trawling through numerous catalogues. You&rsquo;ll find our range online for your convenience. Browse our collections quickly and without stress, filtering between <a href=\"\/collections\/office-chairs\">office chairs<\/a>, desks and storage solutions in accordance with your needs. You can purchase every piece of furniture that you need without ever needing to leave the comfort of your office or home.<\/p>\n<p>And offering a variety of delivery options of our <a href=\"\/pages\/office-furniture-wellington\">office furniture to Wellington<\/a>, Auckland, Christchurch and across New Zealand, your order will arrive without delay. Shopping for <strong>office furniture in Christchurch<\/strong> has never been more straightforward.<\/p>\n\n<h2>Get Started Today!<\/h2>\n<p>We understand that every business is unique, and its furniture requirements can differ. Whether you are setting up a small start-up or revamping a corporate office, our team is here to assist you in finding the right <strong>office furniture solution in Christchurch<\/strong> and beyond. We offer personalised consultations to understand your preferences and provide recommendations of the best products for your needs.<\/p>\n<p>Browse our collections of <a href=\"\/\">office furniture online<\/a> or get in touch to get started now.<\/p>\n<a id=\"hide-less\" href=\"#read-more\">Read Less<\/a><\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"kk-location-content\" style=\"padding-bottom: 36px\">  <h2>Ergonomic and Versatile Office Furniture in Christchurch</h2>\n<p>When it comes to creating an efficient and productive work environment, <a href=\"/\">office furniture in New Zealand</a> plays a crucial role. Investing in high-quality, ergonomic, and aesthetically pleasing office furniture is essential in enhancing employee comfort, boosting productivity, and leave a lasting impression on clients and other visitors to the workspace. Here at <a href=\"/\">Smart Office Furniture</a>, we understand these needs and offer a variety of furniture solutions to suit the needs of all businesses. From modern office chairs to versatile desks and innovative storage solutions, from commercial to <strong>home office furniture, Christchurch</strong> residents can shop our range with confidence. <a id=\"show-more\" href=\"#read-more\">Read More</a>\n<div id=\"read-more\">\n</p>\n\n<h2>Office Chairs in Christchurch That Cater to All of Your Employees</h2>\n<p>The chair that you choose for your workspace has a huge impact on both your productivity and your overall health and well-being. Whether you are revamping your whole office space or adding some new furniture for an ever-growing workforce, you have come to the right place. We have a comprehensive selection of <strong>office chairs in Christchurch</strong> so you are sure to find what you are looking for in our range.</p>\n<p>And with an expert team on hand, we are here to help should you need some extra assistance. When spending so long sat at a desk, it&rsquo;s important to prioritise quality. Because let&rsquo;s be honest, feeling comfortable at your workspace is a sure-fire way to kick-start each working day.</p>\n\n<h2>Versatile Office Desks in Christchurch to Maximise Productivity</h2>\n<p>Choosing the right office desk is a critical decision for a productive workspace. Consider the work style and daily tasks of yourself and your employees, and whether you need ample surface area for spreading out documents or a compact desk for limited space. Offering ergonomic features that support good posture, like <a href=\"/collections/height-adjustable-sit-stand-desks\">adjustable height standing desk</a> options, our range of <strong>office desks in Christchurch</strong> cater to all needs.</p>\n<p>Our comprehensive collection of <strong>office furniture in Christchurch</strong> enables you to choose a desk that will complement your office decor while providing functionality. Creating an organised and efficient workspace that enhances focus and productivity has never been easier.</p>\n\n<h2>Shop Online for Your Convenience</h2>\n<p>Gone are the days of visiting store after store and trawling through numerous catalogues. You&rsquo;ll find our range online for your convenience. Browse our collections quickly and without stress, filtering between <a href=\"/collections/office-chairs\">office chairs</a>, desks and storage solutions in accordance with your needs. You can purchase every piece of furniture that you need without ever needing to leave the comfort of your office or home.</p>\n<p>And offering a variety of delivery options of our <a href=\"/pages/office-furniture-wellington\">office furniture to Wellington</a>, Auckland, Christchurch and across New Zealand, your order will arrive without delay. Shopping for <strong>office furniture in Christchurch</strong> has never been more straightforward.</p>\n\n<h2>Get Started Today!</h2>\n<p>We understand that every business is unique, and its furniture requirements can differ. Whether you are setting up a small start-up or revamping a corporate office, our team is here to assist you in finding the right <strong>office furniture solution in Christchurch</strong> and beyond. We offer personalised consultations to understand your preferences and provide recommendations of the best products for your needs.</p>\n<p>Browse our collections of <a href=\"/\">office furniture online</a> or get in touch to get started now.</p>\n<a id=\"hide-less\" href=\"#read-more\">Read Less</a></div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -303,7 +310,7 @@
       "settings": {
         "title": "Most Popular",
         "heading_size": "h2",
-        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.<\/p>",
+        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "most-popular",
@@ -346,10 +353,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get In Touch",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "Learn More",
-            "button_link_2": "shopify:\/\/pages\/office-fit-outs",
+            "button_link_2": "shopify://pages/office-fit-outs",
             "button_style_secondary_2": false
           }
         }
@@ -360,8 +367,8 @@
         "template--16273051025607__69faa1f7-132d-4a31-b5b8-65b5de68b5bf-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/office-desk-in-window-light.jpg",
-        "image_2": "shopify:\/\/shop_images\/girl-presents-on-whiteboard.jpg",
+        "image": "shopify://shop_images/office-desk-in-window-light.jpg",
+        "image_2": "shopify://shop_images/girl-presents-on-whiteboard.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
@@ -264,7 +264,7 @@
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "height-adjustable-sit-stand-desks"
+            "collection": "electric-standing-desks"
           }
         },
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-2": {
@@ -363,9 +363,7 @@
     },
     "custom_liquid_mNx3iz": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "custom_liquid": "<div class=\"page-width\"><h2 style=\"text-align: center;\">Contact Us Today for your No Obligation Office Fit Out Quote!</h2>\n<p>Are you ready to transform your office space? Or are you simply curious as to what we can offer your business? Get started today by requesting a free, no-obligation quotation from Smart Office Furniture NZ. Simply click the \"get in touch\" button on our website, and one of our friendly team members will be in contact with you to discuss your requirements and provide you with a tailored quote.</p>\n<p>Don't settle for a mediocre office environment &ndash; choose <a href=\"/\" style=\"color: rgba(129, 188, 182, 0.85); text-decoration-color: rgba(129, 188, 182, 0.85);\">Smart Office Furniture</a> for all your <strong>office fit out</strong> needs. With our dedication to personalised service, competitive pricing, and exceptional results, we're here to help you create a workspace that inspires success. We look forward to hearing from you.</div>",
         "color_scheme": "background-2",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "70b88c64-11fc-43ae-8d58-49c2dde45b99": {
@@ -26,7 +35,7 @@
         ".banner__text.body {color: #fff;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
+        "image": "shopify://shop_images/raj-rana-zCQsBI7ZltQ-unsplash.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -45,14 +54,14 @@
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Smart Office New Zealand<\/p>",
+            "heading": "<p>Smart Office New Zealand</p>",
             "heading_size": "h0"
           }
         },
         "template--16273051025607__252834fa-c75e-4808-933a-7afbd3ac1a9b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br\/>Office furniture NZ, office chairs, office desks, office workstations and more!<br\/><br\/><strong>Proudly NZ Owned & Operated.<\/strong> <strong>Thank you for shopping New Zealand local.<\/strong><\/p>"
+            "text": "<p>Bargain priced range that could be the cheapest web priced furniture in New Zealand.<br/>Office furniture NZ, office chairs, office desks, office workstations and more!<br/><br/><strong>Proudly NZ Owned & Operated.</strong> <strong>Thank you for shopping New Zealand local.</strong></p>"
           }
         }
       },
@@ -103,7 +112,7 @@
         "7f2250d2-9d0e-4d88-a6da-6d3965df0bbb": {
           "type": "column",
           "settings": {
-            "title": "Shop Online 24\/7",
+            "title": "Shop Online 24/7",
             "text": "",
             "link_label": "",
             "link": ""
@@ -139,7 +148,7 @@
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "height-adjustable-sit-stand-desks"
+            "collection": "electric-standing-desks"
           }
         },
         "template--16273051025607__f1c8b05a-1816-4783-a20f-839d4df18176-featured_collection-2": {
@@ -288,11 +297,9 @@
     },
     "710a377c-138c-4e07-a410-5fdd44cd657f": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"kk-location-content\" style=\"padding-bottom: 36px\"> \n<h2>Quality Office Furniture in Wellington, Guaranteed!<\/h2>\n<p>Are you seeking premium <strong>office furniture in Wellington<\/strong> that seamlessly blends style, comfort, and functionality? Well, look no further! Our wide range of office furniture is tailored to meet the diverse needs of businesses and individuals in the capital city of New Zealand. Whether you are furnishing a corporate office or creating a productive home workspace, we have the perfect solutions to transform your office environment.<\/p>\n<p>As a trusted supplier of <a href=\"\/\">online office furniture in New Zealand<\/a>, we take pride in offering a comprehensive collection that caters to various office settings and design preferences. Our exquisite range includes office chairs, desks, storage solutions, and more, so you are sure to find everything you need in our collections. <a href=\"#read-more\" id=\"show-more\">Read More<\/a><\/p>\n\n<div id=\"read-more\">\n<h2>A Comprehensive Selection of Desks, Storage Solutions and Office Chairs in Wellington<\/h2>\n<p>Our selection includes:<\/p>\n<p><em>Ergonomic office chairs<\/em><\/p>\n<p>A crucial element of any office is the chair you sit on. Our ergonomic <strong>office chairs in Wellington<\/strong> are thoughtfully designed to provide exceptional comfort and support, promoting a healthy posture and reducing the strain associated with extended periods of sitting. With adjustable features and premium materials, our office chairs not only complement your workspace but also enhance your overall well-being. Whatever style you find most comfortable, you’ll find in our range.<\/p>\n<p><em>Durable office desks<\/em><\/p>\n<p>Your office desk serves as the foundation of your workspace, and we offer an impressive selection of <a href=\"\/collections\/office-desks-tables\">office desks and tables<\/a> to suit every need and preference. Whether you require a spacious executive desk to command your office or a sleek, space-saving desk for your home office, you’re sure to find an <strong>office desk in Wellington<\/strong> that caters to your needs. Embrace efficiency and style as you create a productive and inspiring work environment.<\/p>\n<p><em>Space-saving storage solutions<\/em><\/p>\n<p>We offer both efficient and stylish office storage solutions in Wellington to keep your workspace organised and clutter-free. Whether you need filing cabinets, shelving units, or <a href=\"\/collections\/steel-cabinets\">steel storage cabinets<\/a>, our collection offers versatile options to suit any office layout. From compact solutions for small and home offices to expansive storage for larger workspaces, we have the perfect storage solutions to meet your needs.;<\/p>\n<h2>Commercial and Home Office Furniture in Wellington That Fits Space<\/h2>\n<p>With the flexibility of modern working, a functional home workspace can often be as important as an office. We understand this here at <a href=\"\/\">Smart Office Furniture<\/a> and cater to all needs. Rest assured that whether you are shopping for commercial or <strong>home office furniture in Wellington<\/strong>, we have you covered.<\/p>\n<p>Get in touch with our expert team to discuss your requirements and discover the items in our range that will elevate your workspace. With timely delivery to locations all over Wellington, your workspace will be set up and ready for productivity without delay. And our commitment to quality ensures that our furniture is not only aesthetically pleasing but also durable and built to withstand the demands of daily use.;<\/p>\n<h2>Browse Our Collections of Office Furniture Delivered to Wellington Today<\/h2>\n<p>So what are you waiting for? Browse our collections of <a href=\"\/\">office furniture online<\/a> to get started.<\/p>\n<a href=\"#read-more\" id=\"hide-less\">Read Less<\/a><\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"kk-location-content\" style=\"padding-bottom: 36px\"> \n<h2>Quality Office Furniture in Wellington, Guaranteed!</h2>\n<p>Are you seeking premium <strong>office furniture in Wellington</strong> that seamlessly blends style, comfort, and functionality? Well, look no further! Our wide range of office furniture is tailored to meet the diverse needs of businesses and individuals in the capital city of New Zealand. Whether you are furnishing a corporate office or creating a productive home workspace, we have the perfect solutions to transform your office environment.</p>\n<p>As a trusted supplier of <a href=\"/\">online office furniture in New Zealand</a>, we take pride in offering a comprehensive collection that caters to various office settings and design preferences. Our exquisite range includes office chairs, desks, storage solutions, and more, so you are sure to find everything you need in our collections. <a href=\"#read-more\" id=\"show-more\">Read More</a></p>\n\n<div id=\"read-more\">\n<h2>A Comprehensive Selection of Desks, Storage Solutions and Office Chairs in Wellington</h2>\n<p>Our selection includes:</p>\n<p><em>Ergonomic office chairs</em></p>\n<p>A crucial element of any office is the chair you sit on. Our ergonomic <strong>office chairs in Wellington</strong> are thoughtfully designed to provide exceptional comfort and support, promoting a healthy posture and reducing the strain associated with extended periods of sitting. With adjustable features and premium materials, our office chairs not only complement your workspace but also enhance your overall well-being. Whatever style you find most comfortable, you’ll find in our range.</p>\n<p><em>Durable office desks</em></p>\n<p>Your office desk serves as the foundation of your workspace, and we offer an impressive selection of <a href=\"/collections/office-desks-tables\">office desks and tables</a> to suit every need and preference. Whether you require a spacious executive desk to command your office or a sleek, space-saving desk for your home office, you’re sure to find an <strong>office desk in Wellington</strong> that caters to your needs. Embrace efficiency and style as you create a productive and inspiring work environment.</p>\n<p><em>Space-saving storage solutions</em></p>\n<p>We offer both efficient and stylish office storage solutions in Wellington to keep your workspace organised and clutter-free. Whether you need filing cabinets, shelving units, or <a href=\"/collections/steel-cabinets\">steel storage cabinets</a>, our collection offers versatile options to suit any office layout. From compact solutions for small and home offices to expansive storage for larger workspaces, we have the perfect storage solutions to meet your needs.;</p>\n<h2>Commercial and Home Office Furniture in Wellington That Fits Space</h2>\n<p>With the flexibility of modern working, a functional home workspace can often be as important as an office. We understand this here at <a href=\"/\">Smart Office Furniture</a> and cater to all needs. Rest assured that whether you are shopping for commercial or <strong>home office furniture in Wellington</strong>, we have you covered.</p>\n<p>Get in touch with our expert team to discuss your requirements and discover the items in our range that will elevate your workspace. With timely delivery to locations all over Wellington, your workspace will be set up and ready for productivity without delay. And our commitment to quality ensures that our furniture is not only aesthetically pleasing but also durable and built to withstand the demands of daily use.;</p>\n<h2>Browse Our Collections of Office Furniture Delivered to Wellington Today</h2>\n<p>So what are you waiting for? Browse our collections of <a href=\"/\">office furniture online</a> to get started.</p>\n<a href=\"#read-more\" id=\"hide-less\">Read Less</a></div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -303,7 +310,7 @@
       "settings": {
         "title": "Most Popular",
         "heading_size": "h2",
-        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.<\/p>",
+        "description": "<p>Our most popular selling products, lined up here for easy access to ordering.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "most-popular",
@@ -346,7 +353,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get In Touch",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
@@ -360,8 +367,8 @@
         "template--16273051025607__69faa1f7-132d-4a31-b5b8-65b5de68b5bf-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/office-desk-in-window-light.jpg",
-        "image_2": "shopify:\/\/shop_images\/girl-presents-on-whiteboard.jpg",
+        "image": "shopify://shop_images/office-desk-in-window-light.jpg",
+        "image_2": "shopify://shop_images/girl-presents-on-whiteboard.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
