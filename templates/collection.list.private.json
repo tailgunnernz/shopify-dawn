@@ -45,7 +45,7 @@
       "settings": {
         "heading": "Real Estate Private Portal",
         "paragraph": "Products in this portal can only be purchased by authorised Real Estate businesses and members.",
-        "preview": false
+        "preview": true
       }
     }
   },
