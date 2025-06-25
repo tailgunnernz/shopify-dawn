@@ -43,8 +43,8 @@
     "private_popup_w38m3R": {
       "type": "private-popup",
       "settings": {
-        "heading": "[company] Private Portal",
-        "paragraph": "Products in this portal can only be purchased by authorised [company] businesses and members.",
+        "heading": "Real Estate Private Portal",
+        "paragraph": "Products in this portal can only be purchased by authorised Real Estate businesses and members.",
         "preview": false
       }
     }
