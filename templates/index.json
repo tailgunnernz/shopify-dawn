@@ -12,24 +12,6 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
-        "slide_gk4cTh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/newpt2.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Shop Winter Deal",
-            "link": "shopify://collections/winter-promo-collection",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_ydd6RK": {
           "type": "slide",
           "settings": {
@@ -86,7 +68,6 @@
         }
       },
       "block_order": [
-        "slide_gk4cTh",
         "slide_ydd6RK",
         "slide_T7jDkJ",
         "slide_MdR74w"
