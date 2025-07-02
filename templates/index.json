@@ -30,17 +30,17 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_T7jDkJ": {
+        "slide_fqqzWy": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FXD_HEADER.jpg",
+            "image": "shopify://shop_images/page3.png",
             "heading": "",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop FXD Workwear",
-            "link": "shopify://collections/fxd",
+            "button_label": "Shop Loud and Proud Clearance",
+            "link": "https://www.footwearandapparel.co.nz/search?q=loud+and+proud&options%5Bprefix%5D=last",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
+            "box_align": "bottom-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -65,12 +65,31 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_T7jDkJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FXD_HEADER.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop FXD Workwear",
+            "link": "shopify://collections/fxd",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_ydd6RK",
-        "slide_T7jDkJ",
-        "slide_MdR74w"
+        "slide_fqqzWy",
+        "slide_MdR74w",
+        "slide_T7jDkJ"
       ],
       "settings": {
         "layout": "grid",
