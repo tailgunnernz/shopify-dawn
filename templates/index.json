@@ -12,6 +12,24 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
+        "slide_JKHfEt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Give_away_webstie_banner-03.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://pages/win-1-of-6-ultimate-ears-boom-4-speakers",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_nqVRU6": {
           "type": "slide",
           "settings": {
@@ -83,32 +101,14 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_JKHfEt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Licenced_Products_super_rugby_LSP_Banner.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://pages/licensed-sport-products",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_JKHfEt",
         "slide_nqVRU6",
         "slide_7fX7tb",
         "slide_pXKKny",
-        "slide_m7qP3H",
-        "slide_JKHfEt"
+        "slide_m7qP3H"
       ],
       "custom_css": [],
       "settings": {
