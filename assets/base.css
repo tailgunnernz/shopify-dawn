@@ -3001,19 +3001,10 @@ header.page-width {
     padding-bottom: 1rem;
 }
 
-.kk-link-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.4rem;
-  text-align: center;
-}
-.kk-link-row span,
 .kk-link-row a {
   display: inline;
   white-space: nowrap;
 }
-
 
 #hide-links:hover, #show-links:hover {
 	text-decoration: underline;
