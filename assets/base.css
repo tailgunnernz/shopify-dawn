@@ -2999,10 +2999,7 @@ header.page-width {
 	color: rgba(var(--color-foreground),.75);
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-.kk-link-row a {
-  display: inline;
+    display: inline;
   white-space: nowrap;
 }
 
