@@ -3001,13 +3001,6 @@ header.page-width {
     padding-bottom: 1rem;
 }
 
-.kk-link {
-  white-space: nowrap !important;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-
 #hide-links:hover, #show-links:hover {
 	text-decoration: underline;
     color: rgba(var(--color-foreground));
