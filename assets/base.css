@@ -2995,7 +2995,7 @@ header.page-width {
 
 #hide-links, #show-links {
 	text-decoration: none;
-	font-size: 1.4rem;
+	font-size: 1rem;
 	color: rgba(var(--color-foreground),.75);
     padding-top: 1rem;
     padding-bottom: 1rem;
