@@ -99,8 +99,8 @@
       {%- endif -%}
     
       <!-- KK Footer Links -->
-      <a id="show-links" href="#popular-searches">Popular Searches</a>
-      <a id="hide-links" href="#popular-searches">Hide Popular Searches</a>
+      <li class="kk-show-links"><a id="show-links" href="#popular-searches">Popular Searches</a></li>
+      <li class="kk-hide-links"><a id="hide-links" href="#popular-searches">Hide Popular Searches</a></li>
 
       
       <div id="popular-searches">
@@ -165,8 +165,8 @@
 jQuery(document).ready(function($) {
     $(".kk-location-content").prependTo(".collection__title.title-wrapper.title-wrapper--no-top-margin.page-width.title-wrapper--self-padded-tablet-down");
     $(".kk-office-fit-out").prependTo(".contact page-width page-width--narrow section-template--16803238772935__contact_form_GgRFJD-padding");
-    $("#how-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
-	$("#hide-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
+    $(".kk-show-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
+	$(".kk-hide-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
 	$('#show-more').click(function(e) {
 		e.preventDefault();
 		$('#read-more').toggle();
@@ -180,14 +180,14 @@ jQuery(document).ready(function($) {
 	$('#show-links').click(function(e) {
 		e.preventDefault();
 		$('#popular-searches').toggle();
-		$('#show-links').toggle();
-		$('#hide-links').toggle();
+		$('.kk-show-links').toggle();
+		$('.kk-hide-links').toggle();
 	});
 	$('#hide-links').click(function(e) {
 		e.preventDefault();
 		$('#popular-searches').toggle();
-		$('#show-links').toggle();
-		$('#hide-links').toggle();
+		$('.kk-show-links').toggle();
+		$('.kk-hide-links').toggle();
 	});
 });
 </script>
