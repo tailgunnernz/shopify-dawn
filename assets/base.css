@@ -2999,6 +2999,7 @@ header.page-width {
 	color: rgba(var(--color-foreground),.75);
     padding-top: 1rem;
     padding-bottom: 1rem;
+    display: inline;
 }
 
 #hide-links:hover, #show-links:hover {
