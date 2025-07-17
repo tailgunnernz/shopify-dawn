@@ -55,8 +55,8 @@
               {%- if block.settings.heading != blank -%}
                 <h3 class="footer-block__heading">{{- block.settings.heading | escape -}}</h3>
               {%- endif -%}
-              <!-- start here -->
-         {%- case block.type -%}
+
+              {%- case block.type -%}
                 {%- when 'text' -%}
                   <div class="footer-block__details-content rte">
                     {{ block.settings.subtext }}
@@ -92,8 +92,6 @@
                   </div>
 
                 {%- endcase -%}
-
-              <!-- end here -->
             </div>
           {%- endfor -%}
         </div>
@@ -161,37 +159,7 @@
       </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-jQuery(document).ready(function($) {
-    $(".kk-location-content").prependTo(".collection__title.title-wrapper.title-wrapper--no-top-margin.page-width.title-wrapper--self-padded-tablet-down");
-    $(".kk-office-fit-out").prependTo(".contact page-width page-width--narrow section-template--16803238772935__contact_form_GgRFJD-padding");
-    $(".kk-show-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
-	$(".kk-hide-links").appendTo("#shopify-section-footer > footer > div.footer__content-top.page-width > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > div.footer-block.grid__item.footer-block--menu > ul");
-	$('#show-more').click(function(e) {
-		e.preventDefault();
-		$('#read-more').toggle();
-		$('#show-more').toggle();
-	});
-	$('#hide-less').click(function(e) {
-		e.preventDefault();
-		$('#read-more').toggle();
-		$('#show-more').toggle();
-	});
-	$('#show-links').click(function(e) {
-		e.preventDefault();
-		$('#popular-searches').toggle();
-		$('.kk-show-links').toggle();
-		$('.kk-hide-links').toggle();
-	});
-	$('#hide-links').click(function(e) {
-		e.preventDefault();
-		$('#popular-searches').toggle();
-		$('.kk-show-links').toggle();
-		$('.kk-hide-links').toggle();
-	});
-});
-</script>
+
       <!-- End KK Footer Links -->
       
       <div class="footer-block--newsletter">
