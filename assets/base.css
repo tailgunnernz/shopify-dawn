@@ -3001,10 +3001,12 @@ header.page-width {
     padding-bottom: 1rem;
 }
 
-.kk-link-row a {
-  display: inline;
-  white-space: nowrap;
+.kk-link {
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 
 #hide-links:hover, #show-links:hover {
 	text-decoration: underline;
