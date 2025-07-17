@@ -2991,7 +2991,7 @@ header.page-width {
 }
 
 /* KK Custom CSS */
-#read-more, #popular-searches, #hide-links {display:none;}
+#read-more, #popular-searches {display:none;}
 
 #hide-links, #show-links {
 	text-decoration: none;
