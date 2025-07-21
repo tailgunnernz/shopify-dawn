@@ -3099,3 +3099,32 @@ header.page-width {
   margin: 0 auto; /* Optional: centers the div */
   width: 100%;     /* Optional: ensures it scales responsively */
 }
+/* STICKY FILTERS */
+#shopify-section-header.shopify-section-header-sticky:not(
+    .shopify-section-header-hidden
+  )
+  + #MainContent
+  #main-collection-filters {
+  top: var(--header-height);
+}
+#main-collection-filters {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 2;
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: top 0.15s ease-out;
+}
+#main-collection-filters .facets__summary {
+  margin-bottom: 0;
+}
+#main-collection-filters .facets__heading {
+  margin-top: 0;
+}
+#main-collection-filters select,
+#main-collection-filters summary {
+  font-weight: bold;
+}
