@@ -1011,3 +1011,20 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+
+function updateHeaderHeight() {
+  const header = document.querySelector('#shopify-section-header');
+  if (header) {
+    const height = header.offsetHeight;
+    document.documentElement.style.setProperty('--header-height', `${height}px`);
+  }
+}
+
+let resizeTimeout;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(updateHeaderHeight, 100);
+});
+
+window.addEventListener('DOMContentLoaded', updateHeaderHeight);
