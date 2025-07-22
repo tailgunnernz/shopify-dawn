@@ -15,8 +15,14 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ product.vendor }}",
             "text_style": "uppercase"
+          }
+        },
+        "custom_liquid_LGyCC3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div></div>"
           }
         },
         "title": {
@@ -144,6 +150,7 @@
       },
       "block_order": [
         "vendor",
+        "custom_liquid_LGyCC3",
         "title",
         "caption",
         "price",
