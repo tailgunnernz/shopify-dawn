@@ -15,7 +15,7 @@
         "custom_liquid_LGyCC3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\"> Brand:\n<a style=\"color: inherit\" href=\"/collections/vendors?q={{ product.vendor }}\">{{ product.vendor }}</a>\n</a>"
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"margin-bottom: 10px\"> Brand:\n<a style=\"color: inherit\" href=\"/collections/vendors?q={{ product.vendor }}\">{{ product.vendor }}</a>\n</a>"
           }
         },
         "title": {
