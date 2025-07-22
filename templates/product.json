@@ -12,17 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "custom_liquid_LGyCC3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div></div>"
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\"> Brand:\n<a style=\"color: inherit\" href=\"/collections/vendors?q={{ product.vendor }}\">{{ product.vendor }}</a>\n</a>"
           }
         },
         "title": {
@@ -149,7 +142,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "custom_liquid_LGyCC3",
         "title",
         "caption",
