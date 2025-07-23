@@ -196,6 +196,29 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_h7XwCQ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DcT84N": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.kk_faq | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_DcT84N"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -205,6 +228,7 @@
     "rich_text_74wy4W",
     "multicolumn_JtktAg",
     "custom_liquid_fMKAVC",
-    "16613934324260c45d"
+    "16613934324260c45d",
+    "rich_text_h7XwCQ"
   ]
 }
