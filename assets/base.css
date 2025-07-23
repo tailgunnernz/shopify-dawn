@@ -3133,3 +3133,70 @@ header.page-width {
 #main-collection-filters summary {
   font-weight: bold;
 }
+
+/* kk faq */
+<style>
+  .accordion-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  .accordion-item {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+  }
+
+  .accordion-question {
+    background-color: #f9f9f9;
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    font-weight: 600;
+    font-size: 1.35rem; /* larger size */
+    color: #1a1a1a;
+    position: relative;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  .accordion-question:hover {
+    background-color: #f0f0f0;
+  }
+
+  .accordion-question::after {
+    content: '+';
+    font-size: 1.8rem;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-question.active::after {
+    content: '–';
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  .accordion-answer {
+    display: none;
+    padding: 0 2rem 1.5rem;
+    font-size: 1.2rem; /* larger size */
+    line-height: 1.85;
+    color: #333;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .accordion-answer p {
+    margin: 0.75rem 0;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+</style>
