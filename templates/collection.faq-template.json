@@ -219,6 +219,16 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_dh3E9X": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"faq-accordion\">\n  {% assign faq_lines = collection.metafields.custom.kk-faq | newline_to_br | split: '<br />' %}\n  {% assign current_question = \"\" %}\n  {% for line in faq_lines %}\n    {% if line contains 'Q:' %}\n      {% assign current_question = line | remove: 'Q:' | strip %}\n    {% elsif line contains 'A:' %}\n      <div class=\"faq-item\">\n        <button class=\"faq-question\">{{ current_question }}</button>\n        <div class=\"faq-answer\">{{ line | remove: 'A:' | strip }}</div>\n      </div>\n    {% endif %}\n  {% endfor %}\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -229,6 +239,7 @@
     "multicolumn_JtktAg",
     "custom_liquid_fMKAVC",
     "16613934324260c45d",
+    "custom_liquid_dh3E9X",
     "rich_text_h7XwCQ"
   ]
 }
