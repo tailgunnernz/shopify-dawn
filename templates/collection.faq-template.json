@@ -197,6 +197,22 @@
         "show_text_below": true
       }
     },
+    "custom_liquid_dh3E9X": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".faq-accordion {max-width: 800px; margin: 2em auto;}",
+        ".faq-question {background: none; border: none; font-weight: 600; font-size: 1.1rem; width: 100%; text-align: left; cursor: pointer; padding: 1em 0; border-bottom: 1px solid #ccc;}",
+        ".faq-answer {display: none; padding: 0 0 1em 0; font-weight: 400;}",
+        ".faq-question.active + .faq-answer {display: block;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"faq-accordion\">\n  {% assign faq_lines = collection.metafields.custom.kk-faq | newline_to_br | split: '<br />' %}\n  {% assign current_question = \"\" %}\n\n  {% for line in faq_lines %}\n    {% if line contains 'Q:' %}\n      {% assign current_question = line | remove: 'Q:' | strip %}\n    {% elsif line contains 'A:' %}\n      {% assign current_answer = line | remove: 'A:' | strip %}\n      <div class=\"faq-item\">\n        <button class=\"faq-question\">{{ current_question }}</button>\n        <div class=\"faq-answer\">{{ current_answer }}</div>\n      </div>\n    {% endif %}\n  {% endfor %}\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_h7XwCQ": {
       "type": "rich-text",
       "blocks": {
@@ -210,22 +226,18 @@
       "block_order": [
         "text_DcT84N"
       ],
+      "custom_css": [
+        ".faq-accordion {max-width: 800px; margin: 2em auto;}",
+        ".faq-question {background: none; border: none; font-weight: 600; font-size: 1.1rem; width: 100%; text-align: left; cursor: pointer; padding: 1em 0; border-bottom: 1px solid #ccc;}",
+        ".faq-answer {display: none; padding: 0 0 1em 0; font-weight: 400;}",
+        ".faq-question.active + .faq-answer {display: block;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_dh3E9X": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"faq-accordion\">\n  {% assign faq_lines = collection.metafields.custom.kk-faq | newline_to_br | split: '<br />' %}\n  {% assign current_question = \"\" %}\n  {% for line in faq_lines %}\n    {% if line contains 'Q:' %}\n      {% assign current_question = line | remove: 'Q:' | strip %}\n    {% elsif line contains 'A:' %}\n      <div class=\"faq-item\">\n        <button class=\"faq-question\">{{ current_question }}</button>\n        <div class=\"faq-answer\">{{ line | remove: 'A:' | strip }}</div>\n      </div>\n    {% endif %}\n  {% endfor %}\n</div>",
-        "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
