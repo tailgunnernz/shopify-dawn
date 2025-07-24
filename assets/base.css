@@ -3144,7 +3144,7 @@ header.page-width {
 
 .faq-heading {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 2rem; /* Larger heading */
   font-weight: 700;
   margin-bottom: 2rem;
 }
@@ -3168,8 +3168,8 @@ header.page-width {
   width: 100%;
   background: none;
   border: none;
-  padding: 1.25rem 1.5rem;
-  font-size: 1rem;
+  padding: 1.5rem 1.5rem;
+  font-size: 1.125rem; /* Increased from 1rem to 1.125rem (~18px) */
   font-weight: 600;
   cursor: pointer;
   text-align: left;
@@ -3203,12 +3203,12 @@ header.page-width {
 
 .faq-item.active .faq-answer {
   max-height: 500px;
-  padding-bottom: 1rem;
+  padding-bottom: 1.25rem;
 }
 
 .faq-answer p {
   margin: 0;
+  font-size: 1.0625rem; /* ~17px */
   color: #333;
-  line-height: 1.6;
+  line-height: 1.7;
 }
-
