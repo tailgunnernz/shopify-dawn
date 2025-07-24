@@ -3136,23 +3136,23 @@ header.page-width {
 
 
 /* kk faqs */
->
 .faq-wrapper {
   max-width: 800px;
   margin: 3rem auto;
   font-family: inherit;
+  padding: 0 1rem;
 }
 
 .faq-heading {
   text-align: center;
-  font-size: 2.25rem; /* Increased heading size */
+  font-size: 2.25rem;
   font-weight: 700;
   margin-bottom: 2.5rem;
 }
 
 .faq-accordion {
   border: 1px solid #e0e0e0;
-  border-radius: 4px;
+  border-radius: 6px;
   overflow: hidden;
   background: #fff;
 }
@@ -3169,7 +3169,7 @@ header.page-width {
   width: 100%;
   background: none;
   border: none;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem;
   font-size: 1.375rem; /* ~22px */
   font-weight: 600;
   cursor: pointer;
