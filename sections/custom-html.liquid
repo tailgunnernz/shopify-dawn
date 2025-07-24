@@ -1,0 +1,23 @@
+{% schema %}
+{
+  "name": "Custom HTML",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "custom_html",
+      "label": "Custom HTML",
+      "default": "<p>Add your custom HTML here</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom HTML"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="custom-html-section">
+  {{ section.settings.custom_html }}
+</div>
