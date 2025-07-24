@@ -148,6 +148,17 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_dh3E9X": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"faq-accordion\">\n  {% assign faq_blocks = collection.metafields.kk.faq | newline_to_br | split: \"<br /><br />\" %}\n  {% for block in faq_blocks %}\n    {% assign lines = block | split: \"<br />\" %}\n    {% assign question = '' %}\n    {% assign answer = '' %}\n    {% for line in lines %}\n      {% if line contains 'Q:' %}\n        {% assign question = line | remove: 'Q:' | strip %}\n      {% elsif line contains 'A:' %}\n        {% assign answer = line | remove: 'A:' | strip %}\n      {% endif %}\n    {% endfor %}\n    {% if question != '' and answer != '' %}\n      <div class=\"faq-item\">\n        <button class=\"faq-question\" type=\"button\">{{ question }}</button>\n        <div class=\"faq-answer\"><p>{{ answer }}</p></div>\n      </div>\n    {% endif %}\n  {% endfor %}\n</div>\n\n<style>\n.faq-accordion {\n  border-top: 1px solid #ccc;\n  max-width: 800px;\n  margin: 2rem auto;\n}\n.faq-item {\n  border-bottom: 1px solid #ccc;\n  padding: 10px 0;\n}\n.faq-question {\n  background: none;\n  border: none;\n  font-weight: bold;\n  font-size: 1rem;\n  cursor: pointer;\n  width: 100%;\n  text-align: left;\n  padding: 10px 0;\n}\n.faq-answer {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.3s ease;\n}\n.faq-item.active .faq-answer {\n  max-height: 300px;\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  document.querySelectorAll(\".faq-question\").forEach(button => {\n    button.addEventListener(\"click\", function () {\n      const item = this.parentElement;\n      item.classList.toggle(\"active\");\n    });\n  });\n});\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16613934324260c45d": {
       "type": "image-banner",
       "blocks": {
@@ -196,22 +207,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "custom_liquid_dh3E9X": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".faq-accordion .faq-item {border-bottom: 1px solid #ccc; padding: 10px 0;}",
-        ".faq-question {background: none; border: none; font-weight: bold; font-size: 1rem; cursor: pointer; width: 100%; text-align: left; padding: 10px 0;}",
-        ".faq-answer {max-height: 0; overflow: hidden; transition: max-height 0.3s ease;}",
-        ".faq-item.active .faq-answer {max-height: 500px; /* Adjust as needed */}"
-      ],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"faq-accordion\">\n  {% assign faq_lines = product.metafields.custom.faqs | split: \"\\n\\n\" %}\n  {% for block in faq_lines %}\n    {% assign q_and_a = block | split: \"A:\" %}\n    {% assign question = q_and_a[0] | remove: \"Q:\" | strip %}\n    {% assign answer = q_and_a[1] | strip %}\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">{{ question }}</button>\n      <div class=\"faq-answer\">\n        <p>{{ answer }}</p>\n      </div>\n    </div>\n  {% endfor %}\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -221,7 +216,7 @@
     "rich_text_74wy4W",
     "multicolumn_JtktAg",
     "custom_liquid_fMKAVC",
-    "16613934324260c45d",
-    "custom_liquid_dh3E9X"
+    "custom_liquid_dh3E9X",
+    "16613934324260c45d"
   ]
 }
