@@ -199,10 +199,15 @@
     },
     "custom_liquid_dh3E9X": {
       "type": "custom-liquid",
-      "custom_css": [],
+      "custom_css": [
+        ".faq-accordion .faq-item {border-bottom: 1px solid #ccc; padding: 10px 0;}",
+        ".faq-question {background: none; border: none; font-weight: bold; font-size: 1rem; cursor: pointer; width: 100%; text-align: left; padding: 10px 0;}",
+        ".faq-answer {max-height: 0; overflow: hidden; transition: max-height 0.3s ease;}",
+        ".faq-item.active .faq-answer {max-height: 500px; /* Adjust as needed */}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "{% if collection.metafields.custom.kk_collection_faq_content != blank %}\n  <div class=\"faq-container\">\n    <h2 style=\"text-align:center;\">Frequently Asked Questions</h2>\n\n    {% assign faq_blocks = collection.metafields.custom.kk_collection_faq_content | split: \"Q:\" %}\n\n    {% for block in faq_blocks %}\n      {% assign parts = block | split: \"A:\" %}\n      {% if parts.size == 2 %}\n        <div class=\"faq-item\">\n          <div class=\"faq-question\">{{ parts[0] | strip }}</div>\n          <div class=\"faq-answer\">\n            <p>{{ parts[1] | strip }}</p>\n          </div>\n        </div>\n      {% endif %}\n    {% endfor %}\n  </div>\n{% endif %}\n\n<style>\n.faq-container {\n  max-width: 800px;\n  margin: 0 auto;\n  font-family: sans-serif;\n}\n.faq-item {\n  border-bottom: 1px solid #ccc;\n  margin-bottom: 10px;\n}\n.faq-question {\n  cursor: pointer;\n  padding: 1rem;\n  font-weight: bold;\n  background-color: #f9f9f9;\n  position: relative;\n}\n.faq-question::after {\n  content: \"+\";\n  position: absolute;\n  right: 1rem;\n  font-size: 1.2rem;\n}\n.faq-question.active::after {\n  content: \"-\";\n}\n.faq-answer {\n  display: none;\n  padding: 0 1rem 1rem 1rem;\n  background-color: #fff;\n}\n</style>",
+        "custom_liquid": "<div class=\"faq-accordion\">\n  {% assign faq_lines = product.metafields.custom.faqs | split: \"\\n\\n\" %}\n  {% for block in faq_lines %}\n    {% assign q_and_a = block | split: \"A:\" %}\n    {% assign question = q_and_a[0] | remove: \"Q:\" | strip %}\n    {% assign answer = q_and_a[1] | strip %}\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">{{ question }}</button>\n      <div class=\"faq-answer\">\n        <p>{{ answer }}</p>\n      </div>\n    </div>\n  {% endfor %}\n</div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
