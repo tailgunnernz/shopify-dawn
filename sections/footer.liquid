@@ -160,6 +160,23 @@
 
 
       <!-- End KK Footer Links -->
+
+      <!-- collectoin faq's - start -->
+      <script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".faq-question").forEach(button => {
+    button.addEventListener("click", function () {
+      const item = this.parentElement;
+      const icon = this.querySelector('.faq-toggle-icon');
+
+      item.classList.toggle("active");
+      icon.textContent = item.classList.contains("active") ? "−" : "+";
+    });
+  });
+});
+</script>
+
+      <!-- collectoin faq's - finish -->
       
       <div class="footer-block--newsletter">
         {%- if section.settings.newsletter_enable -%}
