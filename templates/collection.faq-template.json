@@ -202,32 +202,8 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.faq-accordion {\n  max-width: 800px;\n  margin: 0 auto;\n}\n.faq-question {\n  cursor: pointer;\n  background: none;\n  border: none;\n  padding: 1rem;\n  width: 100%;\n  text-align: left;\n  font-size: 1.1rem;\n  font-weight: 600;\n  border-top: 1px solid #ccc;\n}\n.faq-question.active {\n  background-color: #f5f5f5;\n}\n.faq-answer {\n  display: none;\n  padding: 0 1rem 1rem 1rem;\n  font-size: 1rem;\n  border-bottom: 1px solid #ccc;\n}\n</style>\n\n<div class=\"faq-accordion\">\n  {% assign faq_lines = collection.metafields.custom.kk-faq | newline_to_br | split: '<br />' %}\n  {% assign current_question = \"\" %}\n\n  {% for line in faq_lines %}\n    {% if line contains 'Q:' %}\n      {% assign current_question = line | remove: 'Q:' | strip %}\n    {% elsif line contains 'A:' %}\n      {% assign current_answer = line | remove: 'A:' | strip %}\n      <div class=\"faq-item\">\n        <button class=\"faq-question\">{{ current_question }}</button>\n        <div class=\"faq-answer\">{{ current_answer }}</div>\n      </div>\n    {% endif %}\n  {% endfor %}\n</div>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const questions = document.querySelectorAll(\".faq-question\");\n\n  questions.forEach(button => {\n    button.addEventListener(\"click\", function () {\n      const answer = this.nextElementSibling;\n      const isActive = this.classList.contains(\"active\");\n\n      document.querySelectorAll(\".faq-answer\").forEach(a => a.style.display = \"none\");\n      document.querySelectorAll(\".faq-question\").forEach(q => q.classList.remove(\"active\"));\n\n      if (!isActive) {\n        answer.style.display = \"bloc",
+        "custom_liquid": "{% if collection.metafields.custom.kk_collection_faq_content != blank %}\n  <div class=\"faq-container\">\n    <h2 style=\"text-align:center;\">Frequently Asked Questions</h2>\n\n    {% assign faq_blocks = collection.metafields.custom.kk_collection_faq_content | split: \"Q:\" %}\n\n    {% for block in faq_blocks %}\n      {% assign parts = block | split: \"A:\" %}\n      {% if parts.size == 2 %}\n        <div class=\"faq-item\">\n          <div class=\"faq-question\">{{ parts[0] | strip }}</div>\n          <div class=\"faq-answer\">\n            <p>{{ parts[1] | strip }}</p>\n          </div>\n        </div>\n      {% endif %}\n    {% endfor %}\n  </div>\n{% endif %}\n\n<style>\n.faq-container {\n  max-width: 800px;\n  margin: 0 auto;\n  font-family: sans-serif;\n}\n.faq-item {\n  border-bottom: 1px solid #ccc;\n  margin-bottom: 10px;\n}\n.faq-question {\n  cursor: pointer;\n  padding: 1rem;\n  font-weight: bold;\n  background-color: #f9f9f9;\n  position: relative;\n}\n.faq-question::after {\n  content: \"+\";\n  position: absolute;\n  right: 1rem;\n  font-size: 1.2rem;\n}\n.faq-question.active::after {\n  content: \"-\";\n}\n.faq-answer {\n  display: none;\n  padding: 0 1rem 1rem 1rem;\n  background-color: #fff;\n}\n</style>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_h7XwCQ": {
-      "type": "rich-text",
-      "blocks": {
-        "text_DcT84N": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ collection.metafields.custom.kk_faq | metafield_tag }}</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_DcT84N"
-      ],
-      "custom_css": [],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -241,7 +217,6 @@
     "multicolumn_JtktAg",
     "custom_liquid_fMKAVC",
     "16613934324260c45d",
-    "custom_liquid_dh3E9X",
-    "rich_text_h7XwCQ"
+    "custom_liquid_dh3E9X"
   ]
 }
