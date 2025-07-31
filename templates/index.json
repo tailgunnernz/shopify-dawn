@@ -194,7 +194,6 @@
         },
         "row_HYpBmX": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
@@ -206,6 +205,7 @@
         },
         "row_EiTLpk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
