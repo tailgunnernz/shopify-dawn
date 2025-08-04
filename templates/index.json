@@ -30,6 +30,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_dnpCXF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Grisport_Slide_8967bc0b-5813-468e-8918-993edca59aa0.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Grisport",
+            "link": "shopify://collections/grisport",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_ydd6RK": {
           "type": "slide",
           "settings": {
@@ -87,6 +105,7 @@
       },
       "block_order": [
         "slide_fqqzWy",
+        "slide_dnpCXF",
         "slide_ydd6RK",
         "slide_MdR74w",
         "slide_T7jDkJ"
