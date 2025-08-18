@@ -100,40 +100,46 @@
 {% if section.settings.enable_transparent-header and template.name == "index" %}
   {%- style -%}
     .header-wrapper{
+      position: absolute !important;
+      width: 100% !important;
+      top: 0px;
+    } 
+    sticky-header.header-wrapper:not('.normal-color'){
       background: transparent !important;
-    position: absolute !important;
-    width: 100% !important;
-    top: 0px;
-  }
+    }
 
   {% if section.settings.color-transparent %}
-@media only screen and (min-width: 600px) {
-    .list-menu__item, details[open]>.header__submenu {
-  color: {{ section.settings.color-transparent }} !important;
-      background: transparent;
-    }
+    @media only screen and (min-width: 600px) {
+      sticky-header.header-wrapper:not('.normal-color') .list-menu__item, 
+      sticky-header.header-wrapper:not('.normal-color') details[open]>.header__submenu {
+        color: {{ section.settings.color-transparent }} !important;
+        background: transparent;
+      }
   
-}
-  .header__icon.link,.header__active-menu-item,.disclosure__button,.header__heading-link .h2{
-  color: {{ section.settings.color-transparent }} !important;
     }
-    {% endif %}
+    sticky-header.header-wrapper:not('.normal-color') .header__icon.link,
+    sticky-header.header-wrapper:not('.normal-color') .header__active-menu-item,
+    sticky-header.header-wrapper:not('.normal-color').disclosure__button,
+    sticky-header.header-wrapper:not('.normal-color').header__heading-link .h2{
+      color: {{ section.settings.color-transparent }} !important;
+    }
+  {% endif %}
   {%- endstyle -%}
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-  var stickyHeader = document.querySelector("sticky-header");
-  if (!stickyHeader) return;
+      var stickyHeader = document.querySelector("sticky-header");
+      if (!stickyHeader) return;
 
-  window.addEventListener("scroll", function() {
-    if (window.scrollY > 300) {
-      stickyHeader.classList.add("normal-color");
-    } else {
-      stickyHeader.classList.remove("normal-color");
-    }
-  }, { passive: true });
-});
-</script>
+      window.addEventListener("scroll", function() {
+        if (window.scrollY > 300) {
+          stickyHeader.classList.add("normal-color");
+        } else {
+          stickyHeader.classList.remove("normal-color");
+        }
+      }, { passive: true });
+    });
+  </script>
   {% endif %}
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
