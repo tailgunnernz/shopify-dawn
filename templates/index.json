@@ -24,7 +24,7 @@
         "heading"
       ],
       "custom_css": [
-        ".banner__heading p{margin:0}"
+        ".banner__heading p {margin: 0;}"
       ],
       "settings": {
         "image": "shopify://shop_images/pain-au-levain-white-sourdough-being-sliced.png",
@@ -105,7 +105,7 @@
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "image_behavior": "zoom-in",
+        "image_behavior": "ambient",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
