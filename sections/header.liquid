@@ -123,12 +123,15 @@
   <script>
     document.addEventListener("DOMContentLoaded", function() {
   var stickyHeader = document.querySelector("sticky-header");
+  console.log('sticky', stickyHeader)
   if (!stickyHeader) return;
 
   window.addEventListener("scroll", function() {
     if (window.scrollY > 300) {
+      console.log('yo')
       stickyHeader.classList.add("normal-color");
     } else {
+      console.log('nerp')
       stickyHeader.classList.remove("normal-color");
     }
   }, { passive: true });
