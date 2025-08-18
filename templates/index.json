@@ -65,59 +65,6 @@
         "padding_bottom": 40
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -170,13 +117,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_rtF3iD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UjzTqL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Crafted with Local Pride",
+            "heading_size": "h1"
+          }
+        },
+        "text_dxcw93": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mike and Rose Kloeg opened The Clareville Bakery just outside Carterton in August 2013. Creating food they love and sharing it with those of the same passion is the reason for its existence. </p><p>Fresh produce, artisanal craftsmanship and hard work is the recipe for the delicious food The Clareville Bakery is famous for.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_wB9b4h": {
+          "type": "button",
+          "settings": {
+            "button_label": "More About Us",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UjzTqL",
+        "text_dxcw93",
+        "button_wB9b4h"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/indulge-in-our-award-winning-freshly-baked-croissants-delivered-in-a-convenient-4-pack-each-croissant-boasts-a-perfect-flaky-crust-and-buttery-melt-in-your-mouth-layers-making-every-b.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "collage",
-    "video",
+    "image_with_text_rtF3iD",
     "multicolumn"
   ]
 }
