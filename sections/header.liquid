@@ -112,7 +112,7 @@
   {% if section.settings.color-transparent %}
     @media only screen and (min-width: 600px) {
       sticky-header.header-wrapper:not(.normal-color) ul:not(.header__submenu) > li > .list-menu__item,
-      sticky-header.header-wrapper:not(.normal-color) ul:not(.header__submenu) > li details .list-menu__item{
+      sticky-header.header-wrapper:not(.normal-color) ul:not(.header__submenu) > li details summary{
         color: {{ section.settings.color-transparent }} !important;
         background: transparent;
       }
