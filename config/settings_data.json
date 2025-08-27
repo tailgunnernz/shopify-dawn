@@ -390,7 +390,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media screen and (min-width: 750px) {.cart__footer>* {width: 50rem; }}"
+      "@media screen and (min-width: 750px) {.cart__footer > * {width: 50rem; } .cart__ctas {display: block; gap: 1rem; }}"
     ]
   }
 }
