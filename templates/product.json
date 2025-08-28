@@ -56,6 +56,12 @@
           "type": "description",
           "settings": {}
         },
+        "custom_liquid_6agbQc": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.type and product.type == 'Pickup Only' %}\n  <style>\n    .product__accordion details:has(.icon-truck){\ndisplay:none\n    }\n  </style>\n{% endif %}"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -111,6 +117,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "custom_liquid_6agbQc",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
