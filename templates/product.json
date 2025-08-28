@@ -68,11 +68,10 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Delivery (allow 1-2 days processing)",
             "icon": "truck",
-            "content": "",
+            "content": "<p><strong>Please allow 1-2 days to process the order.</strong></p><ul><li>Wairarapa delivers are dispatched Mon – Fri<br/></li><li>All other deliveries are dispatched Mon – Wed</li></ul>",
             "page": ""
           }
         },
