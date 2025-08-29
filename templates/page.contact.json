@@ -54,9 +54,13 @@
         "heading_EmR9wk",
         "text_gH9hmB"
       ],
+      "custom_css": [
+        "img{object-fit: contain;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Screenshot_2025-08-29_at_2.42.49_PM.png",
+        "image_link": "https://maps.google.com/maps?ll=-41.010925,175.545988&z=14&t=m&hl=en-NZ&gl=US&mapclient=embed&cid=1900794854845388930",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
