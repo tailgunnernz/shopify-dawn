@@ -35,6 +35,11 @@
               style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
             {% endif %}
           >
+
+            {%- if section.settings.image_link != blank -%}
+              <a href="{{ section.settings.image_link }}">
+            {%- endif -%}
+
             {%- if section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
@@ -56,6 +61,9 @@
               }}
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+            {%- if section.settings.image_link != blank -%}
+            </a>
             {%- endif -%}
           </div>
         </div>
