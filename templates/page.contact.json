@@ -1,7 +1,21 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "1756435739abe9fe9b": {
+      "type": "_blocks",
+      "settings": {}
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -9,6 +23,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -16,10 +31,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_YXi8Qt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EmR9wk": {
+          "type": "heading",
+          "settings": {
+            "heading": "We'd love to hear from you",
+            "heading_size": "h1"
+          }
+        },
+        "text_gH9hmB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CONTACT</strong></p><p>06 3795333<br/>info@theclarevillebakery.co.nz</p><p><strong>ADDRESS</strong></p><p>3340 SH2 Clareville,<br/>Carterton, New Zealand</p><p><strong>HOURS</strong></p><p>Monday to Saturday<br/>7.30am – 2.00 pm<br/>Sunday: Closed</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EmR9wk",
+        "text_gH9hmB"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-08-29_at_2.42.49_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "1756435739abe9fe9b",
     "main",
-    "form"
+    "form",
+    "image_with_text_YXi8Qt"
   ]
 }
