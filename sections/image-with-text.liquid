@@ -57,7 +57,7 @@
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
-          </{%- if section.settings.image_link != null -%}a{%- else -%}div{%- endif -%}>
+          </{%- if section.settings.image_link != '' -%}a{%- else -%}div{%- endif -%}>
         </div>
         <div class="image-with-text__text-item grid__item">
           <div
@@ -71,7 +71,7 @@
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading }} {{ section.settings.image_link | json }}
+                    {{ block.settings.heading }} {%- if section.settings.image_link != '' -%}a{%- else -%}div{%- endif -%}
                   </h2>
                 {%- when 'caption' -%}
                   <p
