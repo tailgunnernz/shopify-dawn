@@ -1,5 +1,8 @@
 @media(max-width: 678px){
-    .image-with-text__content{
+    .image-with-text__text-item.grid__item .image-with-text__content{
         padding: 4rem 1.5rem;
+    }
+    .color-scheme-1 .image-with-text__text-item.grid__item .image-with-text__content{
+        padding: 4rem 0rem;
     }
 }
