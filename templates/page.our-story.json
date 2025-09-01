@@ -11,13 +11,131 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_NaRKX6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iBUgwm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_JLEG49": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With our 4 children we started on our adventure with a mission to bake using time honoured methods, wholesome ingredients which are sourced locally where possible, and sharing this with each other, family, friends and anyone who appreciates good food.</p><p>We purchased an old church in Clareville that had been operating as a café.  We closed the doors for 2 weeks and renovated, earthquake strengthened and redecorated the building.</p><p>We also made a point of having a full length viewing window where our bakers can greet and interact with our customers and our customers can see how and where their food is made.</p><p>We were very proud and a little scared when we opened the doors of The Clareville Bakery in August 2013.</p><p>With our awesome start up team we enjoyed the thrill of creating Artisan Baked products, Exceptional Coffee, an Outstanding Food and Superb Service in our resurrected church.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iBUgwm",
+        "text_JLEG49"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/story-pic.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_NKLTrC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nhCM4k": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wj7XkJ": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GXMLtD": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h9KNYc": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gtRjmV": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nhCM4k",
+        "column_Wj7XkJ",
+        "column_GXMLtD",
+        "column_h9KNYc",
+        "column_gtRjmV"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_NaRKX6",
+    "multicolumn_NKLTrC"
   ]
 }
