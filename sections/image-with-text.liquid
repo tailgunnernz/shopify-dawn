@@ -71,7 +71,7 @@
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading }} {%- if section.settings.image_link != '' -%}a{%- else -%}div{%- endif -%}
+                    {{ block.settings.heading }} {%- if section.settings.image_link != blank -%}a{%- else -%}div{%- endif -%}
                   </h2>
                 {%- when 'caption' -%}
                   <p
