@@ -102,6 +102,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/indulge-in-our-award-winning-freshly-baked-croissants-delivered-in-a-convenient-4-pack-each-croissant-boasts-a-perfect-flaky-crust-and-buttery-melt-in-your-mouth-layers-making-every-b.png",
+        "image_link": "",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
