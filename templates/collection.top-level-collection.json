@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "b7fa0023-0ac6-451e-a758-8f5e41a263b6": {
@@ -19,7 +28,7 @@
     "f74daae5-c9d4-4867-9430-c21a8df44dcb": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<section class=\"page-width scroll-trigger animate--slide-in\">\n  <h1 class=\"h0\" style=\"color: rgb(var(--fa-orange)); margin:0 0 1rem;\" >{{ collection.title }}<\/h1>\n{% render 'fa-line' %}\n\n  <div>\n    {{ collection.description }}\n  <\/div>\n<\/section>",
+        "custom_liquid": "<section class=\"page-width scroll-trigger animate--slide-in\">\n  <h1 class=\"h0\" style=\"color: rgb(var(--fa-orange)); margin:0 0 1rem;\" >{{ collection.title }}</h1>\n{% render 'fa-line' %}\n\n  <div>\n    {{ collection.description }}\n  </div>\n</section>",
         "color_scheme": "",
         "padding_top": 76,
         "padding_bottom": 52
@@ -56,6 +65,19 @@
     },
     "21de335a-4219-45af-9de5-1b6f4c56c20e": {
       "type": "fa-collection-list",
+      "blocks": {
+        "featured_collection_3RwRJk": {
+          "type": "featured_collection",
+          "name": "Medical",
+          "settings": {
+            "collection": "medical",
+            "collection_image": "shopify://shop_images/025f1b3.png"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_3RwRJk"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
