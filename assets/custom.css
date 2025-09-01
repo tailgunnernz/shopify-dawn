@@ -1,0 +1,5 @@
+@media(max-width: 678px){
+    .image-with-text__content{
+        padding: 4rem 1.5rem;
+    }
+}
