@@ -57,7 +57,7 @@
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
-          </{%- if section.settings.image_link != blank -%}a{%- else -%}div{%- endif -%}>
+          </{%- if section.settings.image_link != null -%}a{%- else -%}div{%- endif -%}>
         </div>
         <div class="image-with-text__text-item grid__item">
           <div
