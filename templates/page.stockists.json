@@ -208,13 +208,16 @@
         "column_Fay9ze",
         "column_txDaJX"
       ],
+      "custom_css": [
+        ".multicolumn-list__item img {left: 50% !important; transform: translateX(-50%);}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
