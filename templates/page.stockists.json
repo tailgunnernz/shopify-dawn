@@ -71,30 +71,142 @@
             "link": "https://www.martinboroughwinemerchants.com/"
           }
         },
-        "column_Va7QMB": {
+        "column_YwJwUg": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/stockist-farro.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://www.farrofresh.co.nz/"
           }
         },
-        "column_69gAky": {
+        "column_aqPFez": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Scent-Wreath-Logo-1-300x169.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://www.scentboutique.co.nz/"
+          }
+        },
+        "column_gHkCUr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WLL-Logo-horizontal-RGB-300x169.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.welovelocal.nz/the-clareville-bakery"
+          }
+        },
+        "column_pkthce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bellatinos-300x154.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.bellatinos.co/"
+          }
+        },
+        "column_DXTcUi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/The-Good-Food-Co-Logo-300x169.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://thegoodfoodco.org/"
+          }
+        },
+        "column_w8L6tg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Elements-Lyall-Bay-300x279.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.elementslyallbay.co.nz/"
+          }
+        },
+        "column_PapMVh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Forage-Merchants-Of-Wellington-White_-002-300x212.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.facebook.com/foragemerchantsofwellington/"
+          }
+        },
+        "column_zgBYRa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Gourmet-Direct-300x300.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://gourmetdirect.co.nz/"
+          }
+        },
+        "column_8PFAEp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Over-the-Moon-Deli-270x300.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://overthemoondairy.co.nz/"
+          }
+        },
+        "column_NFXdQk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Little-Farms-187x300.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://wearelittlefarms.com/"
+          }
+        },
+        "column_Fay9ze": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bespoke-300x300.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.bespokegiftbox.co.nz/"
+          }
+        },
+        "column_txDaJX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Keri-Berries-Logo-300x206.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.keriberries.co.nz/"
           }
         }
       },
       "block_order": [
         "column_rU4PWw",
         "column_66fGe3",
-        "column_Va7QMB",
-        "column_69gAky"
+        "column_YwJwUg",
+        "column_aqPFez",
+        "column_gHkCUr",
+        "column_pkthce",
+        "column_DXTcUi",
+        "column_w8L6tg",
+        "column_PapMVh",
+        "column_zgBYRa",
+        "column_8PFAEp",
+        "column_NFXdQk",
+        "column_Fay9ze",
+        "column_txDaJX"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -108,7 +220,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 60
