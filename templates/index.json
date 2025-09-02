@@ -27,7 +27,7 @@
         ".banner__heading p {margin: 0;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/pain-au-levain-white-sourdough-being-sliced.png",
+        "image": "shopify://shop_images/82376f00-140A1560-scaled.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -101,7 +101,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/indulge-in-our-award-winning-freshly-baked-croissants-delivered-in-a-convenient-4-pack-each-croissant-boasts-a-perfect-flaky-crust-and-buttery-melt-in-your-mouth-layers-making-every-b.png",
+        "image": "shopify://shop_images/a20e2c30-croissant-6-scaled.jpg",
         "image_link": "",
         "height": "large",
         "desktop_image_width": "medium",
