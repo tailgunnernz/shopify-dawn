@@ -11,13 +11,102 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_rbbFci": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_paEc9M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stockists",
+            "heading_size": "h1"
+          }
+        },
+        "text_rkXgn6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Clareville Bakery is delighted to partner with an exceptional selection of local stockists. Explore the list below to find a nearby location stocking your favourite treats.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_paEc9M",
+        "text_rkXgn6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn_F7cNGA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rU4PWw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/stockist-moore.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://moorewilsons.co.nz/"
+          }
+        },
+        "column_Va7QMB": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_69gAky": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rU4PWw",
+        "column_Va7QMB",
+        "column_69gAky"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_rbbFci",
+    "multicolumn_F7cNGA"
   ]
 }
