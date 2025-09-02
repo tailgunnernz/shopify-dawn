@@ -183,8 +183,62 @@ if (!customElements.get('product-form')) {
         this.errorMessageWrapper.toggleAttribute('hidden', !errorMessage)
 
         if (errorMessage) {
-          this.errorMessage.textContent = errorMessage
+          // Convert "empty your cart" text to a clickable link
+          const processedMessage = errorMessage.replace(
+            'empty your cart',
+            '<a href="#" class="empty-cart-link" style="color: inherit; text-decoration: underline;">empty your cart</a>'
+          )
+          this.errorMessage.innerHTML = processedMessage
+
+          // Add event listener for the empty cart link
+          const emptyCartLink =
+            this.errorMessage.querySelector('.empty-cart-link')
+          if (emptyCartLink) {
+            emptyCartLink.addEventListener(
+              'click',
+              this.handleEmptyCart.bind(this)
+            )
+          }
         }
+      }
+
+      handleEmptyCart(evt) {
+        evt.preventDefault()
+
+        // Clear the cart by making a request to the cart clear endpoint
+        const config = fetchConfig('javascript')
+        config.headers['X-Requested-With'] = 'XMLHttpRequest'
+
+        fetch(`${routes.cart_url}/clear`, {
+          method: 'POST',
+          headers: config.headers
+        })
+          .then((response) => {
+            if (response.ok) {
+              // Clear the error message
+              this.handleErrorMessage()
+
+              // Update the cart display if cart element exists
+              if (this.cart) {
+                // Trigger cart update event
+                publish(PUB_SUB_EVENTS.cartUpdate, {
+                  source: 'product-form',
+                  cartData: { items: [], item_count: 0, total_price: 0 }
+                })
+
+                // Add empty class to cart
+                this.cart.classList.add('is-empty')
+              }
+
+              // Optionally reload the page to ensure clean state
+              window.location.reload()
+            } else {
+              console.error('Failed to clear cart')
+            }
+          })
+          .catch((error) => {
+            console.error('Error clearing cart:', error)
+          })
       }
 
       toggleSubmitButton(disable = true, text) {
