@@ -30,6 +30,8 @@ if (!customElements.get('product-form')) {
         const productType = this.dataset.productType
         const isCatering = productType === 'Catering'
 
+        console.log('productType', productType)
+
         // Check cart compatibility before proceeding
         fetch(`${routes.cart_url}.js?app=zapiet`)
           .then((response) => response.json())
@@ -43,8 +45,7 @@ if (!customElements.get('product-form')) {
             // Check if there's a type mismatch
             const hasCateringItems = cart.items.some((item) => {
               // Check if line item properties contain product type
-              const properties = item.properties || {}
-              return properties.product_type === 'Catering'
+              return item.product_type === 'Catering'
             })
 
             if (
