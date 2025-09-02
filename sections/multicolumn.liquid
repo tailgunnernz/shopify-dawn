@@ -75,7 +75,11 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
+            {%- if block.settings.link_label == blank and block.settings.link != blank -%}
+            <a class="multicolumn-card content-container" href="{{ block.settings.link }}">
+            {%- else -%}
             <div class="multicolumn-card content-container">
+            {%- endif -%}
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -141,7 +145,11 @@
                   </a>
                 {%- endif -%}
               </div>
+            {%- if block.settings.link_label == blank and block.settings.link != blank -%}
+            </a>
+            {%- else -%}
             </div>
+            {%- endif -%}  
           </li>
         {%- endfor -%}
       </ul>
