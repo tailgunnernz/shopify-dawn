@@ -31,7 +31,7 @@ if (!customElements.get('product-form')) {
         const isCatering = productType === 'Catering'
 
         // Check cart compatibility before proceeding
-        fetch(`${routes.cart_url}.js`)
+        fetch(`${routes.cart_url}.js?app=zapiet`)
           .then((response) => response.json())
           .then((cart) => {
             // Skip check if cart is empty
