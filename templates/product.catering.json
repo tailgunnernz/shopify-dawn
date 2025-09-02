@@ -56,48 +56,30 @@
           "type": "description",
           "settings": {}
         },
-        "custom_liquid_6agbQc": {
-          "type": "custom_liquid",
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
           "settings": {
-            "custom_liquid": "{% if product.type and product.type == 'Pickup Only' %}\n  <style>\n    .product__accordion details:has(.icon-truck){\ndisplay:none\n    }\n  </style>\n{% endif %}"
+            "heading": "Catering Options",
+            "icon": "heart",
+            "content": "<p>Provide your guests with freshly baked soft-filled rolls, buttery pastries and sweet treats.</p><p><em>GF=Gluten Free, DF=Dairy Free, VEG=Vegetarian, V=Vegan, RSF=Refined Sugar Free</em></p>",
+            "page": ""
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "48 Hour Notice",
+            "icon": "box",
+            "content": "<p><strong>A minimum of 48 hours notice</strong> is required for ordering, however, always give us a call, and see what we can do in a pinch.</p><p>To place an order call 06 379 5333 or email <a href=\"mailto:info@theclarevillebakery.co.nz\">info@theclarevillebakery.co.nz</a>.</p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Delivery (allow 1-2 days processing)",
+            "heading": "Delivery or Pickup",
             "icon": "truck",
-            "content": "<p><strong>Please allow 1-2 days to process the order.</strong></p><ul><li>Wairarapa delivers are dispatched Mon – Fri<br/></li><li>All other deliveries are dispatched Mon – Wed</li></ul>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "content": "<p>Pickup direct from the bakery, or Local Delivery is available to the below areas:</p><ul><li>Carterton</li><li>Masterton</li><li>Greytown</li><li>Featherston</li><li>Martinborough</li></ul><p>Rural and/or Saturday delivery incurs extra fees</p>",
             "page": ""
           }
         },
@@ -117,11 +99,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "custom_liquid_6agbQc",
+        "collapsible-row-3",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
         "share"
       ],
       "settings": {
