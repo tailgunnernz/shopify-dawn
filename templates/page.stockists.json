@@ -61,6 +61,16 @@
             "link": "https://moorewilsons.co.nz/"
           }
         },
+        "column_66fGe3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/stockist-martin.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.martinboroughwinemerchants.com/"
+          }
+        },
         "column_Va7QMB": {
           "type": "column",
           "settings": {
@@ -82,6 +92,7 @@
       },
       "block_order": [
         "column_rU4PWw",
+        "column_66fGe3",
         "column_Va7QMB",
         "column_69gAky"
       ],
