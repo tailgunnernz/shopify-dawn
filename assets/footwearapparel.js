@@ -10,7 +10,7 @@ function afterMultivariantsAddToCartCallBack() {
       .then((response) => response.json())
       .then((cart) => {
         // Update cart sections
-        const sectionsToUpdate = ['cart-drawer', 'cart-icon-bubble']
+        const sectionsToUpdate = cartDrawer.getSectionsToRender()
         const sectionRequests = sectionsToUpdate.map((section) =>
           fetch(`${window.routes.cart_url}?section_id=${section}`).then(
             (response) => response.text()
@@ -22,7 +22,7 @@ function afterMultivariantsAddToCartCallBack() {
             const parsedState = {
               sections: {}
             }
-
+            console.log('Fetched sections:', sections)
             sectionsToUpdate.forEach((section, index) => {
               parsedState.sections[section] = sections[index]
             })
