@@ -9,7 +9,8 @@ function afterMultivariantsAddToCartCallBack() {
       .then((response) => response.text())
       .then((responseText) => {
         const html = new DOMParser().parseFromString(responseText, 'text/html')
-        const selectors = ['cart-drawer-items', '.cart-drawer__footer']
+        // const selectors = ['cart-drawer-items', '.cart-drawer__footer']
+        const selectors = ['cart-drawer']
         for (const selector of selectors) {
           const targetElement = document.querySelector(selector)
           const sourceElement = html.querySelector(selector)
