@@ -24,7 +24,7 @@ function afterMultivariantsAddToCartCallBack() {
             }
             console.log('Fetched sections:', sections)
             sectionsToUpdate.forEach((section, index) => {
-              parsedState.sections[section] = sections[index]
+              parsedState.sections[section.id] = sections[index]
             })
 
             // Render updated cart contents and open drawer
