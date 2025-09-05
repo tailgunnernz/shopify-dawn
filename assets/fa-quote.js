@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', async function() {
+  setupFaQuote();
+})
+
+function setupFaQuote(){
   var quoteButton = document.getElementById('fa_quote_btn');
   var quoteDialog = document.getElementById('fa_quote_modal');
   var quoteDialogClose = document.getElementById(
@@ -65,7 +69,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // enable the submit input
     submitInput.disabled = false;
   });
-})
+}
 
 async function fetchNonce() {
   const res = await fetch('https://quote.footwearandapparel.co.nz/nonce',{
