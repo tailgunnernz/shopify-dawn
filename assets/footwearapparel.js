@@ -49,6 +49,7 @@ function afterMultivariantsAddToCartCallBack() {
         })
 
         // Render updated cart contents and open drawer
+        cartDrawer.classList.remove('is-empty')
         cartDrawer.renderContents(parsedState)
       })
       .catch((error) => {
