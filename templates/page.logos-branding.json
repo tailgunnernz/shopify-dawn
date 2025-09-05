@@ -1,11 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "padding_top": 80,
         "padding_bottom": 84
@@ -13,9 +20,7 @@
     },
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f": {
       "type": "fa-page-header",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Logos & Branding",
         "image_overlay": false
@@ -27,14 +32,14 @@
         "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Let us know what your after",
+            "heading": "Want to add a logo?",
             "heading_size": "h1"
           }
         },
         "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Fill out the form below and let us know exactly what your after if your wanting to use our digital transfer and embroidery services. Whether you want to promote your brand or create personalised apparel, our skilled team can add your logo or design to any garment. We will get back to you as soon as possible!<\/p>",
+            "text": "<p>Let us know how we can help with suggestions for design, colours and placement.</p><p></p>",
             "text_style": "body"
           }
         },
@@ -42,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "Fill out your form",
-            "button_link": "https:\/\/forms.gle\/eBbEKoa8EYJX8R339",
+            "button_link": "https://forms.gle/eBbEKoa8EYJX8R339",
             "button_style_secondary": false
           }
         }
@@ -53,8 +58,55 @@
         "template--14443128324171__ba900760-cb56-4583-b6d3-1325cc21051e-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ABC9512_1.jpg",
+        "image": "shopify://shop_images/ABC9512_1.jpg",
         "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_xx9BhM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YYRixR": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_HKf6W8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Step One: Choose your garments from our website </strong></p><p>Hi-Vis  Vests for Community projects or Specialised Work Teams</p><ul><li>Caps & Beanies </li><li>Hi Vis Gear </li><li>Plain AS Colours Tee’s and Hoody’s </li><li>Overalls</li><li>Other Specialist items  - please contact us for enquiries.</li></ul><p><strong>Step Two: Heat Transfer or Embroidery?</strong></p><p>Choose heat transfer for complex, colorful designs, high-volume orders, and a modern, flexible finish, as it offers cost-efficiency, a faster application process, and is ideal for athletic wear. </p><p>Opt for embroidery for a premium, textured, and durable 3D look, perfect for smaller orders, simpler logos, and sturdy fabrics like fleece or denim where longevity matching the garment is desired. </p><p><strong>Step Three : Fill in the form above or email us with artwork and garment choices - </strong><a href=\"/pages/contact-us\" title=\"Contact Us\"><strong>Sales@faanz.co.nz</strong></a></p><p><strong>We require supplied artwork/files for logos and images to ensure your workwear is customised to your specifications.</strong> For text work, such as staff names, no artwork/files are needed. We always send a proof for your approval before starting any work. </p><p></p><p></p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "button_MRprYE": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YYRixR",
+        "text_HKf6W8",
+        "button_MRprYE"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG-2784.webp",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -81,6 +133,7 @@
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
     "ba900760-cb56-4583-b6d3-1325cc21051e",
+    "image_with_text_xx9BhM",
     "db68a7d4-3d55-4f8c-a5b1-6537119049bf"
   ]
 }
