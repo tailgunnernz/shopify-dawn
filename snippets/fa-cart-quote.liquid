@@ -20,10 +20,10 @@
 </dialog>
 <script src="{{ 'fa-quote.js' | asset_url }}" defer="defer"></script>
 <style>
-dialog::backdrop {
+#fa_quote_modal::backdrop {
   background-color: rgba(250, 251, 253, 0.9);
 }
-dialog {
+#fa_quote_modal {
   box-shadow: 0 6px 24px 0 rgba(18, 43, 70, 0.1);
   width: 800px;
   max-width: 90%;
@@ -31,8 +31,11 @@ dialog {
   background-color: rgb(var(--fa-orange));
   color: white;
   padding: 4rem 2rem;
+  top: 50%;
+  transform: translate(0%, -50%);
+  text-align: left;
 }
-dialog .loader {
+#fa_quote_modal .loader {
   width: 20px;
   height: 20px;
   border: 3px solid white;
@@ -43,21 +46,21 @@ dialog .loader {
   animation: rotation 1s linear infinite;
 }
 
-dialog header {
+#fa_quote_modal header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
 }
-dialog header h3, dialog header a{
+#fa_quote_modal header h3, #fa_quote_modal header a{
     color: white !important;
     margin: 0;
 }
-dialog header a{
+#fa_quote_modal header a{
     text-decoration: none;
 }
 
-dialog input[type="email"]{
+#fa_quote_modal input[type="email"]{
     width:100%;
   margin-bottom: 10px !important;
   height: auto;
