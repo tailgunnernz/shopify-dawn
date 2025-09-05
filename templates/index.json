@@ -87,12 +87,12 @@
         "slide_T7jDkJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FXD_HEADER.jpg",
+            "image": "shopify://shop_images/Screenshot_2025-09-05_at_3.51.42_PM.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
-            "button_label": "Shop FXD Workwear",
-            "link": "shopify://collections/fxd",
+            "button_label": "Want to Add a Logo?",
+            "link": "shopify://pages/custom-branding-logos",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": true,
