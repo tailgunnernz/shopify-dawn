@@ -22,23 +22,89 @@
       "type": "fa-page-header",
       "custom_css": [],
       "settings": {
-        "title": "",
+        "title": "Sustainability",
         "image_overlay": false
       }
     },
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115": {
-      "type": "custom-liquid",
+    "rich_text_pCwzb8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9MNRRd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainability Programme – Powered by Impatex Textile Recycling",
+            "heading_size": "h1"
+          }
+        },
+        "text_PTU8AB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Footwear & Apparel Safety, protecting people at work goes hand-in-hand with protecting the planet. We are committed to reducing our environmental impact and helping our customers achieve their sustainability goals.</p><p>Through the Impatex Textile Recycling Programme, we provide a responsible end-of-life solution for uniforms, footwear, and protective apparel.</p><p>Once the textiles are sorted and assessed as suitable for recycling the items are decommissioned, removing all hardware such as zips and buttons. The textiles are then broken down through an industrial tearing process to create a fine fluffy fibre. This unique recycled fibre can then be used to create products such as home insulation, couch cushioning, pet beds, wall partitions, acoustic panelling, and so much more commonly turning unusable waste into their RETEX product (100% NZ textile waste and 100% recyclable in NZ) panels.</p><p>Find more information at <a href=\"https://impactex.nz/\" title=\"https://impactex.nz/\">Impatex</a><br/></p><p> </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9MNRRd",
+        "text_PTU8AB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n{{ page.content }}\n</div>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 80
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_nU7fRn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CipEjD": {
+          "type": "heading",
+          "settings": {
+            "heading": "How It Works:",
+            "heading_size": "h1"
+          }
+        },
+        "text_9dP9xh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Collection – End-of-life clean uniforms and footwear are gathered - <a href=\"/pages/contact-us\" title=\"Contact Us\">Contact us</a> for collection/drop off details.  <br/>2. Processing – Materials are sorted, stripped of trims, and recycled into raw resources.<br/>3. Reuse – New textiles, insulation, and other sustainable products are created.<br/>4. Reporting – Businesses receive data showing how much waste has been diverted from landfill.</p>"
+          }
+        },
+        "button_GHVcfx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CipEjD",
+        "text_9dP9xh",
+        "button_GHVcfx"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115"
+    "rich_text_pCwzb8",
+    "rich_text_nU7fRn"
   ]
 }
