@@ -26,6 +26,9 @@ function afterMultivariantsAddToCartCallBack() {
         // Render updated cart contents and open drawer
         cartDrawer.classList.remove('is-empty')
         cartDrawer.renderContents(parsedState)
+        if (typeof setupFaQuote === 'function') {
+            setupFaQuote()
+          }
       })
       .catch((error) => {
         console.error('Error updating cart sections:', error)
