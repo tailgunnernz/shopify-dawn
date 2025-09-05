@@ -12,7 +12,7 @@ function afterMultivariantsAddToCartCallBack() {
         // Update cart sections
         const sectionsToUpdate = cartDrawer.getSectionsToRender()
         const sectionRequests = sectionsToUpdate.map((section) =>
-          fetch(`${window.routes.cart_url}?section_id=${section}`).then(
+          fetch(`${window.routes.cart_url}?section_id=${section.id}`).then(
             (response) => response.text()
           )
         )
