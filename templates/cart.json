@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -9,8 +19,9 @@
     },
     "06ae153b-fac3-4500-ad3c-45b5ae03014b": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "{% if cart.empty? == false %}\n<div class=\"page-width\">\n{% render 'fa-cart-quote' %}\n<\/div>\n{% endif %}",
+        "custom_liquid": "{% if cart.empty? == false %}\n<div class=\"page-width\">\n{% render 'fa-cart-quote' %}\n</div>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -21,19 +32,18 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "subtotal",
         "buttons"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 40,
         "padding_bottom": 40
@@ -67,12 +77,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_WVGnti": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4mKe4x": {
+          "type": "heading",
+          "settings": {
+            "heading": "To view your items, please click the cart icon",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4mKe4x"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_liquid_mfj3Ch": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\n document.addEventListener(\"DOMContentLoaded\", function() {\n    const cartIcon = document.querySelector(\"#cart-icon-bubble\");\n    if(!cartIcon) return;\n    cartIcon.click()\n  });\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "cart-items",
     "06ae153b-fac3-4500-ad3c-45b5ae03014b",
     "cart-footer",
-    "featured-collection"
+    "featured-collection",
+    "rich_text_WVGnti",
+    "custom_liquid_mfj3Ch"
   ]
 }
