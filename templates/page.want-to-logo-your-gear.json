@@ -26,15 +26,6 @@
         "image_overlay": false
       }
     },
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n{{ page.content }}\n</div>",
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 80
-      }
-    },
     "image_with_text_hQtw9T": {
       "type": "image-with-text",
       "blocks": {
@@ -48,14 +39,14 @@
         "text_G6QyGi": {
           "type": "text",
           "settings": {
-            "text": "<p>Customise workwear with logos, staff names, and business branding.  </p><p>We specialise in custom-branded workwear that ensures your team looks “put together” and to represent your company. Whether you need Hi-Vis gear for outdoor workers or corporate uniforms for office staff, something specialised for the boss.  Let us know how we can help with suggestions for design, colours and placement.</p><p><strong>Step One: Choose your garments from our website </strong></p><p>Hi-Vis  Vests for Community projects or Specialised Work Teams</p><ul><li>Caps & Beanies </li><li>Hi Vis Gear </li><li>Plain AS Colours Tee’s and Hoody’s </li><li>Overalls</li><li>Other Specialist items  - please contact us for enquiries.</li></ul><p><strong>Step Two: Heat Transfer or Embroidery?</strong></p><p>Choose heat transfer for complex, colorful designs, high-volume orders, and a modern, flexible finish, as it offers cost-efficiency, a faster application process, and is ideal for athletic wear. </p><p>Opt for embroidery for a premium, textured, and durable 3D look, perfect for smaller orders, simpler logos, and sturdy fabrics like fleece or denim where longevity matching the garment is desired. </p><p><strong>Step Three : Email us with artwork and garment choices - </strong><a href=\"/pages/contact-us\" title=\"Contact Us\"><strong>Sales@faanz.co.nz</strong></a></p><p><strong>We require supplied artwork/files for logos and images to ensure your workwear is customised to your specifications.</strong> For text work, such as staff names, no artwork/files are needed. We always send a proof for your approval before starting any work. </p><p></p><p></p><p></p>",
+            "text": "<p>Let us know how we can help with suggestions for design, colours and placement.</p><p><strong>Step One: Choose your garments from our website </strong></p><p>Hi-Vis  Vests for Community projects or Specialised Work Teams</p><ul><li>Caps & Beanies </li><li>Hi Vis Gear </li><li>Plain AS Colours Tee’s and Hoody’s </li><li>Overalls</li><li>Other Specialist items  - please contact us for enquiries.</li></ul><p><strong>Step Two: Heat Transfer or Embroidery?</strong></p><p>Choose heat transfer for complex, colorful designs, high-volume orders, and a modern, flexible finish, as it offers cost-efficiency, a faster application process, and is ideal for athletic wear. </p><p>Opt for embroidery for a premium, textured, and durable 3D look, perfect for smaller orders, simpler logos, and sturdy fabrics like fleece or denim where longevity matching the garment is desired. </p><p><strong>Step Three : Email us with artwork and garment choices - </strong><a href=\"/pages/contact-us\" title=\"Contact Us\"><strong>Sales@faanz.co.nz</strong></a></p><p><strong>We require supplied artwork/files for logos and images to ensure your workwear is customised to your specifications.</strong> For text work, such as staff names, no artwork/files are needed. We always send a proof for your approval before starting any work. </p><p></p><p></p><p></p>",
             "text_style": "body"
           }
         },
         "button_BybEXq": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Get in Touch",
             "button_link": "shopify://pages/contact-us",
             "button_style_secondary": false
           }
@@ -86,7 +77,6 @@
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
-    "75e581bc-2a5d-46f9-ac89-4afa307d3115",
     "image_with_text_hQtw9T"
   ]
 }
