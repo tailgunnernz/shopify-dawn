@@ -119,7 +119,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
     "currency_code_enabled": true,
-    "cart_type": "page",
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
@@ -143,13 +143,6 @@
       }
     },
     "content_for_index": [],
-    "blocks": {
-      "6259689876533155755": {
-        "type": "shopify://apps/adoric-bundles/blocks/bundle-embed/e20b8847-d680-41d1-b500-b783d925492a",
-        "disabled": false,
-        "settings": {}
-      }
-    },
     "color_schemes": {
       "background-1": {
         "settings": {
