@@ -1,5 +1,31 @@
 document.addEventListener('DOMContentLoaded', async function() {
   setupFaQuote();
+
+  // Select the target node
+  const cartDrawer = document.querySelector('cart-drawer');
+
+  if (cartDrawer) {
+    // Create a callback function to run when mutations occur
+    const callback = function(mutationsList, observer) {
+      for (let mutation of mutationsList) {
+        if (mutation.type === 'childList' || mutation.type === 'subtree') {
+          // Your custom function here
+          console.log('Cart drawer content changed!');
+          setupFaQuote();
+        }
+      }
+    };
+
+    // Create an observer instance
+    const observer = new MutationObserver(callback);
+
+    // Start observing
+    observer.observe(cartDrawer, {
+      childList: true, // observe direct children
+      subtree: true,   // observe all descendants
+    });
+  }
+
 })
 
 function setupFaQuote(){
