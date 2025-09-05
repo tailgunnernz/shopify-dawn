@@ -72,23 +72,11 @@
           "settings": {
             "text": "<p>1. Collection – End-of-life clean uniforms and footwear are gathered - <a href=\"/pages/contact-us\" title=\"Contact Us\">Contact us</a> for collection/drop off details.  <br/>2. Processing – Materials are sorted, stripped of trims, and recycled into raw resources.<br/>3. Reuse – New textiles, insulation, and other sustainable products are created.<br/>4. Reporting – Businesses receive data showing how much waste has been diverted from landfill.</p>"
           }
-        },
-        "button_GHVcfx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_CipEjD",
-        "text_9dP9xh",
-        "button_GHVcfx"
+        "text_9dP9xh"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
