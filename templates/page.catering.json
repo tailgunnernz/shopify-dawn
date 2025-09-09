@@ -1,0 +1,291 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_NaRKX6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iBUgwm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_JLEG49": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With our 4 children we started on our adventure with a mission to bake using time honoured methods, wholesome ingredients which are sourced locally where possible, and sharing this with each other, family, friends and anyone who appreciates good food.</p><p>We purchased an old church in Clareville that had been operating as a café.  We closed the doors for 2 weeks and renovated, earthquake strengthened and redecorated the building.</p><p>We also made a point of having a full length viewing window where our bakers can greet and interact with our customers and our customers can see how and where their food is made.</p><p>We were very proud and a little scared when we opened the doors of The Clareville Bakery in August 2013.</p><p>With our awesome start up team we enjoyed the thrill of creating Artisan Baked products, Exceptional Coffee, an Outstanding Food and Superb Service in our resurrected church.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iBUgwm",
+        "text_JLEG49"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/story-pic.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_NKLTrC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nhCM4k": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Bakels Supreme Pie Awards</strong>",
+            "text": "<p><strong>Gold</strong> – Apprentice Pie Maker Awards – Amie Irwin</p><p><strong>4th Place</strong> – Apprentice Pie Maker Awards – Amy Bryant</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wj7XkJ": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>BIANZ awards 2023</strong>",
+            "text": "<p><strong>Gold</strong> – Decked-out Doughnut Championship</p><p><strong>Gold</strong> – The Great Square Off – Custard Square Championship</p><p><strong>Gold</strong> – The Grand Croissant Bake Off</p><p><strong>Gold</strong> – The Great Glazed Fruit Cake Competition</p><p><strong>Bronze</strong> – The Jolly Christmas Tarts Championship</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GXMLtD": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZ Artisan Awards 2022</strong>",
+            "text": "<p><strong>Gold </strong>– Durum Wheat Sourdough<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h9KNYc": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Outstanding NZ Food Awards 2022</strong>",
+            "text": "<p><strong>Gold</strong> – Durum Wheat Sourdough<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gtRjmV": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Harvest festival 2021</strong>",
+            "text": "<p>Best Wine & Food match<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yAiqtb": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Wairarapa Business awards 2020</strong>",
+            "text": "<p>Winner of ‘Team’ category<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gwr36J": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Outstanding NZ Food Awards 2019</strong>",
+            "text": "<p><strong>Gold</strong> – Clareville Crackers<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gYpaQB": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZI Rural women NZ 2019</strong>",
+            "text": "<p>Winner of ‘bountiful table’<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bN3cxA": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZ Food Producer 2018</strong>",
+            "text": "<p>Earth category – Supreme Winner with our Miche (wholemeal sourdough)</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rgqHeb": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZ Café of the Year 2018</strong>",
+            "text": "<p>Best Regional Rural Café<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jKR43K": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZ Food Awards 2017</strong>",
+            "text": "<p>Finalist in Business and Innovation Award<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NhcdE7": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZ Outstanding Food Producer 2017</strong>",
+            "text": "<p>Finalist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gF8Lfa": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZ Food Awards 2016</strong>",
+            "text": "<p><strong>Finalist</strong> in Artisan Food Produce Awards<br/><strong>3rd placing</strong> in Artisan Food Producer Award for Clareville Crackers</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pUcdMy": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>The Great NZ Bread Bake off 2016</strong>",
+            "text": "<p><strong>Overall Champion</strong> of Champions<br/><strong>Gold</strong> – Sour Dough Miche</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7yc3T6": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>NZ Café of the Year 2016</strong>",
+            "text": "<p>Best Rural Café</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jyhrMn": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>BIANZ Christmas Mince Tart Winners 2015</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zVf8mW": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Mindfood Producer of the Year 2015</strong>",
+            "text": "<p>Overall Winner<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MwgXYz": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Mindfood Producer of the Year Awards 2014</strong>",
+            "text": "<p>Best New Producer</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rLfzBb": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Bakels Supreme Pie awards 2014</strong>",
+            "text": "<p><strong>Supreme Winner</strong> – Lamb Cutlet and Kumara Pie<br/><strong>Gold</strong> – Gourmet Lamb Cutlet and Kumara Pie</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9tERNz": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>BIANZ Awards 2014</strong>",
+            "text": "<p><strong>2014 – Best Bread Bakery</strong><br/><strong>Gold with Distinction</strong> – Sour Dough<br/><strong>Gold with Distinction</strong> – Grain Bread<br/><strong>Gold with Distinction</strong> – Opera Cake<br/><strong>Silver</strong> – Gluten Free Cake<br/><strong>Silver </strong>– Bread Display<br/><strong>Bronze</strong> – Decorated Cake</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nhCM4k",
+        "column_Wj7XkJ",
+        "column_GXMLtD",
+        "column_h9KNYc",
+        "column_gtRjmV",
+        "column_yAiqtb",
+        "column_gwr36J",
+        "column_gYpaQB",
+        "column_bN3cxA",
+        "column_rgqHeb",
+        "column_jKR43K",
+        "column_NhcdE7",
+        "column_gF8Lfa",
+        "column_pUcdMy",
+        "column_7yc3T6",
+        "column_jyhrMn",
+        "column_zVf8mW",
+        "column_MwgXYz",
+        "column_rLfzBb",
+        "column_9tERNz"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Awards",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_NaRKX6",
+    "multicolumn_NKLTrC"
+  ]
+}
