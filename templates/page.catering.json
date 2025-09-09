@@ -55,6 +55,9 @@
         "column_7qVf6c",
         "column_jfnxNp"
       ],
+      "custom_css": [
+        ".multicolumn-card__info {padding: 0; margin-bottom: 2rem;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Catering",
