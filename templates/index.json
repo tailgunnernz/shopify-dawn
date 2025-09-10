@@ -27,7 +27,7 @@
         ".banner__heading p {margin: 0;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/82376f00-140A1560-scaled.jpg",
+        "image": "shopify://shop_images/bg7.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
