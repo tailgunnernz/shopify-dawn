@@ -12,6 +12,24 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_T7jDkJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-05_at_3.51.42_PM.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Want to Add a Logo?",
+            "link": "shopify://pages/custom-branding-logos",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_qpMxjM": {
           "type": "slide",
           "settings": {
@@ -83,32 +101,14 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_T7jDkJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-09-05_at_3.51.42_PM.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Want to Add a Logo?",
-            "link": "shopify://pages/custom-branding-logos",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_T7jDkJ",
         "slide_qpMxjM",
         "slide_fqqzWy",
         "slide_dnpCXF",
-        "slide_ydd6RK",
-        "slide_T7jDkJ"
+        "slide_ydd6RK"
       ],
       "settings": {
         "layout": "grid",
