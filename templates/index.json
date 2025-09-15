@@ -89,7 +89,7 @@
           "type": "button",
           "settings": {
             "button_label": "More About Us",
-            "button_link": "#",
+            "button_link": "shopify://pages/our-story",
             "button_style_secondary": false
           }
         }
