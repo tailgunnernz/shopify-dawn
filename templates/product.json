@@ -72,7 +72,7 @@
         "46b38823-1b17-4e7a-a288-4889c3b7cde8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- capture msg -%}\nI'm enquiring about \"{{ product.title }}\" SKU: {{ product.selected_or_first_available_variant.sku }}\n{%- endcapture -%}\n<div class=\"fa-single-product-links\">\n<a href=\"https://www.footwearandapparel.co.nz/pages/contact-us?message={{ msg | url_encode }}\">Need Help?</a>\n<a href=\"https://www.footwearandapparel.co.nz/pages/contact-us\">Need a Quote?</a>\n</div>\n<div class=\"fa-single-product-links\">\n<a href=\"/pages/delivery\">Delivery & Shipping</a>\n<a href=\"https://www.footwearandapparel.co.nz/pages/returns-policy\">Return Policy</a>\n</div>\n<div class=\"fa-single-product-links\">\n<a href=\"https://www.footwearandapparel.co.nz/pages/sizing\">Sizing Charts</a>\n</div>"
+            "custom_liquid": "{%- capture msg -%}\nI'm enquiring about \"{{ product.title }}\" SKU: {{ product.selected_or_first_available_variant.sku }}\n{%- endcapture -%}\n<div class=\"fa-single-product-links\">\n<a href=\"https://www.footwearandapparel.co.nz/pages/contact-us?message={{ msg | url_encode }}\">Need Help?</a>\n<a href=\"https://www.footwearandapparel.co.nz/pages/contact-us?message={{ msg | url_encode }}\">Need a Quote?</a>\n</div>\n<div class=\"fa-single-product-links\">\n<a href=\"/pages/delivery\">Delivery & Shipping</a>\n<a href=\"https://www.footwearandapparel.co.nz/pages/returns-policy\">Return Policy</a>\n</div>\n<div class=\"fa-single-product-links\">\n<a href=\"https://www.footwearandapparel.co.nz/pages/sizing\">Sizing Charts</a>\n</div>"
           }
         },
         "share": {
