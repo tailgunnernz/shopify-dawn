@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -20,7 +29,7 @@
         ".banner:after,.banner__media:after {background: var(--fa-overlay);}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/contact-boots.jpg",
+        "image": "shopify://shop_images/contact-boots.jpg",
         "image_overlay_opacity": 100,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -35,8 +44,11 @@
     },
     "eb2aaf7b-a926-4280-9650-f82bac722f94": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".need-help a{color: inherit;}"
+      ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width scroll-trigger animate--slide-in\">\n<div class=\"grid items-center justify-center\">\n<div class=\"grid_item\">\n<img class=\"scroll-trigger animate--slide-in\"  alt=\"clock\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1353\/2007\/files\/footer-clock.png\" loading=\"lazy\" style=\"width: 100%; max-width: 200px;\" \/>\n<\/div>\n\n<div class=\"grid_item\">\n<h3 class=\"h1 scroll-trigger animate--slide-in\" style=\"color: white !important; margin:0 0 1rem;\">Need Help?<\/h3>\n<h4 class=\"scroll-trigger animate--slide-in\" style=\"margin:0\">call us at 0800 826 826 or email us<\/h4>\n<\/div> \n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width scroll-trigger animate--slide-in need-help\">\n<div class=\"grid items-center justify-center\">\n<div class=\"grid_item\">\n<img class=\"scroll-trigger animate--slide-in\"  alt=\"clock\" src=\"https://cdn.shopify.com/s/files/1/1353/2007/files/footer-clock.png\" loading=\"lazy\" style=\"width: 100%; max-width: 200px;\" />\n</div>\n\n<div class=\"grid_item\">\n<h3 class=\"h1 scroll-trigger animate--slide-in\" style=\"color: white !important; margin:0 0 1rem;\">Need Help?</h3>\n<h4 class=\"scroll-trigger animate--slide-in\" style=\"margin:0\">call us at <a href=\"tel:0800826826\">0800 826 826</a> or <a href=\"mailto:sales@faanz.co.nz\">email us</a></h4>\n</div> \n</div>\n</div>",
         "color_scheme": "accent-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -45,7 +57,7 @@
     "2f6577fe-5fd0-45aa-8958-3d89d2491d3b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width scroll-trigger animate--slide-in\">\n<a class=\"animate--slide-in\" href=\"\/\" title=\"Go Home\">\n<img style=\"width: 100%; max-width: 300px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1353\/2007\/files\/2-Footwear_and_Apparel_Safety_Logo_-_long.png?v=1691376011\" alt=\"Footwear & Apparel Logo\" \/>\n<\/a>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width scroll-trigger animate--slide-in\">\n<a class=\"animate--slide-in\" href=\"/\" title=\"Go Home\">\n<img style=\"width: 100%; max-width: 300px\" src=\"https://cdn.shopify.com/s/files/1/1353/2007/files/2-Footwear_and_Apparel_Safety_Logo_-_long.png?v=1691376011\" alt=\"Footwear & Apparel Logo\" />\n</a>\n</div>",
         "color_scheme": "accent-2",
         "padding_top": 40,
         "padding_bottom": 20
