@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,7 +21,7 @@
       "type": "fa-page-header",
       "settings": {
         "title": "Get in touch",
-        "header_image": "shopify:\/\/shop_images\/contact-hero.jpg",
+        "header_image": "shopify://shop_images/contact-hero.jpg",
         "image_overlay": true
       }
     },
@@ -26,17 +35,28 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "form_richtext": "<h3>Please pop us a message if you have any questions, concerns or just general feedback. We appreciate customer communication and strive to provide the best service possible.<\/h3>",
-        "richtext": "<h3>Our Physical Store Address:<\/h3><p>2\/110 Whakatiki St,<br\/>Upper Hutt Wellington, <br\/>New Zealand<\/p><p><a href=\"https:\/\/www.footwearandapparel.co.nz\/\" title=\"https:\/\/www.footwearandapparel.co.nz\/\">footwearandapparel.co.nz<\/a><\/p><h3>Opening hours:<\/h3><p>Monday - Thursday: 7:30am - 5:00pm<br\/>Friday: 7:30am - 4:30pm<\/p><h3>Call us:<\/h3><p>Freephone ~ <a href=\"tel:0800 826 826\" title=\"tel:0800 826 826\">0800 826 826<\/a><br\/>Phone: <a href=\"tel:045279163\" title=\"tel:045279163\">(04) 527 9163<\/a><br\/>Email: <a href=\"mailto:sales@faanz.co.nz\" title=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz<\/a><\/p>",
+        "form_richtext": "<h3>Please pop us a message if you have any questions, concerns or just general feedback. We appreciate customer communication and strive to provide the best service possible.</h3>",
+        "richtext": "<h3>Our Physical Store Address:</h3><p>2/110 Whakatiki St,<br/>Upper Hutt Wellington, <br/>New Zealand</p><p><a href=\"https://www.footwearandapparel.co.nz/\" title=\"https://www.footwearandapparel.co.nz/\">footwearandapparel.co.nz</a></p><h3>Opening hours:</h3><p>Monday - Thursday: 7:30am - 5:00pm<br/>Friday: 7:30am - 4:30pm</p><h3>Call us:</h3><p>Freephone ~ <a href=\"tel:0800 826 826\" title=\"tel:0800 826 826\">0800 826 826</a><br/>Phone: <a href=\"tel:045279163\" title=\"tel:045279163\">(04) 527 9163</a><br/>Email: <a href=\"mailto:sales@faanz.co.nz\" title=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz</a></p>",
         "color_scheme": "",
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "custom_liquid_MbyFmV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\ndocument.addEventListener('DOMContentLoaded', function () {\n  const params = new URLSearchParams(window.location.search);\n  const msg = params.get('message');\n  if (!msg) return;\n\n  const field = document.querySelector('[name=\"contact[Comment]\"]');\n  if (!field) return;\n\n  // Set the value (decoded automatically by URLSearchParams)\n  field.value = msg;\n\n});\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "main",
     "b92ab1b5-b086-4c1a-bd32-00b89721f679",
-    "d1b2201b-6255-4a16-b1f0-7086ad9f7191"
+    "d1b2201b-6255-4a16-b1f0-7086ad9f7191",
+    "custom_liquid_MbyFmV"
   ]
 }
