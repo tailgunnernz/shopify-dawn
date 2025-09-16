@@ -27,7 +27,7 @@
         ".banner__heading p {margin: 0;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/bg7.jpg",
+        "image": "shopify://shop_images/home-baguettes.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -101,7 +101,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/a20e2c30-croissant-6-scaled.jpg",
+        "image": "shopify://shop_images/home-miche.jpg",
         "image_link": "",
         "height": "large",
         "desktop_image_width": "medium",
