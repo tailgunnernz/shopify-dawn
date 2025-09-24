@@ -6,3 +6,12 @@
         padding: 4rem 0rem;
     }
 }
+@media screen and (max-height: 1000px) {
+  cart-drawer-items {
+    overflow: visible;
+  }
+
+  .drawer__inner {
+    overflow: scroll;
+  }
+}
