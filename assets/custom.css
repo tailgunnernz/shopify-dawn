@@ -15,3 +15,6 @@
     overflow: scroll;
   }
 }
+.ZapietStack-Item:has(.ZapietLocations-List) {
+    max-height: 120px;
+}
