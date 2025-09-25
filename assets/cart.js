@@ -245,9 +245,8 @@ if (!customElements.get('cart-note')) {
   );
 }
 
-
+// Force cart refresh on load so discounts show
 window.addEventListener('load', () => {
-  console.log('loaded')
   document.querySelectorAll('cart-items, cart-drawer-items').forEach((el) => {
     if (typeof el.onCartUpdate === 'function') el.onCartUpdate();
   });
