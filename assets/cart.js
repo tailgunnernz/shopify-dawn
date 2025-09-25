@@ -244,3 +244,11 @@ if (!customElements.get('cart-note')) {
     }
   );
 }
+
+
+window.addEventListener('load', () => {
+  console.log('loaded')
+  document.querySelectorAll('cart-items, cart-drawer-items').forEach((el) => {
+    if (typeof el.onCartUpdate === 'function') el.onCartUpdate();
+  });
+});
