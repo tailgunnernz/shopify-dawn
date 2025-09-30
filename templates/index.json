@@ -14,6 +14,7 @@
       "blocks": {
         "slide_JKHfEt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Give_away_LONG_NEW-06.jpg",
             "heading": "",
