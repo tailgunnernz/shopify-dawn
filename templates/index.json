@@ -69,19 +69,19 @@
         "slide_dnpCXF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Grisport_Slide_8967bc0b-5813-468e-8918-993edca59aa0.png",
+            "image": "shopify://shop_images/Untitled_design_1.jpg",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "",
-            "button_label": "Shop Grisport",
-            "link": "shopify://collections/grisport",
+            "button_label": "Shop XDMG",
+            "link": "shopify://products/new-xdmg-up2-cotton-cargo-pant-elastic-waist",
             "button_style_secondary": false,
-            "box_align": "bottom-left",
+            "box_align": "top-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "right"
           }
         },
         "slide_ydd6RK": {
