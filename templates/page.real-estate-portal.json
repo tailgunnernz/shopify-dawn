@@ -40,22 +40,22 @@
             "collection": "andco-real-estate-agents-portal"
           }
         },
-        "featured_collection_FepXWJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "harcourts"
-          }
-        },
         "featured_collection_4xKcFJ": {
           "type": "featured_collection",
           "settings": {
             "collection": "collective-first-national-real-estate-agents-portal"
           }
         },
-        "featured_collection_e9NY94": {
+        "featured_collection_FepXWJ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tall-poppy-real-estate-flags-agents-portal"
+            "collection": "harcourts"
+          }
+        },
+        "featured_collection_QR7AA4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pgg-wrightson-portal"
           }
         },
         "featured_collection_t86FhW": {
@@ -64,27 +64,27 @@
             "collection": "ray-white-real-estate"
           }
         },
+        "featured_collection_e9NY94": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tall-poppy-real-estate-flags-agents-portal"
+          }
+        },
         "featured_collection_KJnKk8": {
           "type": "featured_collection",
           "settings": {
             "collection": "tommys-real-estate-agents-portal"
           }
-        },
-        "featured_collection_QR7AA4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pgg-wrightson-portal"
-          }
         }
       },
       "block_order": [
         "featured_collection_e9KwGr",
-        "featured_collection_FepXWJ",
         "featured_collection_4xKcFJ",
-        "featured_collection_e9NY94",
+        "featured_collection_FepXWJ",
+        "featured_collection_QR7AA4",
         "featured_collection_t86FhW",
-        "featured_collection_KJnKk8",
-        "featured_collection_QR7AA4"
+        "featured_collection_e9NY94",
+        "featured_collection_KJnKk8"
       ],
       "settings": {
         "title": "",
