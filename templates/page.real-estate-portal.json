@@ -75,6 +75,12 @@
           "settings": {
             "collection": "tommys-real-estate-agents-portal"
           }
+        },
+        "featured_collection_Vht9iB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bayleys"
+          }
         }
       },
       "block_order": [
@@ -84,7 +90,8 @@
         "featured_collection_QR7AA4",
         "featured_collection_t86FhW",
         "featured_collection_e9NY94",
-        "featured_collection_KJnKk8"
+        "featured_collection_KJnKk8",
+        "featured_collection_Vht9iB"
       ],
       "settings": {
         "title": "",
