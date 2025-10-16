@@ -137,8 +137,6 @@ customElements.define('cart-drawer-items', CartDrawerItems);
 
 
 
-
-
 document.addEventListener('DOMContentLoaded', function () {
   function productHasTag(product, tag) {
     const tags = product.tags
@@ -146,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < tags.length; i++) {
       const lowerTag = tags[i].toLowerCase()
       if (lowerTag.includes(tag)) {
-        const day = lowerTag.replace('no-pickup-', '').trim() 
+        const day = lowerTag.replace(tag, '').trim() 
         days.add(day)
       }
     }
@@ -201,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //     element.classList.add('picker__day--disabled')
     //   })
     console.log('datepicker rendered')
-    const disableDays = cartHasTag('test');
+    const disableDays = cartHasTag('No Pickup');
     console.log('disableDays', disableDays)
     if (!disableDays) return
     console.log('disabling days', disableDays)
