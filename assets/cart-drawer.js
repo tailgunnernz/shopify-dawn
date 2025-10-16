@@ -134,3 +134,45 @@ class CartDrawerItems extends CartItems {
 }
 
 customElements.define('cart-drawer-items', CartDrawerItems);
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  function productHasTag(product, tag) {
+    var tags = product.tags
+    for (var i = 0; i < tags.length; i++) {
+      if (tags[i] == tag) {
+        return true
+      }
+    }
+    return false
+  }
+
+  function cartHasTag(tag) {
+    var products = ZapietWidgetConfig.products
+    console.log('zapiet products', products)
+    for (let i = 0; i < products.length; i++) {
+      if (productHasTag(products[i], tag)) {
+        return true
+      }
+    }
+    return false
+  }
+
+  window.ZapietEvent.listen('pickup.datepicker.rendered', function () {
+    // document
+    //   .querySelectorAll(
+    //     '.picker__day[aria-label*="Mon"], .picker__day[aria-label*="Tue"]'
+    //   )
+    //   .forEach(function (element) {
+    //     element.classList.add('picker__day--disabled')
+    //   })
+    console.log('checking cart')
+    if (!cartHasTag('test')) return
+    window.ZapietEvent.listen('pickup.datepicker.opened', function () {
+      window.Zapiet.disableDates([2, 3])
+    })
+  })
+})
