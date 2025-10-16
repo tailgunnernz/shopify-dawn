@@ -141,9 +141,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const tags = product.tags
     let days = new Set()
     for (var i = 0; i < tags.length; i++) {
-      const lowerTag = tags[i].toLowerCase()
-      if (lowerTag.includes(tag)) {
-        const day = lowerTag.replace(tag, '').trim() 
+      if (tags[i].includes(tag)) {
+        const day = tags[i].replace(tag, '').trim() 
         days.add(day)
       }
     }
