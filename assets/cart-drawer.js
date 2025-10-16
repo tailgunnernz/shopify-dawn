@@ -141,13 +141,16 @@ customElements.define('cart-drawer-items', CartDrawerItems);
 
 document.addEventListener('DOMContentLoaded', function () {
   function productHasTag(product, tag) {
-    var tags = product.tags
+    const tags = product.tags
+    let days = new Set()
     for (var i = 0; i < tags.length; i++) {
-      if (tags[i] == tag) {
-        return true
+      const lowerTag = tags[i].toLowerCase()
+      if (lowerTag.includes(tag)) {
+        const day = lowerTag.replace('no-pickup-', '').trim() 
+        days.add(day)
       }
     }
-    return false
+    return days.size > 0 ? days : false
   }
 
   function cartHasTag(tag) {
@@ -158,12 +161,35 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     })
     console.log('zapiet products', products)
+
+    const days = new Set()
     for (let i = 0; i < products.length; i++) {
-      if (productHasTag(products[i], tag)) {
-        return true
+      const productDays = productHasTag(products[i], tag)
+      if (productDays) {
+        productDays.forEach(day => days.add(day))
       }
     }
-    return false
+
+    const dayMap = {
+      sun: 1,
+      sunday: 1,
+      mon: 2,
+      monday: 2,
+      tue: 3,
+      tuesday: 3,
+      wed: 4,
+      wednesday: 4,
+      thu: 5,
+      thursday: 5,
+      fri: 6,
+      friday: 6,
+      sat: 7,
+      saturday: 7
+    }
+    const mappedDays = days.map(day => dayMap[day])
+    days.clear()
+
+    return mappedDays.length > 0 ? mappedDays : false
   }
 
   window.ZapietEvent.listen('pickup.datepicker.rendered', function () {
@@ -178,9 +204,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const disableDays = cartHasTag('test');
     console.log('disableDays', disableDays)
     if (!disableDays) return
-    window.ZapietEvent.listen('pickup.datepicker.opened', function () {
-      console.log('datepicker opened')
-      window.Zapiet.disableDates([4])
-    })
+    console.log('disabling days', disableDays)
+    window.Zapiet.disableDates(disableDays);
   })
 })
