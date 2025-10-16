@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //     element.classList.add('picker__day--disabled')
     //   })
     console.log('datepicker rendered')
-    const disableDays = cartHasTag('No Pickup');
+    const disableDays = cartHasTag('no pickup');
     console.log('disableDays', disableDays)
     if (!disableDays) return
     console.log('disabling days', disableDays)
