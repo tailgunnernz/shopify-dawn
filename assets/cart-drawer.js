@@ -151,7 +151,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function cartHasTag(tag) {
-    var products = ZapietWidgetConfig.products
+    // var products = ZapietWidgetConfig.products
+    const products = Array.from(document.querySelectorAll('cart-drawer .cart-item')).map(item => {
+      return {
+        tags: item.dataset.productTags.split(',')
+      }
+    })
     console.log('zapiet products', products)
     for (let i = 0; i < products.length; i++) {
       if (productHasTag(products[i], tag)) {
@@ -179,5 +184,3 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   })
 })
-
-
