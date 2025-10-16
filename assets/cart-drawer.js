@@ -167,26 +167,26 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
 
-    const dayMap = {
-      sun: 1,
-      sunday: 1,
-      mon: 2,
-      monday: 2,
-      tue: 3,
-      tuesday: 3,
-      wed: 4,
-      wednesday: 4,
-      thu: 5,
-      thursday: 5,
-      fri: 6,
-      friday: 6,
-      sat: 7,
-      saturday: 7
-    }
-    const mappedDays = Array.from(days).map(day => dayMap[day])
-    days.clear()
+    // const dayMap = {
+    //   sun: 1,
+    //   sunday: 1,
+    //   mon: 2,
+    //   monday: 2,
+    //   tue: 3,
+    //   tuesday: 3,
+    //   wed: 4,
+    //   wednesday: 4,
+    //   thu: 5,
+    //   thursday: 5,
+    //   fri: 6,
+    //   friday: 6,
+    //   sat: 7,
+    //   saturday: 7
+    // }
+    // const mappedDays = Array.from(days).map(day => dayMap[day])
+    // days.clear()
 
-    return mappedDays.length > 0 ? mappedDays : false
+    return days.size > 0 ? Array.from(days) : false
   }
 
   window.ZapietEvent.listen('pickup.datepicker.rendered', function () {
@@ -198,10 +198,19 @@ document.addEventListener('DOMContentLoaded', function () {
     //     element.classList.add('picker__day--disabled')
     //   })
     console.log('datepicker rendered')
-    const disableDays = cartHasTag('no pickup');
+    const disableDays = cartHasTag('No Pickup');
     console.log('disableDays', disableDays)
     if (!disableDays) return
     console.log('disabling days', disableDays)
-    window.Zapiet.disableDates(disableDays);
+
+    let selectAllQuery = ''
+    disableDays.forEach(day => {
+      selectAllQuery += `.picker__day[aria-label*="${day}"], `
+    })
+    selectAllQuery = selectAllQuery.slice(0, -2) // remove last comma and space
+    console.log('selectAllQuery', selectAllQuery)
+    document.querySelectorAll(selectAllQuery).forEach(function (element) {
+      element.classList.add('picker__day--disabled')
+    })
   })
 })
