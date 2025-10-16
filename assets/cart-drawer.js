@@ -136,7 +136,6 @@ class CartDrawerItems extends CartItems {
 customElements.define('cart-drawer-items', CartDrawerItems);
 
 
-
 document.addEventListener('DOMContentLoaded', function () {
   function productHasTag(product, tag) {
     const tags = product.tags
@@ -184,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
       sat: 7,
       saturday: 7
     }
-    const mappedDays = days.map(day => dayMap[day])
+    const mappedDays = Array.from(days).map(day => dayMap[day])
     days.clear()
 
     return mappedDays.length > 0 ? mappedDays : false
