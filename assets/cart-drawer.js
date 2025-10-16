@@ -169,10 +169,12 @@ document.addEventListener('DOMContentLoaded', function () {
     //   .forEach(function (element) {
     //     element.classList.add('picker__day--disabled')
     //   })
-    console.log('checking cart')
+    console.log('datepicker rendered')
     if (!cartHasTag('test')) return
     window.ZapietEvent.listen('pickup.datepicker.opened', function () {
+      console.log('datepicker opened')
       window.Zapiet.disableDates([2, 3])
     })
   })
 })
+
