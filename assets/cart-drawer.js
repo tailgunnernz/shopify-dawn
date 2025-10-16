@@ -136,6 +136,10 @@ class CartDrawerItems extends CartItems {
 customElements.define('cart-drawer-items', CartDrawerItems);
 
 
+/**
+ * Disable specific days in Zapiet pickup datepicker based on product tags in cart
+ * e.g. "No Pickup Sat", "No Pickup Sun"
+ */
 document.addEventListener('DOMContentLoaded', function () {
   function productHasTag(product, tag) {
     const tags = product.tags
@@ -150,14 +154,18 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function cartHasTag(tag) {
-    // var products = ZapietWidgetConfig.products
+    // grab products in cart from cart drawer
+    // assumes cart drawer is present in DOM
+    // and products have data-product-tags attribute
+    // with comma separated list of product tags
+    if (!document.querySelector('cart-drawer')) return false
+    if (document.querySelectorAll('cart-drawer .cart-item').length === 0) return false
     const products = Array.from(document.querySelectorAll('cart-drawer .cart-item')).map(item => {
       return {
         tags: item.dataset.productTags.split(',')
       }
     })
-    console.log('zapiet products', products)
-
+    // merge all the sets of days from each product
     const days = new Set()
     for (let i = 0; i < products.length; i++) {
       const productDays = productHasTag(products[i], tag)
@@ -166,48 +174,22 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
 
-    // const dayMap = {
-    //   sun: 1,
-    //   sunday: 1,
-    //   mon: 2,
-    //   monday: 2,
-    //   tue: 3,
-    //   tuesday: 3,
-    //   wed: 4,
-    //   wednesday: 4,
-    //   thu: 5,
-    //   thursday: 5,
-    //   fri: 6,
-    //   friday: 6,
-    //   sat: 7,
-    //   saturday: 7
-    // }
-    // const mappedDays = Array.from(days).map(day => dayMap[day])
-    // days.clear()
-
     return days.size > 0 ? Array.from(days) : false
   }
 
   window.ZapietEvent.listen('pickup.datepicker.rendered', function () {
-    // document
-    //   .querySelectorAll(
-    //     '.picker__day[aria-label*="Mon"], .picker__day[aria-label*="Tue"]'
-    //   )
-    //   .forEach(function (element) {
-    //     element.classList.add('picker__day--disabled')
-    //   })
-    console.log('datepicker rendered')
+    // get the days to disable based on product tags in cart
+    // e.g. "No Pickup Sat", "No Pickup Sun"
     const disableDays = cartHasTag('No Pickup');
-    console.log('disableDays', disableDays)
     if (!disableDays) return
-    console.log('disabling days', disableDays)
 
     let selectAllQuery = ''
     disableDays.forEach(day => {
       selectAllQuery += `.picker__day[aria-label*="${day}"], `
     })
-    selectAllQuery = selectAllQuery.slice(0, -2) // remove last comma and space
-    console.log('selectAllQuery', selectAllQuery)
+    selectAllQuery = selectAllQuery.slice(0, -2)
+    
+    // disable the days
     document.querySelectorAll(selectAllQuery).forEach(function (element) {
       element.classList.add('picker__day--disabled')
     })
