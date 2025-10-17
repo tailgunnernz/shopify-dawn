@@ -81,6 +81,12 @@
           "settings": {
             "collection": "tommys-real-estate-agents-portal"
           }
+        },
+        "featured_collection_BmCf64": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aritzo-real-estate-portal"
+          }
         }
       },
       "block_order": [
@@ -91,7 +97,8 @@
         "featured_collection_QR7AA4",
         "featured_collection_t86FhW",
         "featured_collection_e9NY94",
-        "featured_collection_KJnKk8"
+        "featured_collection_KJnKk8",
+        "featured_collection_BmCf64"
       ],
       "settings": {
         "title": "",
