@@ -410,6 +410,7 @@
         "column_Cbjz3r",
         "column_rqmqUA"
       ],
+      "disabled": true,
       "settings": {
         "title": "Value Flags",
         "heading_size": "h1",
