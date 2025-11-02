@@ -364,6 +364,16 @@
             "link": "shopify://collections/country-flags"
           }
         },
+        "column_zA8mTe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Santa_christmas_greetings_horizontal_flag_collection-01.jpg",
+            "title": "Festive Standard Flags",
+            "text": "<p>Designed to fly from your flagpole and finished with a heavy duty header and our unique swivel clips to help reduce halyard wear.</p>",
+            "link_label": "View Festive Flags",
+            "link": "shopify://collections/festive-flags-1"
+          }
+        },
         "column_xgEbqJ": {
           "type": "column",
           "settings": {
@@ -372,16 +382,6 @@
             "text": "<p>A range of stock designs for the budget conscious consumer who want a good quality product at a affordable price.</p>",
             "link_label": "View Value Range",
             "link": "https://shop.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
-          }
-        },
-        "column_zA8mTe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Value_Flags_FLEX-74.png",
-            "title": "Value Custom Range",
-            "text": "<p>Choose from Teardrop, feather and square flag options with your own design! For the budget conscious consumer who want a good quality product at an affordable price.</p>",
-            "link_label": "View Value Range",
-            "link": "https://www.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
           }
         },
         "column_mCQPm9": {
@@ -461,8 +461,8 @@
         "column_rzByyE",
         "column_Re38gF",
         "column_3Jae37",
-        "column_xgEbqJ",
         "column_zA8mTe",
+        "column_xgEbqJ",
         "column_mCQPm9",
         "column_4it7cj",
         "column_kLyQ4P",
