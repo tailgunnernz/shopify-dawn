@@ -40,6 +40,12 @@
             "collection": "andco-real-estate-agents-portal"
           }
         },
+        "featured_collection_BmCf64": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aritzo-real-estate-portal"
+          }
+        },
         "featured_collection_Vht9iB": {
           "type": "featured_collection",
           "settings": {
@@ -56,6 +62,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "harcourts"
+          }
+        },
+        "featured_collection_kqMkMJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "one-agency-real-estate-agents-portal"
           }
         },
         "featured_collection_QR7AA4": {
@@ -81,24 +93,19 @@
           "settings": {
             "collection": "tommys-real-estate-agents-portal"
           }
-        },
-        "featured_collection_BmCf64": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aritzo-real-estate-portal"
-          }
         }
       },
       "block_order": [
         "featured_collection_e9KwGr",
+        "featured_collection_BmCf64",
         "featured_collection_Vht9iB",
         "featured_collection_4xKcFJ",
         "featured_collection_FepXWJ",
+        "featured_collection_kqMkMJ",
         "featured_collection_QR7AA4",
         "featured_collection_t86FhW",
         "featured_collection_e9NY94",
-        "featured_collection_KJnKk8",
-        "featured_collection_BmCf64"
+        "featured_collection_KJnKk8"
       ],
       "settings": {
         "title": "",
