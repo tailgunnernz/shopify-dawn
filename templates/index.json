@@ -284,6 +284,17 @@
             "button_link": "shopify://collections/flag-poles"
           }
         },
+        "row_96nxNJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/REAL_ESTATE_PORTAL.jpg",
+            "caption": "Flagmakers",
+            "heading": "Real Estate Portal",
+            "text": "<h3>Easy and simple online ordering for Real Estate flags and signage products.  </h3><p>If your portal is missing or would like us to set one up for your company - Please contact us.<br/>0800 900 800 or Sales@flagmakers.co.nz</p>",
+            "button_label": "View Real Estate Portals",
+            "button_link": "shopify://pages/real-estate-portals"
+          }
+        },
         "row_tAHcjW": {
           "type": "row",
           "disabled": true,
@@ -309,6 +320,7 @@
         "row_tW98W9",
         "row_XcgE9e",
         "row_gyxV7p",
+        "row_96nxNJ",
         "row_tAHcjW"
       ],
       "custom_css": [
