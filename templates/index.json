@@ -33,12 +33,12 @@
         "slide_fqqzWy": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/page3.png",
+            "image": "shopify://shop_images/Original_wide_merika_z97_blue_product_1_front_1536x_cc0fff1a-96a8-4385-a71f-19ecb0d92c78.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop Loud and Proud Clearance",
-            "link": "https://www.footwearandapparel.co.nz/search?q=loud+and+proud&options%5Bprefix%5D=last",
+            "button_label": "Shop Pit Vipers",
+            "link": "shopify://collections/pit-viper",
             "button_style_secondary": false,
             "box_align": "bottom-center",
             "show_text_box": true,
