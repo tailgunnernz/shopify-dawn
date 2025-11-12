@@ -12,24 +12,6 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
-        "slide_HQzdqd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-11-12_150453.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "SHOP NOW!",
-            "link": "shopify://collections/black-friday-deals",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_T7jDkJ": {
           "type": "slide",
           "settings": {
@@ -101,14 +83,32 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_HQzdqd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-11-12_150453.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "SHOP NOW!",
+            "link": "shopify://collections/black-friday-deals",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_HQzdqd",
         "slide_T7jDkJ",
         "slide_fqqzWy",
         "slide_dnpCXF",
-        "slide_ydd6RK"
+        "slide_ydd6RK",
+        "slide_HQzdqd"
       ],
       "settings": {
         "layout": "grid",
