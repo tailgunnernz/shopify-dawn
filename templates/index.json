@@ -12,24 +12,6 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
-        "slide_fqqzWy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-11-12_at_2.43.42_PM.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Pit Vipers",
-            "link": "shopify://collections/pit-viper",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_HQzdqd": {
           "type": "slide",
           "settings": {
@@ -41,6 +23,24 @@
             "link": "shopify://collections/black-friday-deals",
             "button_style_secondary": false,
             "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_fqqzWy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-11-12_at_2.43.42_PM.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Pit Vipers",
+            "link": "shopify://collections/pit-viper",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "slide_fqqzWy",
         "slide_HQzdqd",
+        "slide_fqqzWy",
         "slide_dnpCXF",
         "slide_T7jDkJ",
         "slide_ydd6RK"
