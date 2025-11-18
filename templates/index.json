@@ -218,7 +218,6 @@
         },
         "row_cELnW4": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Christmas_wreath_Bauble_standard.jpg",
             "caption": "A great range of fresh designs for summer!",
@@ -230,6 +229,7 @@
         },
         "row_UmQJJK": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/All_Blacks_Black_ferns_collection_home_page-03.jpg",
             "caption": "Official Licensee",
