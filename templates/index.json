@@ -14,14 +14,13 @@
       "blocks": {
         "slide_JKHfEt": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Give_away_LONG_NEW-06.jpg",
+            "image": "shopify://shop_images/Christmas_25_website_banner-01.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://pages/win-1-of-6-ultimate-ears-boom-4-speakers",
+            "link": "shopify://collections/specials",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -349,8 +348,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/new_zealand_collection-17_2.png",
-            "title": "New Zealand Flags",
-            "text": "<p>Free Shipping in NZ for our popular NZ flags!*</p>",
+            "title": "SAVE 10% off All New Zealand Flags",
+            "text": "<p><strong>*Offer available until 19/12/15</strong></p>",
             "link_label": "View New Zealand Flags",
             "link": "https://shop.flagmakers.co.nz/collections/new-zealand-flags"
           }
@@ -370,8 +369,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
-            "title": "Country Flags",
-            "text": "<p>Flagmakers is the largest dye-screen flag maker in NZ. We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
+            "title": "SAVE 10% off all Country Flags",
+            "text": "<p><strong>*Offer available until 19/12/15</strong></p><p>We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
