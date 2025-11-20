@@ -67,7 +67,6 @@
       "blocks": {
         "announcement_FUMRTL": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Our sales office and factory will be closing on Tuesday 23rd December and re-opening on Monday 5th January. Please place any orders for digital printed products by Wednesday the 15th of December.",
             "link": ""
@@ -86,38 +85,12 @@
         "enable_country_selector": false,
         "enable_language_selector": false
       }
-    },
-    "announcement_bar_UMtJ7R": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_GTyMWV": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Use code AUTUMN10 at checkout TO GET 10% OFF your Custom Durapole Flag and Display! T&c's apply",
-            "link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_GTyMWV"
-      ],
-      "settings": {
-        "color_scheme": "scheme-5",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
     "custom_liquid_PcUPwM",
-    "announcement_bar_MCkik9",
-    "announcement_bar_UMtJ7R"
+    "announcement_bar_MCkik9"
   ]
 }
