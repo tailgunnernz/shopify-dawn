@@ -67,8 +67,9 @@
       "blocks": {
         "announcement_FUMRTL": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "Our sales office and factory will be closing on Tuesday 23rd December and re-opening on Monday 5th January. Please place any orders for digital printed products by Wednesday the 15th of December.",
+            "text": "Our sales office and factory will be closing on Tuesday 23rd December and re-opening on Monday 5th January. Please place any orders for digital printed products by Wednesday the 17th of December.",
             "link": ""
           }
         }
@@ -76,7 +77,6 @@
       "block_order": [
         "announcement_FUMRTL"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-5",
         "show_line_separator": true,
