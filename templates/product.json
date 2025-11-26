@@ -42,6 +42,32 @@
           "type": "price",
           "settings": {}
         },
+        "afterpay_on_site_messaging_payments_messaging_hExFb6": {
+          "type": "shopify://apps/afterpay-on-site-messaging/blocks/payments-messaging/f45a5524-d177-4475-bf59-281efd2215a8",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "xs",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "compact-badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true,
+            "product": "{{product}}"
+          }
+        },
         "29208501-7e9d-4dc7-8d88-84470b9eb65d": {
           "type": "custom_liquid",
           "settings": {
@@ -87,6 +113,7 @@
         "title",
         "caption",
         "price",
+        "afterpay_on_site_messaging_payments_messaging_hExFb6",
         "29208501-7e9d-4dc7-8d88-84470b9eb65d",
         "variant_picker",
         "quantity_selector",
@@ -161,7 +188,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
