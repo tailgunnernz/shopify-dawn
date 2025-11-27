@@ -30,6 +30,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_PAWMFN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Automatically_Added_at_checkout.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop FXD",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_fqqzWy": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "right"
           }
         },
-        "slide_T7jDkJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-09-05_at_3.51.42_PM.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Want to Add a Logo?",
-            "link": "shopify://pages/custom-branding-logos",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_ydd6RK": {
           "type": "slide",
           "settings": {
@@ -105,9 +105,9 @@
       },
       "block_order": [
         "slide_HQzdqd",
+        "slide_PAWMFN",
         "slide_fqqzWy",
         "slide_dnpCXF",
-        "slide_T7jDkJ",
         "slide_ydd6RK"
       ],
       "settings": {
@@ -115,7 +115,7 @@
         "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": true,
-        "change_slides_speed": 3,
+        "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our services"
