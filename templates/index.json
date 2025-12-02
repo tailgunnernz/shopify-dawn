@@ -441,10 +441,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Event_packages-03.png",
-            "title": "Build your own Event package!",
-            "text": "<p>Customise your event package by selecting from the options below. Mix and match to save 10% on your order!</p>",
+            "title": "Outdoor Event Products",
+            "text": "<p>Liven up your event with colourful award winning products.</p>",
             "link_label": "View all Event Products",
-            "link": "shopify://collections/event-packages-mix-match"
+            "link": "shopify://collections/event-products"
           }
         },
         "column_izG3TE": {
