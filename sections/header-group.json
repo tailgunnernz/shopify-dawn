@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Delivery & Pickup notice.  Please note that delivery will be unavailable until the 12th of January. We’ll be back and ready to go from then — Thank you for your understanding and support!",
             "link": ""
           }
         }
@@ -55,10 +55,45 @@
         "enable_transparent-header": true,
         "color-transparent": "white"
       }
+    },
+    "announcement_bar_DiPhRr": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_VVXFFf": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "announcement_CXChwR": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_VVXFFf",
+        "announcement_CXChwR"
+      ],
+      "disabled": true,
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-5",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "announcement_bar_DiPhRr"
   ]
 }
