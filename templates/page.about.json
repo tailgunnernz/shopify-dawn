@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
       ],
       "settings": {
         "title": "Our Mission",
-        "header_image": "shopify:\/\/shop_images\/transparent.png",
+        "header_image": "shopify://shop_images/transparent.png",
         "image_overlay": true,
         "image_overlay_color": "#104771",
         "image_overlay_opacity": 100,
@@ -45,7 +45,7 @@
         "text_pqtbjH": {
           "type": "text",
           "settings": {
-            "text": "<p>No matter how big or small your business or event is, you will receive beautifully crafted products at competitive prices from the company that sets the standard in the industry.<\/p>"
+            "text": "<p>No matter how big or small your business or event is, you will receive beautifully crafted products at competitive prices from the company that sets the standard in the industry.</p>"
           }
         }
       },
@@ -68,10 +68,10 @@
         "row_Kw9jRn": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FLAGsinsitu_270732c4-f7c7-4390-957a-c319149023b7.jpg",
+            "image": "shopify://shop_images/FLAGsinsitu_270732c4-f7c7-4390-957a-c319149023b7.jpg",
             "caption": "Why Buy From Us?",
             "heading": "Attention To Detail",
-            "text": "<p>We know you have a choice. You can be assured that the products we supply for your event, business, retail store or promotional campaign will be of the highest standard, be delivered on time and you will get the benefit of the most stunning graphics that is achievable by today's standards. And what's more these are sold at very competitive prices!<br\/> <br\/>It's our attention to detail that makes us proud of every product that goes out the door. Our hugely talented team and advanced production processes have resulted in us winning awards every year over the last 15 years.<\/p>",
+            "text": "<p>We know you have a choice. You can be assured that the products we supply for your event, business, retail store or promotional campaign will be of the highest standard, be delivered on time and you will get the benefit of the most stunning graphics that is achievable by today's standards. And what's more these are sold at very competitive prices!<br/> <br/>It's our attention to detail that makes us proud of every product that goes out the door. Our hugely talented team and advanced production processes have resulted in us winning awards every year over the last 15 years.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -79,10 +79,10 @@
         "row_iCjCiq": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/main-image-for-website.jpg",
+            "image": "shopify://shop_images/main-image-for-website.jpg",
             "caption": "Why Buy From Us?",
             "heading": "Raising The Standard",
-            "text": "<p>At Flagmakers we live our philosophy of Raising the Standard every day. We are known for our innovative design capabilities and this enables us to create beautifully crafted products that sets us apart from the rest of the pack.  Flagmakers products have described as \"the best in the world' by an US flag expert.<br\/> <br\/>We are busy developing the next generation of products that will take us and you into the future. We have a passion for crafting products that suit the needs of our clients and we work very closely with our clients to continuously improve what we do. We don't take anything for granted and continually look for self-improvement.<\/p>",
+            "text": "<p>At Flagmakers we live our philosophy of Raising the Standard every day. We are known for our innovative design capabilities and this enables us to create beautifully crafted products that sets us apart from the rest of the pack.  Flagmakers products have described as \"the best in the world' by an US flag expert.<br/> <br/>We are busy developing the next generation of products that will take us and you into the future. We have a passion for crafting products that suit the needs of our clients and we work very closely with our clients to continuously improve what we do. We don't take anything for granted and continually look for self-improvement.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -90,10 +90,10 @@
         "row_YdQTbf": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FB_IMG_1719539098904_2.jpg",
+            "image": "shopify://shop_images/FB_IMG_1719539098904_2.jpg",
             "caption": "Why Buy From Us?",
             "heading": "80+ Years Experience",
-            "text": "<p>Since 1940 we have invented street banners, feather flags and changed the way advertising is done for events and companies.  We bring towns, businesses and events to life with our products. Their vibrancy and colour bring out our emotions like no other product!<\/p>",
+            "text": "<p>Since 1940 we have invented street banners, feather flags and changed the way advertising is done for events and companies.  We bring towns, businesses and events to life with our products. Their vibrancy and colour bring out our emotions like no other product!</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -133,7 +133,7 @@
         "text_iVdktc": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>2016.<\/strong>  Introduced our personalised ‘OneTouch®' on- line ordering system enables centralised purchasing control for multi- branch organisations.<br\/><\/li><li><strong>2015.<\/strong> Developed nondamaging' banner tensioning system and HANGFIRE Point of Sale flag system.<br\/><\/li><li><strong>2011.<\/strong>  Developed a Store Dressing Solution for large format retailers.<br\/><\/li><li><strong>2006. <\/strong>Created new flag raising systems in<br\/><\/li><li><strong>1989.<\/strong> First manufacturer to introduce teardrop and feather flags in NZ<br\/><\/li><li><strong>1988.<\/strong> Invented ‘hemmed the Streetflag market now seen in every town and city in NZ.<br\/><\/li><li><strong>1983.<\/strong> Created plastic swivel clips for standard flags to prevent halyard twisting.<br\/><\/li><li><strong>1980. <\/strong>Introduced Swing Arm poles to NZ.<\/li><\/ul>"
+            "text": "<ul><li><strong>2016.</strong>  Introduced our personalised ‘OneTouch®' on- line ordering system enables centralised purchasing control for multi- branch organisations.<br/></li><li><strong>2015.</strong> Developed nondamaging' banner tensioning system and HANGFIRE Point of Sale flag system.<br/></li><li><strong>2011.</strong>  Developed a Store Dressing Solution for large format retailers.<br/></li><li><strong>2006. </strong>Created new flag raising systems in<br/></li><li><strong>1989.</strong> First manufacturer to introduce teardrop and feather flags in NZ<br/></li><li><strong>1988.</strong> Invented ‘hemmed the Streetflag market now seen in every town and city in NZ.<br/></li><li><strong>1983.</strong> Created plastic swivel clips for standard flags to prevent halyard twisting.<br/></li><li><strong>1980. </strong>Introduced Swing Arm poles to NZ.</li></ul>"
           }
         }
       },
@@ -157,7 +157,7 @@
           "type": "column",
           "settings": {
             "title": "Ethics",
-            "text": "<p>We believe that hard work gets results and importantly we look at ourselves as a learning organisation. Failure is part of learning and it is important that we work with our clients to make sure we learn from our mistakes and constantly strive to improve our products and services.<br\/><br\/>We also believe that we are part of society and local communities we operate in and therefore have chosen to contribute to a number of Children's charities such as the Heart Kids, The Radio Network Wellington Christmas Show.<br\/>We are environmentally responsible with a number of our staff passionate about nature. We recycle our water and use energy from a renewable energy suppliers and recycle our waste where possible<br\/>We care about our customers and our staff. We pay the living wage and our state of the art equipment along with dedicated teams means you will only get what you deserve - which is the best you can get.<\/p>",
+            "text": "<p>We believe that hard work gets results and importantly we look at ourselves as a learning organisation. Failure is part of learning and it is important that we work with our clients to make sure we learn from our mistakes and constantly strive to improve our products and services.<br/><br/>We also believe that we are part of society and local communities we operate in and therefore have chosen to contribute to a number of Children's charities such as the Heart Kids, The Radio Network Wellington Christmas Show.<br/>We are environmentally responsible with a number of our staff passionate about nature. We recycle our water and use energy from a renewable energy suppliers and recycle our waste where possible<br/>We care about our customers and our staff. We pay the living wage and our state of the art equipment along with dedicated teams means you will only get what you deserve - which is the best you can get.</p>",
             "link_label": "",
             "link": ""
           }
@@ -166,7 +166,7 @@
           "type": "column",
           "settings": {
             "title": "Who Are We?",
-            "text": "<p>We are a dedicated and passionate company which cares about the fine detail of our products. Our finishing team out that extra effort in to make sure you will always receive a crafted high quality product.Our sales, design, marketing and production facilities are based in both Auckland and Wellington with our specialist dye screen printing plant located in Auckland and our digital printing facilities located in both Auckland and Wellington.We have over 6000 satisfied customers and produce over 20,000 products each year, That's 82 products per working day!<\/p>",
+            "text": "<p>We are a dedicated and passionate company which cares about the fine detail of our products. Our finishing team out that extra effort in to make sure you will always receive a crafted high-quality product. Our sales, design, marketing and production facilities are based in Wellington. We have over 6000 satisfied customers and produce over 20,000 products each year, That's 82 products per working day!</p>",
             "link_label": "",
             "link": ""
           }
@@ -199,7 +199,7 @@
         "column_yN9FFE": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_1.png",
+            "image": "shopify://shop_images/logos-Artboard_1.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -209,7 +209,7 @@
         "column_Bq7PkD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_2.png",
+            "image": "shopify://shop_images/logos-Artboard_2.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -219,7 +219,7 @@
         "column_k7X9gY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_3.png",
+            "image": "shopify://shop_images/logos-Artboard_3.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -229,7 +229,7 @@
         "column_PR8CdH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_4.png",
+            "image": "shopify://shop_images/logos-Artboard_4.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -239,7 +239,7 @@
         "column_MWCX6L": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_5.png",
+            "image": "shopify://shop_images/logos-Artboard_5.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -249,7 +249,7 @@
         "column_zRxWkA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_6.png",
+            "image": "shopify://shop_images/logos-Artboard_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -259,7 +259,7 @@
         "column_CRbP39": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_7.png",
+            "image": "shopify://shop_images/logos-Artboard_7.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -269,7 +269,7 @@
         "column_EtcNYH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_8.png",
+            "image": "shopify://shop_images/logos-Artboard_8.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -279,7 +279,7 @@
         "column_ramYLR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_9.png",
+            "image": "shopify://shop_images/logos-Artboard_9.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -289,7 +289,7 @@
         "column_deiq9w": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos-Artboard_10.png",
+            "image": "shopify://shop_images/logos-Artboard_10.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -333,7 +333,7 @@
           "type": "column",
           "settings": {
             "title": "Councils & Town Centres",
-            "text": "<ul><li>New Zealand Government Departments<br\/><\/li><li>90% city and town councils throughout New Zealand, including Auckland City Council from Commonwealth Games days to present.<br\/><\/li><li>New Zealand Ministry of Defence, Royal New Zealand Airforce<br\/><\/li><li>Overseas Governments<br\/><\/li><li>Preferred Supplier of the Fiji Government for the last 20+ years.<br\/><\/li><li>Governments of Papua New Guinea, Fiji, French Polynesia, Tonga, Kiribati, Palau, Northern Marianas, Niue and the Cook Islands.<\/li><\/ul>",
+            "text": "<ul><li>New Zealand Government Departments<br/></li><li>90% city and town councils throughout New Zealand, including Auckland City Council from Commonwealth Games days to present.<br/></li><li>New Zealand Ministry of Defence, Royal New Zealand Airforce<br/></li><li>Overseas Governments<br/></li><li>Preferred Supplier of the Fiji Government for the last 20+ years.<br/></li><li>Governments of Papua New Guinea, Fiji, French Polynesia, Tonga, Kiribati, Palau, Northern Marianas, Niue and the Cook Islands.</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -342,7 +342,7 @@
           "type": "column",
           "settings": {
             "title": "International Sports Events",
-            "text": "<ul><li>Rugby World Cup 2011<br\/><\/li><li>New Zealand All Blacks<br\/><\/li><li>Cricket World Cup 2015<br\/><\/li><li>FIFA Under 20 World Cup 2015<br\/><\/li><li>America's Cup<br\/><\/li><li>Wellington Rugby 7's<\/li><\/ul>",
+            "text": "<ul><li>Rugby World Cup 2011<br/></li><li>New Zealand All Blacks<br/></li><li>Cricket World Cup 2015<br/></li><li>FIFA Under 20 World Cup 2015<br/></li><li>America's Cup<br/></li><li>Wellington Rugby 7's</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -351,7 +351,7 @@
           "type": "column",
           "settings": {
             "title": "Major Events",
-            "text": "<ul><li>WW100 - ANZAC Celebration 2015-2018<br\/><\/li><li>NZ Festival of the Arts<br\/><\/li><li>WOMAD<br\/><\/li><li>Wellington Jazz Festival<br\/><\/li><li>Queenstown Lakes Festival of Colour<br\/><\/li><li>New Zealand Field Days<br\/><\/li><li>Warner Brothers for the Lord of the Rings opening.<br\/><\/li><li>14th Commonwealth Games - Auckland<br\/><\/li><li>New Zealand Olympic & Commonwealth Games Association<br\/><\/li><li>Festival of Colour<\/li><\/ul>",
+            "text": "<ul><li>WW100 - ANZAC Celebration 2015-2018<br/></li><li>NZ Festival of the Arts<br/></li><li>WOMAD<br/></li><li>Wellington Jazz Festival<br/></li><li>Queenstown Lakes Festival of Colour<br/></li><li>New Zealand Field Days<br/></li><li>Warner Brothers for the Lord of the Rings opening.<br/></li><li>14th Commonwealth Games - Auckland<br/></li><li>New Zealand Olympic & Commonwealth Games Association<br/></li><li>Festival of Colour</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -360,7 +360,7 @@
           "type": "column",
           "settings": {
             "title": "Retail",
-            "text": "<ul><li>McDonalds<br\/><\/li><li>Telecom (now Spark)<br\/><\/li><li>Westfield<br\/><\/li><li>Briscoes<br\/><\/li><li>Rebel sports<br\/><\/li><li>Warehouse Stationery<br\/><\/li><li> ANZ<br\/><\/li><li>Cigna Insurance<br\/><\/li><li>Air New Zealand<br\/><\/li><li> Lion Nathan<br\/><\/li><li>Resene<br\/><\/li><li>Contact Energy<br\/><\/li><li>BMW<br\/><\/li><li>ITM<\/li><\/ul>",
+            "text": "<ul><li>McDonalds<br/></li><li>Telecom (now Spark)<br/></li><li>Westfield<br/></li><li>Briscoes<br/></li><li>Rebel sports<br/></li><li>Warehouse Stationery<br/></li><li> ANZ<br/></li><li>Cigna Insurance<br/></li><li>Air New Zealand<br/></li><li> Lion Nathan<br/></li><li>Resene<br/></li><li>Contact Energy<br/></li><li>BMW<br/></li><li>ITM</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -369,7 +369,7 @@
           "type": "column",
           "settings": {
             "title": "Corporates",
-            "text": "<ul><li>Mobil<br\/><\/li><li>Dunlop <br\/><\/li><li>McDonalds <br\/><\/li><li>B.P.<br\/><\/li><li>ANZ <br\/><\/li><li>ASB Bank <br\/><\/li><li>Fairfax Media<br\/><\/li><li>DB Breweries<\/li><\/ul>",
+            "text": "<ul><li>Mobil<br/></li><li>Dunlop <br/></li><li>McDonalds <br/></li><li>B.P.<br/></li><li>ANZ <br/></li><li>ASB Bank <br/></li><li>Fairfax Media<br/></li><li>DB Breweries</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -378,7 +378,7 @@
           "type": "column",
           "settings": {
             "title": "Overseas Corporatations",
-            "text": "<ul><li>McDonalds Australia <br\/><\/li><li>Caltex<br\/><\/li><li>New South Wales Fire Brigade<br\/><\/li><li>Standards Australia <br\/><\/li><li>Quality Assurance Services Australia<br\/><\/li><li>NATA Quality Management's Systems Australia<\/li><\/ul>",
+            "text": "<ul><li>McDonalds Australia <br/></li><li>Caltex<br/></li><li>New South Wales Fire Brigade<br/></li><li>Standards Australia <br/></li><li>Quality Assurance Services Australia<br/></li><li>NATA Quality Management's Systems Australia</li></ul>",
             "link_label": "",
             "link": ""
           }
