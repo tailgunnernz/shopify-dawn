@@ -157,6 +157,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "13375938897875554821": {
+        "type": "shopify://apps/qikify-sales-pop-up/blocks/app-embed/688dd516-1cdc-4008-8329-23089a1c4e24",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
