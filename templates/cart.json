@@ -52,7 +52,7 @@
         "text_8xgDtq": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>If you have a rural address </strong>please ensure you click the 'Rural Address' button on checkout so the right freight charge is calculated. You can check if your address is rural by clicking on <a href=\"https://nzcouriers.co.nz/tools/check-an-address/\" target=\"_blank\"><strong>Address Checker</strong></a><strong>.</strong></p><p><strong>If you do not select the rural address option then your goods may be delayed until the correct charges have been paid.</strong></p><p><strong>Note: </strong>We do not deliver to Waiheke Island. Please contact us to discuss delivery and collection options with you.</p>"
+            "text": "<p><strong>If you have a rural address </strong>please ensure you click the 'Rural Address' button on checkout so the right freight charge is calculated. </p><p>You can check if your address is rural by clicking on <a href=\"https://nzcouriers.co.nz/tools/check-an-address/\" target=\"_blank\"><strong>Address Checker</strong></a><strong>.</strong></p><p><strong>If you do not select the rural address option then your goods may be delayed until the correct charges have been paid.</strong></p><p><strong>Note: </strong>We do not deliver to Waiheke Island. Please contact us to discuss delivery and collection options with you.</p>"
           }
         }
       },
