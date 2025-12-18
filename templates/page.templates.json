@@ -33,6 +33,16 @@
     "multicolumn_dWLx4X": {
       "type": "multicolumn",
       "blocks": {
+        "column_MWFzmm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/nz_large_e9e3f0f7-780a-4e72-9960-891ff76e7d7e.jpg",
+            "title": "Standard Flag",
+            "text": "<p>900mm x 450mm</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Standard_Horizontal_Storm_flag_0.9m_x_0.45m_Template.pdf?v=1766025754"
+          }
+        },
         "column_6VXqDG": {
           "type": "column",
           "settings": {
@@ -40,7 +50,27 @@
             "title": "Standard Flag",
             "text": "<p>1800mm x 900mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Standard_flag_1.8m_x_0.9m_template_8df95741-ec80-465b-b1e2-c84141eb10d3.pdf?v=1736800837"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Standard_Horizontal_flag_1.8m_x_0.9m_Template.pdf?v=1766025754"
+          }
+        },
+        "column_NrKajL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/nz_large_e9e3f0f7-780a-4e72-9960-891ff76e7d7e.jpg",
+            "title": "Standard Flag",
+            "text": "<p>2300mm x 1150mm</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Standard_Horizontal_flag_2.3m_x_1.15m_Template.pdf?v=1766025755"
+          }
+        },
+        "column_z8q74h": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/nz_large_e9e3f0f7-780a-4e72-9960-891ff76e7d7e.jpg",
+            "title": "Standard Flag",
+            "text": "<p>2700mm x 1350mm</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Standard_Horizontal_flag_2.7m_x_1.35m_Template.pdf?v=1766025754"
           }
         },
         "column_JR8wVn": {
@@ -54,7 +84,10 @@
         }
       },
       "block_order": [
+        "column_MWFzmm",
         "column_6VXqDG",
+        "column_NrKajL",
+        "column_z8q74h",
         "column_JR8wVn"
       ],
       "custom_css": [
@@ -85,9 +118,9 @@
           "settings": {
             "image": "shopify://shop_images/Streetflags-85.png",
             "title": "StreetFlag",
-            "text": "<p>0.9m x 1.8m</p>",
+            "text": "<p>900mm x 1800mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/streetflags-template_1-8x0-9_nov-22.pdf?v=1715033354"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Streetflag_0.9m_x_1.8m_Template.pdf?v=1766025985"
           }
         },
         "column_RVJndj": {
@@ -95,9 +128,9 @@
           "settings": {
             "image": "shopify://shop_images/large_streetflag-41.png",
             "title": "StreetFlag Large",
-            "text": "<p>1.35m x 2.7m</p>",
+            "text": "<p>1350mm x 2700mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/streetflag-2-7m-x-1-35m-_nov-22.pdf?v=1715033354"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Streetflag_1.35m_x_2.7m_Template.pdf?v=1766025985"
           }
         },
         "column_PrWLYy": {
@@ -105,9 +138,9 @@
           "settings": {
             "image": "shopify://shop_images/wowflagtrax-70.png",
             "title": "Flagtrax 2",
-            "text": "<p>0.95m x 1.75m</p>",
+            "text": "<p>950mm x 1750mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Flagtrax_0.95m_x_1.75m_RHS_Template.pdf?v=1721952309"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Flagtrax_0.95m_x_1.75m_Template.pdf?v=1766025984"
           }
         },
         "column_xtV8NR": {
@@ -115,9 +148,9 @@
           "settings": {
             "image": "shopify://shop_images/Flagtrax-08.png",
             "title": "Flagtrax 2 Large",
-            "text": "<p>0.95 x 2.65m</p>",
+            "text": "<p>950mm x 2650mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Flagtrax_Large_0.95m_x_2.65m_Template.pdf?v=1721952601"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Flagtrax_0.95m_x_2.65m_Template.pdf?v=1766025986"
           }
         },
         "column_RcPpjB": {
@@ -125,9 +158,9 @@
           "settings": {
             "image": "shopify://shop_images/wow_revolution.png",
             "title": "Flagtrax Revolutions",
-            "text": "<p>0.95m x 3.8m</p>",
+            "text": "<p>950mm x 3800mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Flagtrax_Revolutions_Template.pdf?v=1721952814"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Flagtrax_Revolutions_0.95m_x_3.8m_Template.pdf?v=1766025986"
           }
         }
       },
