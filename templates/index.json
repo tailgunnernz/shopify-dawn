@@ -15,7 +15,7 @@
         "slide_JKHfEt": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Christmas_25_website_banner_2-01.png",
+            "image": "shopify://shop_images/Christmas_25_website_banner_MERY_CHRISTMAS-01-01-01.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -348,8 +348,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/new_zealand_collection-17_2.png",
-            "title": "SAVE 10% off All New Zealand Flags",
-            "text": "<p>Discount automatically applied at checkout<br/><strong><br/>*Offer available until 19/12/15</strong></p>",
+            "title": "New Zealand Flags",
+            "text": "<p>Buy your NZ flags directly from the manufacturer! Free Shipping in NZ for our popular NZ flags!*<br/></p>",
             "link_label": "View New Zealand Flags",
             "link": "https://shop.flagmakers.co.nz/collections/new-zealand-flags"
           }
@@ -369,8 +369,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
-            "title": "SAVE 10% off all Country Flags",
-            "text": "<p>Discount automatically applied at checkout<br/><strong>*Offer available until 19/12/15</strong></p><p>We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
+            "title": "Country Flags",
+            "text": "<p>We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
