@@ -197,11 +197,21 @@
         "column_Pk8ANi": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Template_images_flex-25.png",
-            "title": "Durapole Flex Small and Large - Single Sided",
-            "text": "<p><strong>Display Height: 2670mm or 4000mm</strong></p><p>Angled, Straight or curved bottom</p>",
+            "image": "shopify://shop_images/Template_images_flex-25-02.jpg",
+            "title": "Durapole Flex Small - Single Sided",
+            "text": "<p><strong>Display Height: 2670mm </strong></p><p>Angled, Straight or curved bottom</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_sml_lrg_SS_Template_-_Straight_angled_and_curved.pdf?v=1726016853"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_Small_Single-Sided_Template_-_All_bottoms.pdf?v=1766365796"
+          }
+        },
+        "column_8ydEN8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Template_images_flex-25-01.jpg",
+            "title": "Durapole Flex Large - Single Sided",
+            "text": "<p><strong>Display Height:  4000mm</strong></p><p>Angled, Straight or curved bottom</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_Large_Single-Sided_Template_-_All_bottoms.pdf?v=1766365797"
           }
         },
         "column_QNLppe": {
@@ -211,7 +221,7 @@
             "title": "Durapole Flex Small - Double Sided",
             "text": "<p><strong>Display Height: 2670mm</strong></p><p>Angled, Straight or curved bottom</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_Small_Double_Sided_Template_-_Straight_angled_and_curved.pdf?v=1726016678"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_Small_Double-Sided_Template_-_All_bottoms.pdf?v=1766365797"
           }
         },
         "column_fEMpXJ": {
@@ -221,7 +231,7 @@
             "title": "Durapole Flex Large - Double Sided",
             "text": "<p><strong>Display Height: 4000mm</strong></p><p>Angled, Straight or curved bottom</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_Large_Double_Sided_Template_-_Straight_angled_and_curved.pdf?v=1726016758"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_Large_Double-Sided_Template_-_All_bottoms.pdf?v=1766365796"
           }
         },
         "column_tkUApw": {
@@ -231,7 +241,7 @@
             "title": "Durapole Flex XL - Single Sided only",
             "text": "<p><strong>Display Height: 4700mm</strong></p><p>Angled, Straight or curved bottom</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/flex-xl-ss-templates_oct-17.pdf?v=1715034581"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Flex_X-Large_Single-Sided_Template_-_All_bottoms.pdf?v=1766366598"
           }
         },
         "column_4UXqjm": {
@@ -247,11 +257,21 @@
         "column_g7V7De": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Template_images_mayfly-30.png",
-            "title": "Durapole Mayfly Small and Large - Single Sided",
-            "text": "<p>Display Height: 2360mm or 3600mm</p>",
+            "image": "shopify://shop_images/Template_images_mayfly-30_1_-02.jpg",
+            "title": "Durapole Mayfly Small - Single Sided",
+            "text": "<p>Display Height: 2360mm </p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/mayfly-ss-template_oct-17.pdf?v=1715034581"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Mayfly_Small_Single-Sided_Template.pdf?v=1766366637"
+          }
+        },
+        "column_wD8TaY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Template_images_mayfly-30_1_-01.jpg",
+            "title": "Durapole Mayfly Large - Single Sided",
+            "text": "<p>Display Height: 3600mm</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Mayfly_Large_Single-Sided_Template.pdf?v=1766366637"
           }
         },
         "column_Qg9LyT": {
@@ -271,7 +291,7 @@
             "title": "Durapole Mayfly Large - Double Sided",
             "text": "<p>Display Height: 3600mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/mayfly-ds-large-template_oct-17.pdf?v=1715034581"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Mayfly_Large_Double-Sided_Template.pdf?v=1766366638"
           }
         },
         "column_qF4n8t": {
@@ -281,7 +301,7 @@
             "title": "Durapole MayFly XL - Single Sided Only",
             "text": "<p>Display Height: 4100mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/mayfly-ss-xlarge-template_oct-17.pdf?v=1715034581"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Durapole_Mayfly_X-Large_Single-Sided_Template.pdf?v=1766366639"
           }
         },
         "column_Xh6qzC": {
@@ -367,11 +387,13 @@
       },
       "block_order": [
         "column_Pk8ANi",
+        "column_8ydEN8",
         "column_QNLppe",
         "column_fEMpXJ",
         "column_tkUApw",
         "column_4UXqjm",
         "column_g7V7De",
+        "column_wD8TaY",
         "column_Qg9LyT",
         "column_w3MnRx",
         "column_qF4n8t",
