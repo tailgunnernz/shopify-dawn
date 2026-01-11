@@ -12,24 +12,6 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
-        "slide_77AMzG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CHRISTMAS_HOURS_Closing_23rd_December_12pm_Re-_Open_12th_January_2026_2.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Continue Shopping",
-            "link": "shopify://pages/frontpage",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_fqqzWy": {
           "type": "slide",
           "settings": {
@@ -86,7 +68,6 @@
         }
       },
       "block_order": [
-        "slide_77AMzG",
         "slide_fqqzWy",
         "slide_dnpCXF",
         "slide_ydd6RK"
