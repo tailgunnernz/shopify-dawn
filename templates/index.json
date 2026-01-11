@@ -14,6 +14,7 @@
       "blocks": {
         "slide_JKHfEt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Christmas_25_website_banner_MERY_CHRISTMAS-01-01-01.jpg",
             "heading": "",
@@ -217,6 +218,7 @@
         },
         "row_cELnW4": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Christmas_wreath_Bauble_standard.jpg",
             "caption": "A great range of fresh designs for summer!",
