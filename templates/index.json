@@ -12,6 +12,24 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_XQW4mV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-01-13_140550.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now!",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_fqqzWy": {
           "type": "slide",
           "settings": {
@@ -68,6 +86,7 @@
         }
       },
       "block_order": [
+        "slide_XQW4mV",
         "slide_fqqzWy",
         "slide_dnpCXF",
         "slide_ydd6RK"
