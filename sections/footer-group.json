@@ -72,7 +72,7 @@
         "heading": "Get a $10 Discount!",
         "paragraph": "Sign up to receive a coupon code for $10 off your FIRST order*.",
         "headingSuccess": "Thank You!",
-        "paragraphSuccess": "Use code <b>\"WELCOME10\"</b> <br> at checkout to get $10 off.\n\n<b>*Please note:<b> minimum spend $50.00. Doesn't stack with other promotion or discounts.</b></b>",
+        "paragraphSuccess": "Use code <b>\"WELCOME10\"</b> <br> at checkout to get $10 off.\n\n<b>*Please note:<b> minimum spend $50.00. Doesn't stack with other promotions or discounts.</b></b>",
         "preview": false
       }
     }
