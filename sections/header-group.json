@@ -65,8 +65,16 @@
     "announcement_bar_MCkik9": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_WQ7rLQ": {
+          "type": "announcement",
+          "settings": {
+            "text": "Use code WAITANGI10 at checkout to save 10% off  all Tino Rangatiratanga & United Tribes Flags. *Offer available until Feb 6 2026.",
+            "link": "shopify://collections/rangatiratanga"
+          }
+        },
         "announcement_FUMRTL": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "We will be closing on Tuesday December the 23rd, re-opening our showroom from Wednesday 7th January and production returning on Monday the 12th January. Please place any orders for digital printed products by Wednesday the 17th of December. Thank you.",
             "link": ""
@@ -74,9 +82,9 @@
         }
       },
       "block_order": [
+        "announcement_WQ7rLQ",
         "announcement_FUMRTL"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-5",
         "show_line_separator": true,
