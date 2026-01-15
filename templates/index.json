@@ -12,6 +12,24 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
+        "slide_JKHfEt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/waitangi_banner-01.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/rangatiratanga",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_nqVRU6": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_JKHfEt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/event_packages_available_GEN-05.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/event-products",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_m7qP3H": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_JKHfEt",
         "slide_nqVRU6",
         "slide_7fX7tb",
         "slide_pXKKny",
-        "slide_JKHfEt",
         "slide_m7qP3H"
       ],
       "custom_css": [],
