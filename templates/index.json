@@ -182,13 +182,12 @@
         },
         "row_7UmiBK": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Supporters_flag-_tino.png",
             "caption": "",
-            "heading": "Tino Rangatiratanga & United Tribes Flags",
-            "text": "<p>Tino Rangatiratanga & United Tribes Flags. If required urgently, please pick up from our Petone showroom.</p>",
-            "button_label": "View Collection",
+            "heading": "Save 10% off all Tino Rangatiratanga & United Tribes Flags",
+            "text": "<p>Use code <strong>WAITANGI10</strong> at checkout to receive 10% off Tino Rangatiratanga & United Tribes Flags.<br/></p>",
+            "button_label": "View all",
             "button_link": "shopify://collections/rangatiratanga"
           }
         },
