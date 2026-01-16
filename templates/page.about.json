@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,7 +21,7 @@
       "type": "fa-page-header",
       "settings": {
         "title": "About Us",
-        "header_image": "shopify:\/\/shop_images\/about-hero.jpg",
+        "header_image": "shopify://shop_images/about-hero.jpg",
         "image_overlay": true
       }
     },
@@ -31,9 +40,9 @@
         "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-owners.jpg",
+            "image": "shopify://shop_images/about-owners.jpg",
             "title": "",
-            "text": "<p>We are a company operating nationwide through our online website and instore. We work with a wide range of national companies in the Construction, Civil, Food & Transport industries across to Corporates - Councils and Government Agencies. We work with businesses of all sizes to provide an efficient service that is tailored to meet the needs of all our customers and their employees.<\/p><p>Our footwear range is extensive covering footwear, both safety and outdoor, apparel and safety equipment. We distribute the Italian made footwear Grisport as well as Steel Blue, Apex, FXD and Bata.<\/p><p>A close second is Apparel, with an eye for stylish and functional options in a quality range of workwear, uniforms and corporate clothing. The addition of your company branding and logos will enhance your image.<\/p><p>We welcome you to visit our showroom located at 110 Whakatiki St, with easy access just off River Rd, in Upper Hutt or look online at <a href=\"https:\/\/www.footwearandapparel.co.nz\/\" title=\"https:\/\/www.footwearandapparel.co.nz\/\">Footwearandapparel.co.nz<\/a><\/p>",
+            "text": "<p>Footwear & Apparel NZ Ltd is a New Zealand-owned supplier of safety footwear, workwear, corporate uniforms, and branded apparel. We help businesses of all sizes nationwide with tailored apparel and safety solutions — from certified safety footwear and PPE to uniform programmes that elevate professional image and improve workforce comfort and safety.</p><p>We partner with clients across industries including construction, transport, food services, councils, government agencies, and corporate teams to deliver quality products and efficient service. With over 25 years of experience, our team offers expert advice, personalised service, and reliable uniform solutions that work for your business.</p><p>Whether you need work-ready safety boots, branded uniforms for staff, or complete apparel management, we can help you choose the right products and services tailored to your organisational needs.</p><p>Come and visit us in our shop at: 110 Whakatiki Street, Upper Hutt </p><p></p><p></p>",
             "link_label": "",
             "link": ""
           }
@@ -79,7 +88,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><strong>Footwear & Apparel NZ Ltd - <\/strong>established for over 25 years is now privately owned and operated by Stuart and Rebecca Williams. Stu has over 20 years of sales experience in retail and wholesale markets. He is a Health & Safety professional, with a wealth of experience and a following of loyal and satisfied customers. You’ll enjoy meeting him and come to trust his opinion, looking to him for footwear, clothing and safety solutions.<\/p><p>Our team is well grounded and have an excellent grasp on products and their use.<\/p>",
+            "text": "<p><strong>Footwear & Apparel NZ Ltd - </strong>established for over 25 years is now privately owned and operated by Stuart and Rebecca Williams. Stu has over 20 years of sales experience in retail and wholesale markets. He is a Health & Safety professional, with a wealth of experience and a following of loyal and satisfied customers. You’ll enjoy meeting him and come to trust his opinion, looking to him for footwear, clothing and safety solutions.</p><p>Our team is well grounded and have an excellent grasp on products and their use.</p>",
             "link_label": "",
             "link": ""
           }
@@ -122,7 +131,7 @@
         "template--14393127141451__95fd58c6-8d43-4929-bffc-7a039c9f8967-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Footwear & Apparel team are a professional team, have integrity, are knowledgeable in their specific field and are dedicated to seeing your business succeed. They are constantly up-skilling and are wholeheartedly involved in the success of the company.<\/p>"
+            "text": "<p>Footwear & Apparel team are a professional team, have integrity, are knowledgeable in their specific field and are dedicated to seeing your business succeed. They are constantly up-skilling and are wholeheartedly involved in the success of the company.</p>"
           }
         }
       },
@@ -145,10 +154,10 @@
         "template--14393127141451__eb1305df-fe74-430a-90ac-c143e6f19b2b-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-stu.png",
+            "image": "shopify://shop_images/about-stu.png",
             "caption": "Footwear and Apparel, Owner",
             "heading": "Stu",
-            "text": "<p>Stu has over 20 years of sales experience in retail and wholesale markets. He is a Health & Safety<br\/>professional, with a wealth of experience and a following of loyal and satisfied customers.<\/p><p>You’ll enjoy meeting him and come to trust his opinion, looking to him for footwear, clothing and safety solutions. Easy going, with a great sense of humour!<\/p><p><em>|<\/em> <a href=\"mailto:stu@faanz.co.nz\" title=\"mailto:stu@faanz.co.nz\">stu@faanz.co.nz<\/a><br\/><em>|<\/em> <a href=\"tel:027 280 2394\" title=\"tel:027 280 2394\">027 280 2394<\/a><\/p>",
+            "text": "<p>Stu has over 20 years of sales experience in retail and wholesale markets. He is a Health & Safety<br/>professional, with a wealth of experience and a following of loyal and satisfied customers.</p><p>You’ll enjoy meeting him and come to trust his opinion, looking to him for footwear, clothing and safety solutions. Easy going, with a great sense of humour!</p><p><em>|</em> <a href=\"mailto:stu@faanz.co.nz\" title=\"mailto:stu@faanz.co.nz\">stu@faanz.co.nz</a><br/><em>|</em> <a href=\"tel:027 280 2394\" title=\"tel:027 280 2394\">027 280 2394</a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -156,10 +165,10 @@
         "template--14393127141451__eb1305df-fe74-430a-90ac-c143e6f19b2b-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-rebecca.png",
+            "image": "shopify://shop_images/about-rebecca.png",
             "caption": "Footwear and Apparel, Owner",
             "heading": "Rebecca",
-            "text": "<p>Rebecca brings a fresh perspective to the team, having recently transitioned from a background in Hospitality, Retail, and Customer Service. Her love for organising shines through in her work, and she thrives in fast-paced environments where she can embrace the excitement of a bustling atmosphere. As a lifelong resident of Upper Hutt, she deeply appreciates the support received from local companies and is committed to fostering strong relationships within the community. With her enthusiasm and dedication, Rebecca is keen to provide exceptional service and make a positive impact on our clients' experiences.<br\/><\/p><h4><em><strong>Customer Services<\/strong><\/em><\/h4><p><em>|<\/em> Customer Services Team: <a href=\"mailto:sales@faanz.co.nz\" title=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz<\/a><br\/><em>|<\/em> Rebecca Williams: <a href=\"mailto:office@faanz.co.nz\" title=\"mailto:office@faanz.co.nz\">office@faanz.co.nz<\/a><br\/><em>|<\/em> <a href=\"tel:0800 826 826\" title=\"tel:0800 826 826\">0800 826 826<\/a><\/p>",
+            "text": "<p>Rebecca brings a fresh perspective to the team, having recently transitioned from a background in Hospitality, Retail, and Customer Service. Her love for organising shines through in her work, and she thrives in fast-paced environments where she can embrace the excitement of a bustling atmosphere. As a lifelong resident of Upper Hutt, she deeply appreciates the support received from local companies and is committed to fostering strong relationships within the community. With her enthusiasm and dedication, Rebecca is keen to provide exceptional service and make a positive impact on our clients' experiences.<br/></p><h4><em><strong>Customer Services</strong></em></h4><p><em>|</em> Customer Services Team: <a href=\"mailto:sales@faanz.co.nz\" title=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz</a><br/><em>|</em> Rebecca Williams: <a href=\"mailto:office@faanz.co.nz\" title=\"mailto:office@faanz.co.nz\">office@faanz.co.nz</a><br/><em>|</em> <a href=\"tel:0800 826 826\" title=\"tel:0800 826 826\">0800 826 826</a></p>",
             "button_label": "",
             "button_link": ""
           }
