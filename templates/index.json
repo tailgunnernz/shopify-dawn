@@ -377,12 +377,23 @@
         },
         "column_zA8mTe": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Santa_christmas_greetings_horizontal_flag_collection-01.jpg",
             "title": "Festive Standard Flags",
             "text": "<p>Designed to fly from your flagpole and finished with a heavy duty header and our unique swivel clips to help reduce halyard wear.</p>",
             "link_label": "View Festive Flags",
             "link": "shopify://collections/festive-flags-1"
+          }
+        },
+        "column_nGG7Uc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Collection_image-02-01.jpg",
+            "title": "Super Rugby NZ",
+            "text": "<p>Flagmakers Ltd is an official licensee of NZ Super Rugby.</p>",
+            "link_label": "View Super Rugby NZ Flags",
+            "link": "shopify://pages/licensed-sport-products"
           }
         },
         "column_xgEbqJ": {
@@ -473,6 +484,7 @@
         "column_Re38gF",
         "column_3Jae37",
         "column_zA8mTe",
+        "column_nGG7Uc",
         "column_xgEbqJ",
         "column_mCQPm9",
         "column_4it7cj",
