@@ -85,6 +85,7 @@
         "announcement_WQ7rLQ",
         "announcement_FUMRTL"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-5",
         "show_line_separator": true,

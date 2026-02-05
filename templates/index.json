@@ -182,12 +182,24 @@
         },
         "row_7UmiBK": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Tino_Rangatiratanga_flag_2.jpg",
             "caption": "",
             "heading": "Save 10% off all Tino Rangatiratanga & United Tribes Flags",
             "text": "<p>Use code <strong>WAITANGI10</strong> at checkout to receive 10% off Tino Rangatiratanga & United Tribes Flags.<br/>*Offer Available until 6 Feb 2026</p>",
             "button_label": "View all",
+            "button_link": "shopify://collections/rangatiratanga"
+          }
+        },
+        "row_GRemTT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Tino_Rangatiratanga_flag_2.jpg",
+            "caption": "",
+            "heading": "Tino Rangatiratanga & United Tribes Flags",
+            "text": "<p>Designed for New Zealand's harsh climatic conditions and high UV light levels</p>",
+            "button_label": "View Tino Rangatiratanga & United Tribes Flags",
             "button_link": "shopify://collections/rangatiratanga"
           }
         },
@@ -311,6 +323,7 @@
         "row_xa4gVk",
         "row_94zrMY",
         "row_7UmiBK",
+        "row_GRemTT",
         "row_HYpBmX",
         "row_EiTLpk",
         "row_cELnW4",
