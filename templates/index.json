@@ -14,6 +14,7 @@
       "blocks": {
         "slide_JKHfEt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/waitangi_banner-01.jpg",
             "heading": "",
