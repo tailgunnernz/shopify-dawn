@@ -14,6 +14,7 @@
       "blocks": {
         "slide_JKHfEt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/super_rugby_26_EMAIL_BANNER_2d70497c-3bdc-45a2-91bc-477533c2e299.jpg",
             "heading": "",
