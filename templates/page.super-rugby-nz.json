@@ -1,0 +1,145 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page_header_nPyyJg": {
+      "type": "page-header",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "image_overlay": false,
+        "image_overlay_color": "",
+        "image_overlay_opacity": 75,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "{background-color: #eaf6ff;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collection_list_38BRC7": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_3jQDek": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-blacks"
+          }
+        },
+        "featured_collection_V7NjHm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "black-ferns"
+          }
+        },
+        "featured_collection_r8HxHb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "black-caps-licensed-products"
+          }
+        },
+        "featured_collection_UT3EHh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "white-ferns-licensed-products"
+          }
+        },
+        "featured_collection_rM64fM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hurricanes"
+          }
+        },
+        "featured_collection_GMzhFH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blues"
+          }
+        },
+        "featured_collection_k9xxM8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chiefs"
+          }
+        },
+        "featured_collection_jgXQFy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crusaders"
+          }
+        },
+        "featured_collection_detdxQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "highlanders"
+          }
+        },
+        "featured_collection_rMXJ3e": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "hurricanes-poua"
+          }
+        },
+        "featured_collection_3R6PLp": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "chiefs-manawa"
+          }
+        },
+        "featured_collection_nF8apF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "matatu"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_3jQDek",
+        "featured_collection_V7NjHm",
+        "featured_collection_r8HxHb",
+        "featured_collection_UT3EHh",
+        "featured_collection_rM64fM",
+        "featured_collection_GMzhFH",
+        "featured_collection_k9xxM8",
+        "featured_collection_jgXQFy",
+        "featured_collection_detdxQ",
+        "featured_collection_rMXJ3e",
+        "featured_collection_3R6PLp",
+        "featured_collection_nF8apF"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "page_header_nPyyJg",
+    "main",
+    "collection_list_38BRC7"
+  ]
+}
