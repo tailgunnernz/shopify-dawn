@@ -34,30 +34,6 @@
     "collection_list_38BRC7": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_3jQDek": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "all-blacks"
-          }
-        },
-        "featured_collection_V7NjHm": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "black-ferns"
-          }
-        },
-        "featured_collection_r8HxHb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "black-caps-licensed-products"
-          }
-        },
-        "featured_collection_UT3EHh": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "white-ferns-licensed-products"
-          }
-        },
         "featured_collection_rM64fM": {
           "type": "featured_collection",
           "settings": {
@@ -90,14 +66,12 @@
         },
         "featured_collection_rMXJ3e": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "hurricanes-poua"
           }
         },
         "featured_collection_3R6PLp": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "chiefs-manawa"
           }
@@ -110,10 +84,6 @@
         }
       },
       "block_order": [
-        "featured_collection_3jQDek",
-        "featured_collection_V7NjHm",
-        "featured_collection_r8HxHb",
-        "featured_collection_UT3EHh",
         "featured_collection_rM64fM",
         "featured_collection_GMzhFH",
         "featured_collection_k9xxM8",
