@@ -14,14 +14,13 @@
       "blocks": {
         "slide_JKHfEt": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/super_rugby_26_EMAIL_BANNER_2d70497c-3bdc-45a2-91bc-477533c2e299.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/super-rugby",
+            "link": "shopify://pages/super-rugby-nz",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -111,6 +110,7 @@
         "slide_pXKKny",
         "slide_m7qP3H"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "layout": "full_bleed",
@@ -407,7 +407,7 @@
             "title": "Super Rugby NZ",
             "text": "<p>Flagmakers Ltd is an official licensee of NZ Super Rugby.</p>",
             "link_label": "View Super Rugby NZ Flags",
-            "link": "shopify://pages/licensed-sport-products"
+            "link": "shopify://pages/super-rugby-nz"
           }
         },
         "column_xgEbqJ": {
