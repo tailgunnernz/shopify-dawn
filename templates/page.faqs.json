@@ -1,11 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "padding_top": 80,
         "padding_bottom": 84
@@ -13,12 +20,10 @@
     },
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f": {
       "type": "fa-page-header",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Frequently Asked Questions",
-        "header_image": "shopify:\/\/shop_images\/faqs-hero.jpg",
+        "header_image": "shopify://shop_images/faqs-hero.jpg",
         "image_overlay": true
       }
     },
@@ -26,7 +31,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n{{ page.content }}\n<\/div>",
+        "custom_liquid": "<div class=\"page-width rte scroll-trigger animate--slide-in\">\n{{ page.content }}\n</div>",
         "color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 80
@@ -40,7 +45,7 @@
           "settings": {
             "heading": "How secure is the web shop?",
             "icon": "none",
-            "row_content": "<p>Our website users a secure server for all credit card transactions. This means that your credit card information cannot be read even if it is intercepted. Our checkout page (where we accept your credit card details) is a secure page. Credit card information exchanged between our server and your web browser, is encrypted, ensuring the complete safety of your payment details.<br\/><br\/>Moreover, your credit card details are only stored on the web server until your purchase is processed by us. As soon as your purchase has been processed by us and your credit card has been charged (usually the same or the following business day), your credit card details are deleted from the server for additional security.<\/p>",
+            "row_content": "<p>Our website users a secure server for all credit card transactions. This means that your credit card information cannot be read even if it is intercepted. Our checkout page (where we accept your credit card details) is a secure page. Credit card information exchanged between our server and your web browser, is encrypted, ensuring the complete safety of your payment details.<br/><br/>Moreover, your credit card details are only stored on the web server until your purchase is processed by us. As soon as your purchase has been processed by us and your credit card has been charged (usually the same or the following business day), your credit card details are deleted from the server for additional security.</p>",
             "page": ""
           }
         },
@@ -49,7 +54,7 @@
           "settings": {
             "heading": "Who can buy through our website?",
             "icon": "none",
-            "row_content": "<p>Everyone is welcome to purchase from us. If you have any questions or comments please <a href=\"https:\/\/www.footwearandapparel.co.nz\/pages\/contact-us\" target=\"_self\" title=\"Contact Us\">contact us<\/a>. <\/p>",
+            "row_content": "<p>Everyone is welcome to purchase from us. If you have any questions or comments please <a href=\"https://www.footwearandapparel.co.nz/pages/contact-us\" target=\"_self\" title=\"Contact Us\">contact us</a>. </p>",
             "page": ""
           }
         },
@@ -58,7 +63,7 @@
           "settings": {
             "heading": "Do you have a premises or showroom that I can visit?",
             "icon": "none",
-            "row_content": "<p>Yes we do and you are most welcome to visit and browse our showroom. Our during trading hours are 7.30am through 5pm 5 days a week.<\/p>",
+            "row_content": "<p>Yes we do and you are most welcome to visit and browse our showroom. Our during trading hours are 7.30am through 5pm 5 days a week.</p>",
             "page": ""
           }
         },
@@ -67,7 +72,7 @@
           "settings": {
             "heading": "What currency am I charged in?",
             "icon": "none",
-            "row_content": "<p>All our prices are in NZ dollars. Your credit card will be charged in NZ dollars. For foreign credit card holders your credit card provider will convert the transaction to your local currency at the current exchange rates.<\/p>",
+            "row_content": "<p>All our prices are in NZ dollars. Your credit card will be charged in NZ dollars. For foreign credit card holders your credit card provider will convert the transaction to your local currency at the current exchange rates.</p>",
             "page": ""
           }
         },
@@ -76,7 +81,7 @@
           "settings": {
             "heading": "What do I do if I can't find the product I am looking for?",
             "icon": "none",
-            "row_content": "<p>Our web store offer a good selection of products, however our website concentrates on only our top selling lines and not everything we sell is displayed. We appreciate you may wish to purchase something not shown. If you can't find what you're looking for please contact us on our Toll Free number 0800-826-826 or email sales@faanz.co.nz.  We will be happy to advise you of availability and price within business hours.<\/p>",
+            "row_content": "<p>Our web store offer a good selection of products, however our website concentrates on only our top selling lines and not everything we sell is displayed. We appreciate you may wish to purchase something not shown. If you can't find what you're looking for please contact us on our Toll Free number 0800-826-826 or email sales@faanz.co.nz.  We will be happy to advise you of availability and price within business hours.</p>",
             "page": ""
           }
         },
@@ -85,7 +90,7 @@
           "settings": {
             "heading": "How long will it take to process and ship my order and is there a delivery fee?",
             "icon": "none",
-            "row_content": "<p>We usually need 1-2 working days (Mon - Fri) to process and ship the orders to your required destination. If you wish to place an order for urgent delivery please contact one of our sales staff at 0800-826-826 or email sales@faanz.co.nz. There is a delivery fee for orders under $200 or for all International orders.<\/p>",
+            "row_content": "<p>We usually need 1-2 working days (Mon - Fri) to process and ship the orders to your required destination. If you wish to place an order for urgent delivery please contact one of our sales staff at 0800-826-826 or email sales@faanz.co.nz. There is a delivery fee for orders under $200 or for all International orders.</p>",
             "page": ""
           }
         },
@@ -94,7 +99,7 @@
           "settings": {
             "heading": "How is my order delivered?",
             "icon": "none",
-            "row_content": "<p>Orders are picked, packed and sent out by reputable courier companies to ensure your order is received promptly, safely and at the best possible rates.<\/p>",
+            "row_content": "<p>Orders are picked, packed and sent out by reputable courier companies to ensure your order is received promptly, safely and at the best possible rates.</p>",
             "page": ""
           }
         },
@@ -103,7 +108,7 @@
           "settings": {
             "heading": "Am I able to arrange for my order to be collected?",
             "icon": "none",
-            "row_content": "<p>You are most welcome to collect your order, we welcome visitors to browse our showroom during trading hours 7.30am through 5pm 5 days a week. Please advise one of the <a href=\"mailto:sales@faanz.co.nz\" target=\"_self\" title=\"Customer Service\">Customer Service team<\/a> if you intend to collect your order.<\/p>",
+            "row_content": "<p>You are most welcome to collect your order, we welcome visitors to browse our showroom during trading hours 7.30am through 5pm 5 days a week. Please advise one of the <a href=\"mailto:sales@faanz.co.nz\" target=\"_self\" title=\"Customer Service\">Customer Service team</a> if you intend to collect your order.</p>",
             "page": ""
           }
         },
@@ -112,7 +117,7 @@
           "settings": {
             "heading": "What if I decide to change my order?",
             "icon": "none",
-            "row_content": "<p>You are able to change your order at any time, before or after it has been processed. It’s easier if you do so before it’s processed. What’s important is that you receive the goods that you require, we recognise that mistakes are made and will work with you to ensure you have what you would like. Click <a href=\"mailto:sales@faanz.co.nz\">here<\/a> to change your order. For International orders this will prove more difficult, however we will still be able to assist you with any changes. The sooner you can advise of required changes the better.<\/p>",
+            "row_content": "<p>You are able to change your order at any time, before or after it has been processed. It’s easier if you do so before it’s processed. What’s important is that you receive the goods that you require, we recognise that mistakes are made and will work with you to ensure you have what you would like. Click <a href=\"mailto:sales@faanz.co.nz\">here</a> to change your order. For International orders this will prove more difficult, however we will still be able to assist you with any changes. The sooner you can advise of required changes the better.</p>",
             "page": ""
           }
         },
@@ -121,7 +126,7 @@
           "settings": {
             "heading": "What if there's been a mistake and my order is incorrect?",
             "icon": "none",
-            "row_content": "<p>Should there be a mistake with your order, by you or ourselves please notify one of the Customer Services team on 0800-826-826 or by email on <a href=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz <\/a>and we will rectify your order.<\/p>",
+            "row_content": "<p>Should there be a mistake with your order, by you or ourselves please notify one of the Customer Services team on 0800-826-826 or by email on <a href=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz </a>and we will rectify your order.</p>",
             "page": ""
           }
         },
@@ -130,7 +135,7 @@
           "settings": {
             "heading": "What if prices change?",
             "icon": "none",
-            "row_content": "<p>The price payable for any product(s) is the price specified on this website at the time of placing the order and are not subject to change. Should there be a difference, please contact us.<\/p>",
+            "row_content": "<p>The price payable for any product(s) is the price specified on this website at the time of placing the order and are not subject to change. Should there be a difference, please contact us.</p>",
             "page": ""
           }
         },
@@ -139,7 +144,7 @@
           "settings": {
             "heading": "What if the size I have ordered is incorrect and I need to exchange it?",
             "icon": "none",
-            "row_content": "<p>It’s important for you and to us, that sizing is correct. If you need to exchange any item for the correct size please contact the <a href=\"mailto:sales@faanz.co.nz\" target=\"_self\" title=\"Customer Service\">Customer Services<\/a>. There may be a charge incurred.<\/p>",
+            "row_content": "<p>It’s important for you and to us, that sizing is correct. If you need to exchange any item for the correct size please contact the <a href=\"mailto:sales@faanz.co.nz\" target=\"_self\" title=\"Customer Service\">Customer Services</a>. There may be a charge incurred.</p>",
             "page": ""
           }
         },
@@ -148,7 +153,7 @@
           "settings": {
             "heading": "What if I want to pay by phone instead?",
             "icon": "none",
-            "row_content": "<p>If you prefer shopping over the phone we are happy to take your order through our toll free number 0800-826-826 or on +64 4 527 9168 between the hours of 7.30am through 5pm Mon-Fri.<\/p>",
+            "row_content": "<p>If you prefer shopping over the phone we are happy to take your order through our toll free number 0800-826-826 or on +64 4 527 9168 between the hours of 7.30am through 5pm Mon-Fri.</p>",
             "page": ""
           }
         },
@@ -157,7 +162,7 @@
           "settings": {
             "heading": "How do I Pay?",
             "icon": "none",
-            "row_content": "<p>We accept the following credit cards Visa and MasterCard, along with internet banking and cash.<\/p>",
+            "row_content": "<p>We accept the following credit cards Visa and MasterCard, along with internet banking and cash.</p>",
             "page": ""
           }
         },
@@ -166,7 +171,7 @@
           "settings": {
             "heading": "How do I know if the products are in stock?",
             "icon": "none",
-            "row_content": "<p>Our database is updated frequently to ensure that all the products on this website are always in stock. If an ordered item becomes unavailable after it is ordered, we will notify you as soon as possible offering substitutes or the opportunity to cancel your order.<\/p>",
+            "row_content": "<p>Our database is updated frequently to ensure that all the products on this website are always in stock. If an ordered item becomes unavailable after it is ordered, we will notify you as soon as possible offering substitutes or the opportunity to cancel your order.</p>",
             "page": ""
           }
         },
@@ -175,7 +180,7 @@
           "settings": {
             "heading": "I still need more information.",
             "icon": "none",
-            "row_content": "<p>If you require further assistance, feel free to contact Customer Services on 0800-826-826 (+64 4 527 9168) during office hours or email us at <a href=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz<\/a><\/p>",
+            "row_content": "<p>If you require further assistance, feel free to contact Customer Services on 0800-826-826 (+64 4 527 9168) during office hours or email us at <a href=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz</a></p>",
             "page": ""
           }
         }
@@ -217,12 +222,56 @@
         "padding_top": 72,
         "padding_bottom": 80
       }
+    },
+    "rich_text_AWLdmG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iNYqcR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Frequently Asked Questions (FAQs)</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_wHyRe8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Footwear & Apparel New Zealand. Below you’ll find answers to common questions about ordering, payments, shipping, rural delivery, returns and security.</p><p>If you need help, contact us anytime at <strong>sales@faanz.co.nz</strong>.</p><h2><strong>Ordering & Checkout</strong></h2><p><strong>1. Can I checkout without creating an account?</strong></p><p>Yes — you can checkout as a guest without creating an account. Creating an account simply allows you to track orders and save your details for faster checkout next time.</p><p><strong>2. What currency are your prices in?</strong></p><p>All prices are in New Zealand Dollars (NZD).</p><p><strong>3. Are your prices GST inclusive?</strong></p><p>Yes — all prices include GST (Goods and Services Tax) for New Zealand customers.</p><p><strong>4. Can I cancel or change my order after placing it?</strong></p><p>If your order hasn’t been dispatched yet, we may be able to help. Please contact us as soon as possible with your order number and we’ll do our best to assist.</p><p><br/></p><h2><strong>Payment Methods & Buy Now Pay Later (BNPL)</strong></h2><p><strong>1. What payment methods do you accept?</strong></p><p>We accept:</p><ul><li>Visa</li><li>Mastercard</li><li>American Express</li><li>PayPal</li><li>Apple Pay</li><li>Google Pay</li><li>Shop Pay</li><li>Afterpay</li></ul><p>Available options are displayed at checkout.</p><p><strong>2. Do you offer Afterpay or Buy Now Pay Later?</strong></p><p>Yes — we offer Afterpay, allowing you to split your purchase into interest-free instalments (subject to Afterpay terms and approval).</p><p><strong>3. Is it safe to use my credit card on your website?</strong></p><p>Yes. All payments are processed through secure, encrypted, PCI-compliant payment gateways such as Shopify Payments and PayPal. We do not store your full credit card details on our servers.</p><p><br/></p><h2><strong>Privacy & Security</strong></h2><p><strong>1. How is my personal information protected?</strong></p><p>We use secure encryption (SSL technology) to protect your personal information during checkout. Your information is used only for order processing, delivery and customer service.</p><p><strong>2. Do you share my personal data?</strong></p><p>No — we do not sell or rent your personal information. Please refer to our Privacy Policy for full details.</p><p><br/></p><h2><strong>Shipping & Delivery Within New Zealand</strong></h2><p><strong>1. Do you ship throughout New Zealand?</strong></p><p>Yes — we deliver NZ-wide, including rural addresses.</p><p><strong>2. Do you deliver to rural addresses?</strong></p><p>Yes — we ship to all rural addresses across New Zealand. Please allow an additional 1–3 working days for rural delivery.</p><p><strong>3. How long does delivery take?</strong></p><p>Estimated delivery times:</p><ul><li>Urban addresses: 2–5 working days</li><li>Rural addresses: 3–7 working days</li></ul><p>Delivery times may vary during peak periods.</p><p><strong>4. Is my order tracked?</strong></p><p>Yes — all orders are sent with tracked courier services. You will receive tracking details via email once your order has been dispatched.</p><p><strong>5. How much does shipping cost?</strong></p><p>Shipping costs are calculated at checkout. Any free shipping thresholds will be displayed on our website when applicable.</p><p><br/></p><h2><strong>Returns, Exchanges & Refunds</strong></h2><p><strong>1. What is your returns policy?</strong></p><p>We accept returns within 30 days of purchase, provided items are unworn, unused and in original condition with packaging intact.</p><p><strong>2. How do I return an item?</strong></p><p>Please email us with your order number and reason for return. We will provide return instructions.</p><p><strong>3. Can I exchange for a different size?</strong></p><p>Yes — if the size doesn’t fit, we’re happy to arrange an exchange (subject to stock availability).</p><p><strong>4. When will I receive my refund?</strong></p><p>Once we receive and inspect your returned item, refunds are processed back to your original payment method. Please allow several business days for your bank to complete the transaction.</p><p><br/></p><h2><strong>Sizing & Product Information</strong></h2><p><strong>1. How do I choose the correct size?</strong></p><p>We provide sizing information on each product page where available. If you’re unsure, contact us and we’ll help you select the best fit.</p><p><strong>2. What if an item is out of stock?</strong></p><p>If your size is unavailable, contact us and we may be able to advise when it will be restocked.</p><p><br/></p><h2><strong>Click & Collect </strong></h2><p><strong>1. Do you offer click and collect?</strong></p><p>Yes — you may collect your order from our location during business hours. You will receive confirmation when your order is ready for pickup.</p><h2><strong>Need More Help?</strong></h2><p>If your question isn’t answered here, please contact us at:</p><p><strong>Email:</strong> sales@faanz.co.nz<br/><br/><strong>Website:</strong> www.footwearandapparel.co.nz</p><p>We’re here to help and aim to respond as quickly as possible.</p>"
+          }
+        },
+        "button_9ck8GE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iNYqcR",
+        "text_wHyRe8",
+        "button_9ck8GE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f",
     "75e581bc-2a5d-46f9-ac89-4afa307d3115",
-    "4a616ae9-31f4-48f4-8bc4-fe23aa041c96"
+    "4a616ae9-31f4-48f4-8bc4-fe23aa041c96",
+    "rich_text_AWLdmG"
   ]
 }
