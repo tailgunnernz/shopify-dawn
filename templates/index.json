@@ -30,24 +30,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_XQW4mV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2026-01-13_140550.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now!",
-            "link": "https://www.footwearandapparel.co.nz/products/10019?_pos=4&_psq=SQ&_ss=e&_v=1.0",
-            "button_style_secondary": false,
-            "box_align": "top-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_fqqzWy": {
           "type": "slide",
           "settings": {
@@ -105,7 +87,6 @@
       },
       "block_order": [
         "slide_8439Gm",
-        "slide_XQW4mV",
         "slide_fqqzWy",
         "slide_dnpCXF",
         "slide_ydd6RK"
