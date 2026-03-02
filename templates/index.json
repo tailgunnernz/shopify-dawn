@@ -488,7 +488,7 @@
             "title": "Licensed Sports Products",
             "text": "<p>Buy from our licensed supported products range to support your team!</p>",
             "link_label": "View Licensed Sports Products",
-            "link": "shopify://collections/licensed-sport-products"
+            "link": "shopify://pages/licensed-sport-products"
           }
         }
       },
