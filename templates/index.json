@@ -205,6 +205,7 @@
         },
         "row_GRemTT": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Tino_Rangatiratanga_flag_2.jpg",
             "caption": "",
