@@ -54,7 +54,6 @@
         },
         "featured_collection_UT3EHh": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "white-ferns-licensed-products"
           }
