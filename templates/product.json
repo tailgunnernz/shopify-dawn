@@ -140,7 +140,7 @@
     "17397618152a589cc8": {
       "type": "apps",
       "blocks": {
-        "multivariants_bulk_order_app_block_product_JjGj3b": {
+        "multivariants_bulk_order_app_block_product_CfqjaW": {
           "type": "shopify://apps/multivariants-bulk-order/blocks/app-block-product/e556349f-fd26-4006-9dd9-dcbf70aa55b3",
           "settings": {
             "multivariants_custom_css": ""
@@ -148,7 +148,7 @@
         }
       },
       "block_order": [
-        "multivariants_bulk_order_app_block_product_JjGj3b"
+        "multivariants_bulk_order_app_block_product_CfqjaW"
       ],
       "settings": {
         "include_margins": true
