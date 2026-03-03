@@ -71,7 +71,7 @@
         "29208501-7e9d-4dc7-8d88-84470b9eb65d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.has_only_default_variant == false %}\n<style>\nproduct-info variant-radios,\nproduct-info .product-form__input,\nproduct-info form{\n    display:none;\n}\nhtml {\n  scroll-behavior: smooth;\n}\nsection[id*=\"MainProduct-template\"] {\n    padding-bottom: 0;\n}\n#MULTIVARIANTS_APP_BLOCK_CONTENT {\n    padding-top: 80px;\n}\n</style>\n\n<a class=\"button\" style=\"margin-bottom:0\" href=\"#MULTIVARIANTS_APP_BLOCK_CONTENT\">Order Now</a>\n{% endif %}"
+            "custom_liquid": "{% if product.has_only_default_variant == false %}\n<style>\nproduct-info variant-radios,\nproduct-info .product-form__input,\nproduct-info form{\n    display:none;\n}\nhtml {\n  scroll-behavior: smooth;\n}\nsection[id*=\"MainProduct-template\"] {\n    padding-bottom: 0;\n}\n#MULTIVARIANTS_APP_BLOCK_CONTENT {\n    padding-top: 80px;\ndisplay:block;\n}\n</style>\n\n<a class=\"button\" style=\"margin-bottom:0\" href=\"#MULTIVARIANTS_APP_BLOCK_CONTENT\">Order Now</a>\n{% endif %}"
           }
         },
         "variant_picker": {
