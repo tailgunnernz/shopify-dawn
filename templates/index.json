@@ -168,18 +168,6 @@
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
           }
         },
-        "row_94zrMY": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/anzac-07.png",
-            "caption": "Lest we forget",
-            "heading": "ANZAC Flags",
-            "text": "<p>Honor and remember with our selection of ANZAC flags.</p>",
-            "button_label": "View ANZAC flags",
-            "button_link": "shopify://collections/anzac_flags"
-          }
-        },
         "row_7UmiBK": {
           "type": "row",
           "disabled": true,
@@ -201,6 +189,17 @@
             "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
+          }
+        },
+        "row_94zrMY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/anzac-07.png",
+            "caption": "We will remember them",
+            "heading": "ANZAC Flags",
+            "text": "<p>Honour and remember with our selection of ANZAC flags.</p>",
+            "button_label": "View ANZAC flags",
+            "button_link": "shopify://collections/anzac_flags"
           }
         },
         "row_GRemTT": {
@@ -322,9 +321,9 @@
       },
       "block_order": [
         "row_xa4gVk",
-        "row_94zrMY",
         "row_7UmiBK",
         "row_EiTLpk",
+        "row_94zrMY",
         "row_GRemTT",
         "row_HYpBmX",
         "row_cELnW4",
