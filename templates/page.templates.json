@@ -816,6 +816,36 @@
     "multicolumn_7CEqY9": {
       "type": "multicolumn",
       "blocks": {
+        "column_JhtPyY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0618_7ceb6740-619f-4acb-983c-1efcac0c3606.png",
+            "title": "Wave Display",
+            "text": "<p>2.4m x 2.2m Curved & Straight</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/2.2m_x_2.2m_Straight_and_Curved_Wave_template.pdf?v=1722467134"
+          }
+        },
+        "column_xwNL6c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wave_and_zone-01_3f28e99c-eadf-4f8f-bdd1-55c4d98deaa1.jpg",
+            "title": "Wave Display",
+            "text": "<p>3m x 2.2m Curved & Straight</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/3m_x_2.2m_Straight_and_Curved_Wave_template.pdf?v=1722467022"
+          }
+        },
+        "column_gWhRJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0618_7ceb6740-619f-4acb-983c-1efcac0c3606.png",
+            "title": "Wave Display",
+            "text": "<p>6m x 2.2m Straight</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/20ft_Straight_Wave_Series.pdf?v=1722467200"
+          }
+        },
         "column_hHrjDG": {
           "type": "column",
           "settings": {
@@ -835,44 +865,14 @@
             "link_label": "Download",
             "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/10ft-straight-one-fabric-pop-up-with-endcaps-zone.pdf?v=1715031497"
           }
-        },
-        "column_JhtPyY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/wave-display-2.png",
-            "title": "Wave Display",
-            "text": "<p>2.4m x 2.2m Curved & Straight</p>",
-            "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/2.2m_x_2.2m_Straight_and_Curved_Wave_template.pdf?v=1722467134"
-          }
-        },
-        "column_xwNL6c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/wave-display-2.png",
-            "title": "Wave Display",
-            "text": "<p>3m x 2.2m Curved & Straight</p>",
-            "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/3m_x_2.2m_Straight_and_Curved_Wave_template.pdf?v=1722467022"
-          }
-        },
-        "column_gWhRJE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/wave-display-2.png",
-            "title": "Wave Display",
-            "text": "<p>6m x 2.2m Straight</p>",
-            "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/20ft_Straight_Wave_Series.pdf?v=1722467200"
-          }
         }
       },
       "block_order": [
-        "column_hHrjDG",
-        "column_BURh7m",
         "column_JhtPyY",
         "column_xwNL6c",
-        "column_gWhRJE"
+        "column_gWhRJE",
+        "column_hHrjDG",
+        "column_BURh7m"
       ],
       "custom_css": [
         "div img {width: 100%; object-fit: contain;}"
