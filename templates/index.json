@@ -12,6 +12,24 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_rBRgLm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Steel_Blue_Promotion.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "SHOP NOW TO WIN",
+            "link": "shopify://collections/steel-blue",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_8439Gm": {
           "type": "slide",
           "settings": {
@@ -86,6 +104,7 @@
         }
       },
       "block_order": [
+        "slide_rBRgLm",
         "slide_8439Gm",
         "slide_fqqzWy",
         "slide_dnpCXF",
@@ -98,7 +117,7 @@
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our services"
       }
     },
