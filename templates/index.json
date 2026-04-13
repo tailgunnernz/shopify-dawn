@@ -15,18 +15,18 @@
         "slide_jWT4em": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/PORTWEST_2a4fee47-58d6-4c76-a9c2-b65f25027585.png",
+            "image": "shopify://shop_images/PORTWEST_1_597a259b-7947-49e8-8531-21972ba5a713.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Shop Portwest",
             "link": "https://www.footwearandapparel.co.nz/search?q=portwest&_pos=1&_psq=port&_ss=e&_v=1.0",
             "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": false,
+            "box_align": "top-right",
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
         },
