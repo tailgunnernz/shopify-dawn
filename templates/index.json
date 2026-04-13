@@ -12,6 +12,24 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_jWT4em": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PORTWEST_2a4fee47-58d6-4c76-a9c2-b65f25027585.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Portwest",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_rBRgLm": {
           "type": "slide",
           "settings": {
@@ -39,24 +57,6 @@
             "subheading": "",
             "button_label": "Contact us for a quote",
             "link": "https://www.footwearandapparel.co.nz/pages/contact-us",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_fqqzWy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-11-12_at_2.43.42_PM.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Pit Vipers",
-            "link": "shopify://collections/pit-viper",
             "button_style_secondary": false,
             "box_align": "bottom-center",
             "show_text_box": true,
@@ -104,9 +104,9 @@
         }
       },
       "block_order": [
+        "slide_jWT4em",
         "slide_rBRgLm",
         "slide_8439Gm",
-        "slide_fqqzWy",
         "slide_dnpCXF",
         "slide_ydd6RK"
       ],
