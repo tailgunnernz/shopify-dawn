@@ -69,14 +69,14 @@
         "slide_dnpCXF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-11-12_at_3.22.11_PM.png",
+            "image": "shopify://shop_images/Natty_Glasses_1.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "Shop Natty Glasses",
             "link": "shopify://collections/natty",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
