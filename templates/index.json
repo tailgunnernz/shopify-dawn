@@ -23,7 +23,7 @@
             "link": "https://www.footwearandapparel.co.nz/search?q=portwest&_pos=1&_psq=port&_ss=e&_v=1.0",
             "button_style_secondary": false,
             "box_align": "top-right",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "accent-2",
