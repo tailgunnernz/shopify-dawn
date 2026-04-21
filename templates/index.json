@@ -12,6 +12,24 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
+        "slide_7fX7tb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Fielddays_website_banner-01.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/specials",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_JKHfEt": {
           "type": "slide",
           "settings": {
@@ -39,24 +57,6 @@
             "subheading": "",
             "button_label": "",
             "link": "shopify://collections/roll-up-pull-up-banners",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_7fX7tb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/durapole_banner_2_2d481813-e767-43a0-af06-d38d52d4e496.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -104,9 +104,9 @@
         }
       },
       "block_order": [
+        "slide_7fX7tb",
         "slide_JKHfEt",
         "slide_nqVRU6",
-        "slide_7fX7tb",
         "slide_pXKKny",
         "slide_m7qP3H"
       ],
@@ -182,11 +182,23 @@
         },
         "row_EiTLpk": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
             "heading": "Durapole Range. Commercial Grade.",
             "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
+            "button_label": "View Durapole Range",
+            "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
+          }
+        },
+        "row_VRRTdQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
+            "caption": "Advanced One-piece design",
+            "heading": "SAVE 10% ON Durapole® Flags & Displays!",
+            "text": "<h6>*Offer available until 31st May. Discount automatically applied at checkout.</h6><p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
           }
@@ -323,6 +335,7 @@
         "row_xa4gVk",
         "row_7UmiBK",
         "row_EiTLpk",
+        "row_VRRTdQ",
         "row_94zrMY",
         "row_GRemTT",
         "row_HYpBmX",
