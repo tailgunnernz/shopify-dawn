@@ -476,10 +476,21 @@
         },
         "column_WhdKNN": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Event_packages-03.png",
             "title": "Outdoor Event Products",
             "text": "<p>Liven up your event with colourful award winning products.</p>",
+            "link_label": "View all Event Products",
+            "link": "shopify://collections/event-products"
+          }
+        },
+        "column_hjPVPY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Event_packages-03.png",
+            "title": "Outdoor Event Products",
+            "text": "<p><strong>SAVE 10% ON Custom Gazebo's and Custom Durapole® Flags and Displays!</strong></p><p>Liven up your event with colourful award winning products.</p>",
             "link_label": "View all Event Products",
             "link": "shopify://collections/event-products"
           }
@@ -517,6 +528,7 @@
         "column_kLyQ4P",
         "column_xqfyqL",
         "column_WhdKNN",
+        "column_hjPVPY",
         "column_izG3TE",
         "column_QhTfaC"
       ],
