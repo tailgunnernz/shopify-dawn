@@ -150,34 +150,6 @@
     },
     "eb1305df-fe74-430a-90ac-c143e6f19b2b": {
       "type": "multirow",
-      "blocks": {
-        "template--14393127141451__eb1305df-fe74-430a-90ac-c143e6f19b2b-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/about-stu.png",
-            "caption": "Footwear and Apparel, Owner",
-            "heading": "Stu",
-            "text": "<p>Stu has over 20 years of sales experience in retail and wholesale markets. He is a Health & Safety<br/>professional, with a wealth of experience and a following of loyal and satisfied customers.</p><p>You’ll enjoy meeting him and come to trust his opinion, looking to him for footwear, clothing and safety solutions. Easy going, with a great sense of humour!</p><p><em>|</em> <a href=\"mailto:stu@faanz.co.nz\" title=\"mailto:stu@faanz.co.nz\">stu@faanz.co.nz</a><br/><em>|</em> <a href=\"tel:027 280 2394\" title=\"tel:027 280 2394\">027 280 2394</a></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--14393127141451__eb1305df-fe74-430a-90ac-c143e6f19b2b-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/about-rebecca.png",
-            "caption": "Footwear and Apparel, Owner",
-            "heading": "Rebecca",
-            "text": "<p>Rebecca brings a fresh perspective to the team, having recently transitioned from a background in Hospitality, Retail, and Customer Service. Her love for organising shines through in her work, and she thrives in fast-paced environments where she can embrace the excitement of a bustling atmosphere. As a lifelong resident of Upper Hutt, she deeply appreciates the support received from local companies and is committed to fostering strong relationships within the community. With her enthusiasm and dedication, Rebecca is keen to provide exceptional service and make a positive impact on our clients' experiences.<br/></p><h4><em><strong>Customer Services</strong></em></h4><p><em>|</em> Customer Services Team: <a href=\"mailto:sales@faanz.co.nz\" title=\"mailto:sales@faanz.co.nz\">sales@faanz.co.nz</a><br/><em>|</em> Rebecca Williams: <a href=\"mailto:office@faanz.co.nz\" title=\"mailto:office@faanz.co.nz\">office@faanz.co.nz</a><br/><em>|</em> <a href=\"tel:0800 826 826\" title=\"tel:0800 826 826\">0800 826 826</a></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14393127141451__eb1305df-fe74-430a-90ac-c143e6f19b2b-row-1",
-        "template--14393127141451__eb1305df-fe74-430a-90ac-c143e6f19b2b-row-2"
-      ],
       "custom_css": [
         ".image-with-text__text {order: 3;}",
         ".image-with-text__text em {font-style: normal; color: rgb(var(--fa-orange));}",
