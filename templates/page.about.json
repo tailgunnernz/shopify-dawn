@@ -43,7 +43,7 @@
           "settings": {
             "image": "shopify://shop_images/about-owners.jpg",
             "title": "",
-            "text": "<p>We help New Zealand businesses find reliable workwear, safety footwear, and uniforms—without the hassle of trial and error</p><p><strong>Footwear & Apparel NZ Ltd  - </strong>established for over 25 years is a privately owned New Zealand business operated by Stuart and Rebecca Williams. </p><p><strong>Stu</strong> brings over 20 years of experience in safety footwear and PPE across both retail and wholesale. As a Health & Safety professional, he’s known for giving practical, straight-up advice and helping customers find the right solution for the job.</p><p><strong>Rebecca</strong> keeps everything running smoothly behind the scenes. With a background in hospitality and retail, she’s focused on delivering a seamless and positive experience for every customer.</p><p></p><p></p>",
+            "text": "<p>We help New Zealand businesses find reliable workwear, safety footwear, and uniforms—without the hassle of trial and error</p><p><strong>Footwear & Apparel NZ Ltd  - </strong>established for over 25 years is a privately owned New Zealand business operated by Stuart and Rebecca Williams. </p><p><strong>Stu</strong> brings over 20 years of experience in safety footwear and PPE across both retail and wholesale. As a Health & Safety professional, he’s known for giving practical, straight-up advice and helping customers get it right the first time—so you’re not wasting money replacing gear that doesn’t last.</p><p><strong>Rebecca</strong> keeps everything running smoothly behind the scenes. With a background in hospitality and retail, she’s focused on delivering a seamless and positive experience for every customer.</p><p></p><p></p>",
             "link_label": "",
             "link": ""
           }
@@ -132,7 +132,7 @@
         "template--14393127141451__95fd58c6-8d43-4929-bffc-7a039c9f8967-text-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Good Communication</li><li>Reliable products that perform</li><li>A team that’s easy to deal with</li><li>Long-term support you can count on</li></ul>"
+            "text": "<ul><li>Good Communication</li><li>We recommend what actually works (not what’s overstocked)<br/></li><li>We help you avoid costly mistakes<br/></li><li>We make outfitting your team simple<br/></li><li>We’re easy to deal with—and that matters</li></ul>"
           }
         }
       },
