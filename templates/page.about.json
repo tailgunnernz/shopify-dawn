@@ -31,8 +31,9 @@
         "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-1": {
           "type": "column",
           "settings": {
-            "title": "As the owners of Footwear and Apparel NZ Ltd we welcome you to join us and look forward to being of service to you and your business.",
-            "text": "",
+            "image": "shopify://shop_images/ABC9520.jpg",
+            "title": "Let’s get your team sorted            <strong>                        </strong>",
+            "text": "<p>If you’re looking for workwear and safety solutions that do the job properly—and a team that’s easy to deal with—we’d love to help. Get in touch today</p>",
             "link_label": "",
             "link": ""
           }
@@ -42,7 +43,7 @@
           "settings": {
             "image": "shopify://shop_images/about-owners.jpg",
             "title": "",
-            "text": "<p><strong>Footwear & Apparel NZ Ltd  - </strong>established for over 25 years is a privately owned New Zealand business operated by Stuart and Rebecca Williams. </p><p>Stu has over 20 years of Safety Footwear and PPE knowledge having worked within the retail and wholesale markets. He is a Health & Safety professional, with a wealth of experience and a following of loyal and satisfied customers. </p><p>Rebecca has a background in hospitality and retail and as a lifelong Upper Hutt local she deeply appreciates the support received from local companies and is committed to fostering strong relationships within the community.</p><p></p>",
+            "text": "<p>We help New Zealand businesses find reliable workwear, safety footwear, and uniforms—without the hassle of trial and error</p><p><strong>Footwear & Apparel NZ Ltd  - </strong>established for over 25 years is a privately owned New Zealand business operated by Stuart and Rebecca Williams. </p><p><strong>Stu</strong> brings over 20 years of experience in safety footwear and PPE across both retail and wholesale. As a Health & Safety professional, he’s known for giving practical, straight-up advice and helping customers find the right solution for the job.</p><p><strong>Rebecca</strong> keeps everything running smoothly behind the scenes. With a background in hospitality and retail, she’s focused on delivering a seamless and positive experience for every customer.</p><p></p><p></p>",
             "link_label": "",
             "link": ""
           }
