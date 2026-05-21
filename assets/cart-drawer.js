@@ -194,4 +194,9 @@ document.addEventListener('DOMContentLoaded', function () {
       element.classList.add('picker__day--disabled')
     })
   })
+
+  window.ZapietEvent.listen('selected_method', function(checkout_method) {    
+    if(checkout_method !== 'shipping') return;
+    console.log('shipping')
+  });
 })
