@@ -203,6 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if(terms){
         terms.remove();
       }
+      submit.disabled = false;
       return;
     };
     console.log(ZapietCart)
