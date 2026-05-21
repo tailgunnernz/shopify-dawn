@@ -18,3 +18,13 @@
 .ZapietStack-Item:has(.ZapietLocations-List) {
     max-height: 120px;
 }
+
+label.cart-drawer__terms-label{
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
