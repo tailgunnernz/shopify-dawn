@@ -212,11 +212,33 @@ document.addEventListener('DOMContentLoaded', function () {
       terms = document.createElement('div');
       terms.innerHTML = `<label class="cart-drawer__terms-label">
         <input type="checkbox" id="CartDrawer-TermsCheckbox" name="cart_terms_accepted">
-        <span>I accept the <a href="/policies/terms-of-service" target="_blank" rel="noopener">terms &amp; conditions</a></span>
+        <span>I acknowledge that delivery timeframes are estimates only and that all courier deliveries are sent with Authority to Leave. Once delivery has been recorded by the courier, responsibility for the parcel transfers to me.</span>
       </label>`;
       submit.parentNode.insertBefore(terms, submit); 
     }
     
 
   });
+
+  window.addEventListener('change', async function(event) {
+    if(event.target.id === 'CartDrawer-TermsCheckbox') {
+      let submit = document.querySelector('#CartDrawer-Checkout')
+      await updateCartTermsAccepted(event.target.checked);
+      submit.disabled = !event.target.checked; 
+    }
+  })
+
+  async function updateCartTermsAccepted(accepted) {
+    await fetch('/cart/update.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        attributes: {
+          delivery_terms_accepted: accepted ? 'Yes' : ''
+        }
+      })
+    });
+  }
 })
