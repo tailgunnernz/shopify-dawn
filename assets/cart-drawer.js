@@ -210,12 +210,13 @@ document.addEventListener('DOMContentLoaded', function () {
     if(!terms){
       // prepend the terms and conditions checkbox to the checkout button
       terms = document.createElement('div');
+      let accepted = ZapietCart.attributes?.delivery_terms_accepted === 'Yes';
       terms.innerHTML = `<label class="cart-drawer__terms-label">
-        <input type="checkbox" id="CartDrawer-TermsCheckbox" name="cart_terms_accepted">
+        <input type="checkbox" id="CartDrawer-TermsCheckbox" name="cart_terms_accepted" ${accepted ? 'checked' : ''}>
         <span>I acknowledge that delivery timeframes are estimates only and that all courier deliveries are sent with Authority to Leave. Once delivery has been recorded by the courier, responsibility for the parcel transfers to me.</span>
       </label>`;
       submit.parentNode.insertBefore(terms, submit); 
-      submit.disabled = true
+      submit.disabled = !ZapietCart.attributes?.delivery_terms_accepted;
     }
     
 
