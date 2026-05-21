@@ -204,6 +204,7 @@ document.addEventListener('DOMContentLoaded', function () {
         terms.remove();
       }
       submit.disabled = false;
+      updateCartTermsAccepted(false);
       return;
     };
     console.log(ZapietCart)
