@@ -215,6 +215,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <span>I acknowledge that delivery timeframes are estimates only and that all courier deliveries are sent with Authority to Leave. Once delivery has been recorded by the courier, responsibility for the parcel transfers to me.</span>
       </label>`;
       submit.parentNode.insertBefore(terms, submit); 
+      submit.disabled = true
     }
     
 
