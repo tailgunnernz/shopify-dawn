@@ -207,12 +207,11 @@ document.addEventListener('DOMContentLoaded', function () {
       updateCartTermsAccepted(false);
       return;
     };
-    console.log(ZapietCart)
     
     if(!terms){
       // prepend the terms and conditions checkbox to the checkout button
       terms = document.createElement('div');
-      let accepted = ZapietCart.attributes?.delivery_terms_accepted === 'Yes';
+      let accepted = ZapietCart.attributes?.delivery_terms_accepted;
       terms.innerHTML = `<label class="cart-drawer__terms-label">
         <input type="checkbox" id="CartDrawer-TermsCheckbox" name="cart_terms_accepted" ${accepted ? 'checked' : ''}>
         I acknowledge that delivery timeframes are estimates only and that all courier deliveries are sent with Authority to Leave. Once delivery has been recorded by the courier, responsibility for the parcel transfers to me.
@@ -238,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
       },
       body: JSON.stringify({
         attributes: {
-          delivery_terms_accepted: accepted ? 'Yes' : ''
+          delivery_terms_accepted: accepted ? 'I acknowledge that delivery timeframes are estimates only and that all courier deliveries are sent with Authority to Leave. Once delivery has been recorded by the courier, responsibility for the parcel transfers to me.' : ''
         }
       })
     });
