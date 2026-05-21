@@ -196,7 +196,27 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 
   window.ZapietEvent.listen('selected_method', function(checkout_method) {    
-    if(checkout_method !== 'shipping') return;
-    console.log('shipping')
+    let terms = document.querySelector('.cart-drawer__terms-label')
+    let submit = document.querySelector('#CartDrawer-Checkout')
+
+    if(checkout_method !== 'shipping') {
+      if(terms){
+        terms.remove();
+      }
+      return;
+    };
+    console.log(ZapietCart)
+    
+    if(!terms){
+      // prepend the terms and conditions checkbox to the checkout button
+      terms = document.createElement('div');
+      terms.innerHTML = `<label class="cart-drawer__terms-label">
+        <input type="checkbox" id="CartDrawer-TermsCheckbox" name="cart_terms_accepted">
+        <span>I accept the <a href="/policies/terms-of-service" target="_blank" rel="noopener">terms &amp; conditions</a></span>
+      </label>`;
+      submit.parentNode.insertBefore(terms, submit); 
+    }
+    
+
   });
 })
