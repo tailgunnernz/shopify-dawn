@@ -15,14 +15,14 @@
         "slide_cX8JJa": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Your_paragraph_text.jpg",
+            "image": "shopify://shop_images/Your_paragraph_text_1.png",
             "heading": "ENQUIRE NOW",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
+            "box_align": "bottom-center",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
