@@ -215,6 +215,17 @@
             "button_link": "shopify://collections/anzac_flags"
           }
         },
+        "row_LgY6VT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/matariki_new_horiztonal-160.png",
+            "caption": "Mānawatia a Matariki",
+            "heading": "Matariki Flags",
+            "text": "<p>Celebrate Māori New Year with our range of Matariki Flags.</p>",
+            "button_label": "View Matariki flags",
+            "button_link": "shopify://collections/matariki-streetflags"
+          }
+        },
         "row_GRemTT": {
           "type": "row",
           "disabled": true,
@@ -338,6 +349,7 @@
         "row_EiTLpk",
         "row_VRRTdQ",
         "row_94zrMY",
+        "row_LgY6VT",
         "row_GRemTT",
         "row_HYpBmX",
         "row_cELnW4",
