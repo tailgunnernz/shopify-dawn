@@ -65,8 +65,16 @@
     "announcement_bar_MCkik9": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_WzxVXa": {
+          "type": "announcement",
+          "settings": {
+            "text": "SAVE 10% ON New Zealand Flags, Country Flags & Flag Poles! Offer automatically applied at checkout. Available until Tuesday June 30th",
+            "link": "shopify://collections/specials"
+          }
+        },
         "announcement_WQ7rLQ": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Use code WAITANGI10 at checkout to save 10% off  all Tino Rangatiratanga & United Tribes Flags. *Offer available until Feb 6 2026.",
             "link": "shopify://collections/rangatiratanga"
@@ -82,10 +90,10 @@
         }
       },
       "block_order": [
+        "announcement_WzxVXa",
         "announcement_WQ7rLQ",
         "announcement_FUMRTL"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-5",
         "show_line_separator": true,
