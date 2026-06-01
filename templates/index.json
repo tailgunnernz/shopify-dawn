@@ -12,6 +12,24 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
+        "slide_pXKKny": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/10_ON_NZ_COUNTRY_AND_FLAGPOLES_2026-02.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/specials",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_7fX7tb": {
           "type": "slide",
           "settings": {
@@ -66,24 +84,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_pXKKny": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Black_caps-01.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/black-caps-licensed-products",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_m7qP3H": {
           "type": "slide",
           "settings": {
@@ -104,10 +104,10 @@
         }
       },
       "block_order": [
+        "slide_pXKKny",
         "slide_7fX7tb",
         "slide_JKHfEt",
         "slide_nqVRU6",
-        "slide_pXKKny",
         "slide_m7qP3H"
       ],
       "custom_css": [],
