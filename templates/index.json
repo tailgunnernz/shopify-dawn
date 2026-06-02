@@ -48,24 +48,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_rBRgLm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Steel_Blue_Promotion_2.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "SHOP NOW TO WIN",
-            "link": "shopify://collections/steel-blue",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_dnpCXF": {
           "type": "slide",
           "settings": {
@@ -106,7 +88,6 @@
       "block_order": [
         "slide_cX8JJa",
         "slide_jWT4em",
-        "slide_rBRgLm",
         "slide_dnpCXF",
         "slide_ydd6RK"
       ],
