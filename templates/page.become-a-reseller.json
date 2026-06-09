@@ -9,9 +9,25 @@
  */
 {
   "sections": {
+    "image_banner_66HaxM": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Become_a_reserller_banner-01.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -19,11 +35,36 @@
     },
     "custom_liquid_i7WFVk": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width section-content scroll-trigger animate--fade-in center\">\n<h1 class=\"h0\">Contact Us</h1>\n</div>",
         "color_scheme": "scheme-5",
         "padding_top": 24,
         "padding_bottom": 32
+      }
+    },
+    "rich_text_jaGMcV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wPDwcD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in Touch!",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wPDwcD"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-ca4fc56a-2e94-4c1e-a840-6e039ef09e8a",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "multicolumn_C6CUFR": {
@@ -32,7 +73,7 @@
         "column_yEyd6L": {
           "type": "column",
           "settings": {
-            "title": "Get In Touch",
+            "title": "",
             "text": "<p><strong>We have friendly sales staff who are waiting to take your call now.</strong><br/><br/>Freephone: <a href=\"tel:0800900800\" title=\"Call 0800900800\"><strong>0800 900800</strong></a><br/>Phone: <a href=\"tel:+6444736682\" title=\"Call +6444736682\"><strong>(+64) 4 473 6682</strong></a><br/>Fax: <a href=\"tel:+6442821197\" title=\"Fax +6442821197\"><strong>(+64) 4 282 1197</strong></a><br/>Email:             <a href=\"mailto:sales@flagmakers.co.nz\" title=\"mailto:sales@flagmakers.co.nz\"><strong>sales@flagmakers.co.nz</strong></a></p>",
             "link_label": "",
             "link": ""
@@ -68,8 +109,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 40
+        "padding_top": 48,
+        "padding_bottom": 28
       }
     },
     "form": {
@@ -100,6 +141,7 @@
       "block_order": [
         "buttons_MyVL6f"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/contact_map.jpg",
         "image_overlay_opacity": 0,
@@ -116,8 +158,10 @@
     }
   },
   "order": [
+    "image_banner_66HaxM",
     "main",
     "custom_liquid_i7WFVk",
+    "rich_text_jaGMcV",
     "multicolumn_C6CUFR",
     "form",
     "image_banner_7E3cAW"
