@@ -26,6 +26,31 @@
         "show_text_below": true
       }
     },
+    "rich_text_CzU7DL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_6yqX6A": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Demand for flags by businesses in New Zealand continues to grow and more importantly demand for high quality flags is increasing also.  </p><p>This provides an opportunity to add an easy additional revenue stream for your business. </p><h3>It’s no hassle and the margins are good.</h3><p><br/></p><h3>Benefits</h3><p>As a reseller with Flagmakers you receive<strong> significant benefits:</strong></p><ul><li>Access to New Zealand’s highest quality flag and other fabric products.</li><li>Good margins for little effort.</li><li>No setup or design fees.</li><li>Lifetime hardware guarantees on Durapole® Poles. 1 Year on other hardware products.</li><li>Fast turnaround time.<br/></li><li>(typically between 3-5 working days after artwork approval)<br/></li><li>NZ’s largest range of mounting options.<br/></li><li>Made in our Wellington plant using advanced fabric printing technologies and expertise.<br/></li><li>Dedicated account manager for support.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6yqX6A"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -159,6 +184,7 @@
   },
   "order": [
     "image_banner_66HaxM",
+    "rich_text_CzU7DL",
     "main",
     "custom_liquid_i7WFVk",
     "rich_text_jaGMcV",
