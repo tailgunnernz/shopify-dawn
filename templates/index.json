@@ -50,6 +50,7 @@
         },
         "slide_JKHfEt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/All_Blacks_comp_Email_Banner_2-01.jpg",
             "heading": "",
@@ -461,7 +462,7 @@
           "settings": {
             "image": "shopify://shop_images/all_blakcs_collection.png",
             "title": "All Blacks®",
-            "text": "<p><strong>Purchase any All Blacks® Product and go into the draw to win 2 tickets to All Blacks® V Italy in Wellington! </strong><a href=\"https://www.flagmakers.co.nz/pages/all-blacks-vs-italy-ticket-giveaway-terms-conditions\" target=\"_blank\" title=\"All Blacks vs Italy ticket giveaway terms & conditions\"><strong>T&c's Apply</strong></a></p><p></p><p>Flagmakers Ltd is an Official Licensee to the All Blacks®.</p>",
+            "text": "<p>Flagmakers Ltd is an Official Licensee to the All Blacks®.</p>",
             "link_label": "View All Blacks®",
             "link": "shopify://collections/all-blacks"
           }
