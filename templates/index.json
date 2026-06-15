@@ -105,6 +105,12 @@
     "2377cec9-f09c-4e08-bd02-72f854c16dce": {
       "type": "fa-collection-list",
       "blocks": {
+        "featured_collection_U63APm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "carhartt"
+          }
+        },
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
@@ -146,15 +152,23 @@
             "collection": "medical-misc",
             "collection_image": "shopify://shop_images/collection-medical.jpg"
           }
+        },
+        "featured_collection_NAzA4n": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hot-deals"
+          }
         }
       },
       "block_order": [
+        "featured_collection_U63APm",
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-1",
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-2",
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-3",
         "bb0bf01b-96c4-418b-b1e0-ef38e13ffcf5",
         "5a5b1e68-7c36-4d18-bfc0-3eef46faaa1c",
-        "735e6dc0-dfdc-4923-b34d-b557a14db84d"
+        "735e6dc0-dfdc-4923-b34d-b557a14db84d",
+        "featured_collection_NAzA4n"
       ],
       "settings": {
         "title": "",
