@@ -50,14 +50,13 @@
         },
         "slide_JKHfEt": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/All_Blacks_comp_Email_Banner_2-01.jpg",
+            "image": "shopify://shop_images/Matariki_2026_banners-06.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/all-blacks",
+            "link": "shopify://collections/matariki-streetflags",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
