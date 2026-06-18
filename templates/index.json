@@ -30,6 +30,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_ydd6RK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-18_141210.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Carhartt Workwear",
+            "link": "shopify://collections/carhartt",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_jWT4em": {
           "type": "slide",
           "settings": {
@@ -65,31 +83,13 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "right"
           }
-        },
-        "slide_ydd6RK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2026-06-18_141210.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Carhartt Workwear",
-            "link": "shopify://collections/carhartt",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_cX8JJa",
+        "slide_ydd6RK",
         "slide_jWT4em",
-        "slide_dnpCXF",
-        "slide_ydd6RK"
+        "slide_dnpCXF"
       ],
       "settings": {
         "layout": "grid",
