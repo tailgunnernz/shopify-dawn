@@ -199,8 +199,8 @@
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
-            "heading": "SAVE 10% ON Durapole® Flags & Displays!",
-            "text": "<h6>*Offer available until 30th June. Discount automatically applied at checkout.</h6><p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
+            "heading": "Durapole® Flags & Displays!",
+            "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
           }
@@ -316,7 +316,7 @@
             "image": "shopify://shop_images/Supreme_Larger_3-01_bdb3ff00-0c29-42be-aa89-2084580a645b.png",
             "caption": "NZ's most durable",
             "heading": "Flag Poles",
-            "text": "<h3><strong>SAVE 10% ON New Zealand Flags, Country Flags & Flag Poles!</strong></h3><h6><strong>*Offer automatically applied at checkout.<br/>Available until Tuesday June 30th on Standard NZ & country Flags and Flagpoles.</strong></h6><p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.</p>",
+            "text": "<p>These poles are the most durable flag poles available  and have been used widely for the last 20 years throughout NZ.</p>",
             "button_label": "View Flag Poles",
             "button_link": "shopify://collections/flag-poles"
           }
@@ -390,7 +390,7 @@
           "settings": {
             "image": "shopify://shop_images/new_zealand_collection-17_2.png",
             "title": "New Zealand Flags",
-            "text": "<h5><strong>SAVE 10% ON New Zealand Flags, Country Flags & Flag Poles!</strong></h5><h6><strong>*Offer automatically applied at checkout.<br/>Available until Tuesday June 30th on Standard NZ & country Flags and Flagpoles. </strong></h6><h6></h6><p>Buy your NZ flags directly from the manufacturer! Free Shipping in NZ for our popular NZ flags!*<br/></p>",
+            "text": "<p>Buy your NZ flags directly from the manufacturer! Free Shipping in NZ for our popular NZ flags!*<br/></p>",
             "link_label": "View New Zealand Flags",
             "link": "https://shop.flagmakers.co.nz/collections/new-zealand-flags"
           }
@@ -411,7 +411,7 @@
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
             "title": "Country Flags",
-            "text": "<h5><strong>SAVE 10% ON New Zealand Flags, Country Flags & Flag Poles!</strong></h5><h6><strong>*Offer automatically applied at checkout.<br/>Available until Tuesday June 30th on Standard NZ & country Flags and Flagpoles.</strong></h6><p></p><p>We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
+            "text": "<p>We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
