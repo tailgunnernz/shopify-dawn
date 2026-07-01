@@ -14,6 +14,7 @@
       "blocks": {
         "slide_pXKKny": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/10_ON_NZ_COUNTRY_AND_FLAGPOLES_2026-02.png",
             "heading": "",
@@ -32,6 +33,7 @@
         },
         "slide_7fX7tb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Fielddays_website_banner-02.png",
             "heading": "",
