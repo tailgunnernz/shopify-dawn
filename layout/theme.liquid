@@ -1,6 +1,7 @@
 <!doctype html>
 {%- assign private_page = false -%}
 {%- assign redirect = '/' -%}
+{%- assign target_email = customer.email | strip | downcase -%}
  {%- if template.name == 'collection' and request.design_mode == false -%}
    {% if collection.metafields.custom.usersMultiLine %}
      {%- assign private_page = true -%}
@@ -9,7 +10,8 @@
      {% assign private_users = collection.metafields.custom.usersMultiLine | newline_to_br | split: '<br />' %}
 
      {% for user in private_users %}
-       {% if user contains customer.email %}
+       {%- assign allowed_email = user | strip | downcase -%}
+       {% if allowed_email != blank and allowed_email == target_email %}
          {%- assign private_page = false -%}
          {% break %}
        {% endif %}
@@ -27,7 +29,8 @@
        {% assign private_users = collection.metafields.custom.usersMultiLine | newline_to_br | split: '<br />' %}
   
        {% for user in private_users %}
-         {% if user contains customer.email %}
+         {%- assign allowed_email = user | strip | downcase -%}
+         {% if allowed_email != blank and allowed_email == target_email %}
            {%- assign private_page = false -%}
            {% break %}
          {% endif %}

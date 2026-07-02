@@ -27,11 +27,13 @@
 
   <div>
     {% assign private_portal_output = false %}
+    {% assign target_email = customer.email | strip | downcase %}
     {% for collection in collections %}
       {% assign private_users = collection.metafields.custom.usersMultiLine | newline_to_br | split: '<br />' %}
     
        {% for user in private_users %}
-        {% if user contains customer.email %}
+        {% assign allowed_email = user | strip | downcase %}
+        {% if allowed_email != blank and allowed_email == target_email %}
           {% if private_portal_output == false %}
             <div>{% assign private_portal_output = true %}
           {% endif %}
