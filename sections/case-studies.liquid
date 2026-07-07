@@ -2,7 +2,8 @@
 
   <h2 class="h2">{{ section.settings.title }}</h2>
   <div class="grid grid--1-col grid--3-col-tablet casestudies_list">
-  {% for metaobject in shop.metaobjects.case_studies.values %}
+  {%- assign case_studies = shop.metaobjects.case_studies.values | sort: 'system.created_at' -%}
+  {% for metaobject in case_studies %}
     {% assign check = false %}
     {% if section.settings.category == '' %}
       {% assign check = true %}
