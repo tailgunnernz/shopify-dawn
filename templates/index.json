@@ -218,6 +218,7 @@
         },
         "row_LgY6VT": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/matariki_new_horiztonal-160.png",
             "caption": "Mānawatia a Matariki",
@@ -265,7 +266,6 @@
         },
         "row_UmQJJK": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/All_Blacks_Black_ferns_collection_home_page-03.jpg",
             "caption": "Official Licensee",
