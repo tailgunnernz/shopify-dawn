@@ -199,6 +199,18 @@
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
             "heading": "Durapole® Flags & Displays!",
+            "text": "<p><strong>1/2 Price Deal</strong>! Buy 1 Durapole® flag or display and get a second flag or flag and pole for <strong>HALF PRICE</strong>!<br/></p><h6><strong>*Offer automatically applied at checkout. Available until Tuesday July 31st. </strong></h6>",
+            "button_label": "View Durapole Range",
+            "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
+          }
+        },
+        "row_Vixr7X": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
+            "caption": "Advanced One-piece design",
+            "heading": "Durapole® Flags & Displays!",
             "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
@@ -349,6 +361,7 @@
         "row_7UmiBK",
         "row_EiTLpk",
         "row_VRRTdQ",
+        "row_Vixr7X",
         "row_94zrMY",
         "row_LgY6VT",
         "row_GRemTT",
