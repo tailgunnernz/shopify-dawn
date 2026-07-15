@@ -2,28 +2,42 @@
 
   <h2 class="h2">{{ section.settings.title }}</h2>
   <div class="grid grid--1-col grid--3-col-tablet casestudies_list">
-  {%- assign case_studies = shop.metaobjects.case_studies.values | sort: 'system.created_at' -%}
-  {% for metaobject in case_studies %}
+
+  {%- comment -%} Build "YYYYMMDD|handle" keys for the entries in this category, then sort {%- endcomment -%}
+  {% assign sortable = '' %}
+  {% for metaobject in shop.metaobjects.case_studies.values %}
     {% assign check = false %}
     {% if section.settings.category == '' %}
       {% assign check = true %}
     {% elsif section.settings.category != '' and metaobject.category == section.settings.category %}
       {% assign check = true %}
     {% endif %}
-  
+
     {% if check == true %}
-      
-      <article class="grid__item scroll-trigger animate--slide-in">
-        <a class="link animate-arrow" href="{{ metaobject.system.url }}">
-          {{ metaobject.gallery.value | first | image_url: width: 1000, height: 700 | image_tag: alt: metaobject.title  }}
-          <div style="margin-top: 1rem">
-            {{ metaobject.title }}
-            <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
-          </div>
-        </a>
-      </article>
-      
+      {% assign date_key = metaobject.date.value | date: '%Y%m%d' %}
+      {% if date_key == blank %}
+        {% assign date_key = '00000000' %}
+      {% endif %}
+      {% assign sortable = sortable | append: date_key | append: '|' | append: metaobject.system.handle | append: ',' %}
     {% endif %}
+  {% endfor %}
+
+  {% assign sorted = sortable | split: ',' | sort | reverse %}
+
+  {% for entry in sorted %}
+    {% assign handle = entry | split: '|' | last %}
+    {% assign metaobject = shop.metaobjects.case_studies[handle] %}
+
+    <article class="grid__item scroll-trigger animate--slide-in">
+      <a class="link animate-arrow" href="{{ metaobject.system.url }}">
+        {{ metaobject.gallery.value | first | image_url: width: 1000, height: 700 | image_tag: alt: metaobject.title }}
+        <div style="margin-top: 1rem">
+          {{ metaobject.title }}
+          <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
+        </div>
+      </a>
+    </article>
+
   {% endfor %}
     </div>
 </div>
