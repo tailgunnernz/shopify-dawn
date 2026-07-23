@@ -159,7 +159,17 @@
                       {%- endif -%}
                       <p class="predictive-search__item-heading h5">{{ product.title }}</p>
                       {%- if settings.predictive_search_show_price -%}
-                        {% render 'price', product: product, use_variant: true, show_badges: false %}
+                        {%- if product.template_suffix == 'viewonly' -%}
+                          <div class="price">
+                            <div class="price__container">
+                              <div class="price__regular">
+                                <span class="price-item price-item--regular">POA</span>
+                              </div>
+                            </div>
+                          </div>
+                        {%- else -%}
+                          {% render 'price', product: product, use_variant: true, show_badges: false %}
+                        {%- endif -%}
                       {%- endif -%}
                     </div>
                   </a>

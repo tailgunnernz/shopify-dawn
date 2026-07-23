@@ -205,11 +205,21 @@
               </p>
             {%- endif -%}
 
-            {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
-            {%- if card_product.quantity_price_breaks_configured? -%}
-              <div class="card__information-volume-pricing-note">
-                <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
+            {%- if card_product.template_suffix == 'viewonly' -%}
+              <div class="price">
+                <div class="price__container">
+                  <div class="price__regular">
+                    <span class="price-item price-item--regular">POA</span>
+                  </div>
+                </div>
               </div>
+            {%- else -%}
+              {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+              {%- if card_product.quantity_price_breaks_configured? -%}
+                <div class="card__information-volume-pricing-note">
+                  <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
+                </div>
+              {%- endif -%}
             {%- endif -%}
           </div>
         </div>
