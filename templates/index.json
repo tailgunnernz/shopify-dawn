@@ -278,11 +278,23 @@
         },
         "row_UmQJJK": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/All_Blacks_Black_ferns_collection_home_page-03.jpg",
             "caption": "Official Licensee",
             "heading": "All Blacks® & Black Ferns® Flags",
             "text": "<p>Flagmakers Ltd is an Official Licensee to the All Blacks®.</p>",
+            "button_label": "View all All Blacks® & Black Ferns®",
+            "button_link": "shopify://collections/all-blacks-black-ferns-flags"
+          }
+        },
+        "row_BwPKEB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/All_Blacks_Black_ferns_collection_home_page-03.jpg",
+            "caption": "Official Licensee",
+            "heading": "Save 10% on All Blacks® & Black Ferns® Flags!",
+            "text": "<p><strong>Save 10% on All Blacks® & Black Ferns® Flags! </strong></p><h6><strong>*Offer available until September 30th</strong><br/><br/><br/>Flagmakers Ltd is an Official Licensee to the All Blacks®.</h6>",
             "button_label": "View all All Blacks® & Black Ferns®",
             "button_link": "shopify://collections/all-blacks-black-ferns-flags"
           }
@@ -368,6 +380,7 @@
         "row_HYpBmX",
         "row_cELnW4",
         "row_UmQJJK",
+        "row_BwPKEB",
         "row_qGDEbf",
         "row_tW98W9",
         "row_XcgE9e",
