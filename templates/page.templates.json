@@ -813,6 +813,51 @@
         "padding_bottom": 40
       }
     },
+    "multicolumn_rJy89V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bhgRYf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Harcourts_Pop_up_counter-03.jpg",
+            "title": "Oval Pop Up Stand",
+            "text": "",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Pop_Up_Table_Oval_Template.pdf?v=1784767639"
+          }
+        },
+        "column_z4zXYw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Harcourts_Pop_up_counter-02.jpg",
+            "title": "Rectangle Pop Up Stand",
+            "text": "",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Pop_Up_Table_Rectangle_Template.pdf?v=1784767639"
+          }
+        }
+      },
+      "block_order": [
+        "column_bhgRYf",
+        "column_z4zXYw"
+      ],
+      "settings": {
+        "title": "Pop up Stand",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "multicolumn_7CEqY9": {
       "type": "multicolumn",
       "blocks": {
@@ -918,6 +963,7 @@
     "multicolumn_3bLNgb",
     "multicolumn_fMGERx",
     "multicolumn_WhteMR",
+    "multicolumn_rJy89V",
     "multicolumn_7CEqY9"
   ]
 }
