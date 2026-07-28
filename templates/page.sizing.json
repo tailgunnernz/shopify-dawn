@@ -284,32 +284,33 @@
             "heading": "Outback trading sizing chart",
             "heading_size": "h1"
           }
-        }
-      },
-      "block_order": [
-        "image_m3Agt3",
-        "heading_MC6afr"
-      ],
-      "name": "Custom Rich Text",
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "27f91561-0e3e-43a8-a777-51ea5217c987": {
-      "type": "fa-rich-text",
-      "blocks": {
-        "image_gXCFXV": {
+        },
+        "image_taGeeK": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Outback_hats_sizing_chart.png",
             "max_width": "70%"
           }
-        },
+        }
+      },
+      "block_order": [
+        "image_m3Agt3",
+        "heading_MC6afr",
+        "image_taGeeK"
+      ],
+      "name": "Custom Rich Text",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "27f91561-0e3e-43a8-a777-51ea5217c987": {
+      "type": "fa-rich-text",
+      "blocks": {
         "d98612a6-7bf4-4543-a66e-e7d72865fbae": {
           "type": "image",
           "settings": {
@@ -327,13 +328,12 @@
         "68ce71f8-84ff-42a2-a097-4d5e46d19e70": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/sizing-kaiwaka.jpg",
-            "max_width": "100%"
+            "image": "shopify://shop_images/kawiaka.png",
+            "max_width": "110%"
           }
         }
       },
       "block_order": [
-        "image_gXCFXV",
         "d98612a6-7bf4-4543-a66e-e7d72865fbae",
         "template--14399191580747__27f91561-0e3e-43a8-a777-51ea5217c987-heading-1",
         "68ce71f8-84ff-42a2-a097-4d5e46d19e70"
@@ -341,9 +341,9 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 100,
+        "padding_top": 20,
         "padding_bottom": 100
       }
     }
