@@ -1,11 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "padding_top": 80,
         "padding_bottom": 84
@@ -13,9 +20,7 @@
     },
     "1e90bbd7-ab89-43d7-9045-9e87a22c927f": {
       "type": "fa-page-header",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "image_overlay": false
@@ -27,7 +32,7 @@
         "04a9efbc-e216-438c-8574-8cf7413f1a1a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FXD-logo_4d3094b5-c656-4023-8d16-c2480762a4f4.jpg",
+            "image": "shopify://shop_images/FXD-logo_4d3094b5-c656-4023-8d16-c2480762a4f4.jpg",
             "max_width": "100px"
           }
         },
@@ -41,14 +46,14 @@
         "f72ab37a-3eaa-4998-ac8e-f64216939440": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-fxd-women.jpg",
+            "image": "shopify://shop_images/sizing-fxd-women.jpg",
             "max_width": "100%"
           }
         },
         "07e9c2c2-509b-43ef-9f08-cd0b3d0a36a7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-fxd-footwear.png",
+            "image": "shopify://shop_images/sizing-fxd-footwear.png",
             "max_width": "100%"
           }
         }
@@ -74,7 +79,7 @@
         "e16c43d0-2b7c-48bd-86e7-2a566ceb69c4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bison.png",
+            "image": "shopify://shop_images/bison.png",
             "max_width": "100px"
           }
         },
@@ -88,7 +93,7 @@
         "ef02c0f3-1f1b-42d1-97de-a87e4391cf46": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-bison.jpg",
+            "image": "shopify://shop_images/sizing-bison.jpg",
             "max_width": "100%"
           }
         }
@@ -113,7 +118,7 @@
         "721ea047-b7fd-4d0d-885b-04a1155899b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Grisport.png",
+            "image": "shopify://shop_images/Grisport.png",
             "max_width": "120px"
           }
         },
@@ -127,7 +132,7 @@
         "9e410c60-17d8-4938-a6a9-e54f987112e5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-grisport.png",
+            "image": "shopify://shop_images/sizing-grisport.png",
             "max_width": "100%"
           }
         }
@@ -152,7 +157,7 @@
         "4fb4c125-c7fa-4324-88bc-7c0bfca74e8c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Steel_Blue_Logo.png",
+            "image": "shopify://shop_images/Steel_Blue_Logo.png",
             "max_width": "120px"
           }
         },
@@ -166,7 +171,7 @@
         "8339d441-99f9-4335-af89-df11e5009aa3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-bluesteel.jpg",
+            "image": "shopify://shop_images/sizing-bluesteel.jpg",
             "max_width": "100%"
           }
         }
@@ -191,7 +196,7 @@
         "1cf63b3e-8463-4189-9dc9-29ce25346af9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ApexLogoWithStrapline.png",
+            "image": "shopify://shop_images/ApexLogoWithStrapline.png",
             "max_width": "180px"
           }
         },
@@ -205,7 +210,7 @@
         "c7c2698a-07f6-4ba1-be91-8c471742739b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-apex.jpg",
+            "image": "shopify://shop_images/sizing-apex.jpg",
             "max_width": "100%"
           }
         }
@@ -230,7 +235,7 @@
         "eca25262-9c21-4647-9935-14022b42e3b0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Syzmik.png",
+            "image": "shopify://shop_images/Syzmik.png",
             "max_width": "180px"
           }
         },
@@ -244,7 +249,7 @@
         "d93250c7-dacd-4a9d-a9c8-ed2bf9982970": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-syzmik.png",
+            "image": "shopify://shop_images/sizing-syzmik.png",
             "max_width": "100%"
           }
         }
@@ -263,13 +268,52 @@
         "padding_bottom": 68
       }
     },
+    "fa_rich_text_Td8rM8": {
+      "type": "fa-rich-text",
+      "blocks": {
+        "image_m3Agt3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/outback.png",
+            "max_width": "130px"
+          }
+        },
+        "heading_MC6afr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Outback trading sizing chart",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "image_m3Agt3",
+        "heading_MC6afr"
+      ],
+      "name": "Custom Rich Text",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "27f91561-0e3e-43a8-a777-51ea5217c987": {
       "type": "fa-rich-text",
       "blocks": {
+        "image_gXCFXV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Outback_hats_sizing_chart.png",
+            "max_width": "70%"
+          }
+        },
         "d98612a6-7bf4-4543-a66e-e7d72865fbae": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/K1A3_Kaiwaka_Logo_RGB.jpg",
+            "image": "shopify://shop_images/K1A3_Kaiwaka_Logo_RGB.jpg",
             "max_width": "130px"
           }
         },
@@ -283,12 +327,13 @@
         "68ce71f8-84ff-42a2-a097-4d5e46d19e70": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sizing-kaiwaka.jpg",
+            "image": "shopify://shop_images/sizing-kaiwaka.jpg",
             "max_width": "100%"
           }
         }
       },
       "block_order": [
+        "image_gXCFXV",
         "d98612a6-7bf4-4543-a66e-e7d72865fbae",
         "template--14399191580747__27f91561-0e3e-43a8-a777-51ea5217c987-heading-1",
         "68ce71f8-84ff-42a2-a097-4d5e46d19e70"
@@ -298,8 +343,8 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 80
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     }
   },
@@ -312,6 +357,7 @@
     "7cfd6b0e-b258-4f3f-878d-e8dcf040c1c3",
     "f6762bc7-79b0-437e-956b-effc29f8d304",
     "d1709203-7537-4c20-90c7-3196193cd5e7",
+    "fa_rich_text_Td8rM8",
     "27f91561-0e3e-43a8-a777-51ea5217c987"
   ]
 }
