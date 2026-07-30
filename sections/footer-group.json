@@ -45,10 +45,10 @@
     "eb2aaf7b-a926-4280-9650-f82bac722f94": {
       "type": "custom-liquid",
       "custom_css": [
-        ".need-help a{color: inherit;}"
+        ".need-help a {color: inherit;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width scroll-trigger animate--slide-in need-help\">\n<div class=\"grid items-center justify-center\">\n<div class=\"grid_item\">\n<img class=\"scroll-trigger animate--slide-in\"  alt=\"clock\" src=\"https://cdn.shopify.com/s/files/1/1353/2007/files/footer-clock.png\" loading=\"lazy\" style=\"width: 100%; max-width: 200px;\" />\n</div>\n\n<div class=\"grid_item\">\n<h3 class=\"h1 scroll-trigger animate--slide-in\" style=\"color: white !important; margin:0 0 1rem;\">Need Help?</h3>\n<h4 class=\"scroll-trigger animate--slide-in\" style=\"margin:0\">call us at <a href=\"tel:0800826826\">0800 826 826</a> or <a href=\"mailto:sales@faanz.co.nz\">email us</a></h4>\n</div> \n</div>\n</div>",
+        "custom_liquid": "<div class=\"page-width scroll-trigger animate--slide-in need-help\">\n<div class=\"grid items-center justify-center\">\n<div class=\"grid_item\">\n<h3 class=\"h1 scroll-trigger animate--slide-in\" style=\"color: white !important; margin:0 0 1rem;\">Need Help?</h3>\n<h4 class=\"scroll-trigger animate--slide-in\" style=\"margin:0\">call us at <a href=\"tel:0800826826\">0800 826 826</a> or <a href=\"mailto:sales@faanz.co.nz\">email us</a></h4>\n</div> \n</div>\n</div>",
         "color_scheme": "accent-1",
         "padding_top": 40,
         "padding_bottom": 52
