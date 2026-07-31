@@ -69,6 +69,16 @@
             "link": "shopify://collections/grisport"
           }
         },
+        "af4bfb7a-2f24-4d52-9880-9d84e25bfd41": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/brands-logos-8.png",
+            "title": "",
+            "text": "",
+            "link_label": "View",
+            "link": "shopify://collections/bison"
+          }
+        },
         "628b885a-87d4-4c59-bbed-08e7f8e9c37": {
           "type": "column",
           "settings": {
@@ -127,16 +137,6 @@
             "text": "",
             "link_label": "View",
             "link": "shopify://collections/kaiwaka"
-          }
-        },
-        "af4bfb7a-2f24-4d52-9880-9d84e25bfd41": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/brands-logos-8.png",
-            "title": "",
-            "text": "",
-            "link_label": "View",
-            "link": "shopify://collections/bison"
           }
         },
         "6aa29239-f1ce-4ab9-8923-7e00bd86b691": {
@@ -448,13 +448,13 @@
         "9aee50ff-b5be-4d16-abe9-8271c4016992",
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-2",
         "e4ffe1d9-de0c-44a9-8c61-4bd61dad83e5",
+        "af4bfb7a-2f24-4d52-9880-9d84e25bfd41",
         "628b885a-87d4-4c59-bbed-08e7f8e9c37",
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-1",
         "template--14393573081163__ed9a48b3-e3ff-43e6-bde9-b7d7533f8993-column-3",
         "628b885a-87d4-4c59-bbed-08e7f8e9cb32",
         "d22bec76-65b0-49a0-8794-e68f2e9f54f3",
         "66b9684a-b2c5-4314-89c2-03c629814c44",
-        "af4bfb7a-2f24-4d52-9880-9d84e25bfd41",
         "6aa29239-f1ce-4ab9-8923-7e00bd86b691",
         "9a7d07c4-65f1-4333-be12-b77b99616093",
         "fdbdd938-9285-4c39-883b-b527e342b086",
