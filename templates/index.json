@@ -210,7 +210,19 @@
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
-            "heading": "Durapole® Flags & Displays!",
+            "heading": "Durapole® Flags & Displays",
+            "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
+            "button_label": "View Durapole Range",
+            "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
+          }
+        },
+        "row_HYpBmX": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
+            "caption": "Advanced One-piece design",
+            "heading": "Durapole Range. Commercial Grade.",
             "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
             "button_label": "View Durapole Range",
             "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
@@ -252,16 +264,15 @@
             "button_link": "shopify://collections/rangatiratanga"
           }
         },
-        "row_HYpBmX": {
+        "row_cHTp9m": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
-            "caption": "Advanced One-piece design",
-            "heading": "Durapole Range. Commercial Grade.",
-            "text": "<p>Experience elegance with our Durapole Teardrop Flags, crafted from durable satin fabric that ensures a sleek appearance with no bagginess, exceptional resilience against the elements, and vibrant graphics that captivate with a denser, richer image.</p>",
-            "button_label": "View Durapole Range",
-            "button_link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength"
+            "image": "shopify://shop_images/Maori_language_week-05_b35e2830-ecaa-436e-a830-daa62e8cddcc.png",
+            "caption": "Streetflag, Flagtrax Flags and Horizontal Flags",
+            "heading": "Te Wiki o te Reo Māori",
+            "text": "<p>Te Wiki o te Reo Māori will take place from the <strong>September 14 to September 20 2026.</strong></p>",
+            "button_label": "View all Te Wiki o te Reo Māori flags",
+            "button_link": "shopify://collections/maori-language-week-streetflags"
           }
         },
         "row_cELnW4": {
@@ -374,10 +385,11 @@
         "row_EiTLpk",
         "row_VRRTdQ",
         "row_Vixr7X",
+        "row_HYpBmX",
         "row_94zrMY",
         "row_LgY6VT",
         "row_GRemTT",
-        "row_HYpBmX",
+        "row_cHTp9m",
         "row_cELnW4",
         "row_UmQJJK",
         "row_BwPKEB",
