@@ -21,13 +21,23 @@
       "type": "fa-page-header",
       "settings": {
         "title": "About Us",
-        "header_image": "shopify://shop_images/about-hero.jpg",
+        "header_image": "shopify://shop_images/IMG_2835.jpg",
         "image_overlay": true
       }
     },
     "634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb": {
       "type": "multicolumn",
       "blocks": {
+        "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2886.jpg",
+            "title": "",
+            "text": "<p></p><p><strong>Footwear & Apparel NZ Ltd  - </strong>established for over 25 years is a privately owned New Zealand business operated by Stuart and Rebecca Williams. </p><p>We help New Zealand businesses find reliable workwear, safety footwear, and uniforms—without the hassle of trial and error</p><p><strong>Stu</strong> brings over 20 years of experience in safety footwear and PPE across both retail and wholesale. As a Health & Safety professional, he’s known for giving practical, straight-up advice and helping customers get it right the first time—so you’re not wasting money replacing gear that doesn’t last.</p><p><strong>Rebecca</strong> keeps everything running smoothly behind the scenes. With a background in hospitality and retail, she’s focused on delivering a seamless and positive experience for every customer.</p><p></p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-1": {
           "type": "column",
           "settings": {
@@ -37,21 +47,11 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/about-owners.jpg",
-            "title": "",
-            "text": "<p>We help New Zealand businesses find reliable workwear, safety footwear, and uniforms—without the hassle of trial and error</p><p><strong>Footwear & Apparel NZ Ltd  - </strong>established for over 25 years is a privately owned New Zealand business operated by Stuart and Rebecca Williams. </p><p><strong>Stu</strong> brings over 20 years of experience in safety footwear and PPE across both retail and wholesale. As a Health & Safety professional, he’s known for giving practical, straight-up advice and helping customers get it right the first time—so you’re not wasting money replacing gear that doesn’t last.</p><p><strong>Rebecca</strong> keeps everything running smoothly behind the scenes. With a background in hospitality and retail, she’s focused on delivering a seamless and positive experience for every customer.</p><p></p><p></p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-1",
-        "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-2"
+        "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-2",
+        "template--14393127141451__634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb-column-1"
       ],
       "custom_css": [
         "h3 {color: rgb(var(--fa-orange)); font-size: calc(var(--font-heading-scale) * 4rem);}"
@@ -89,7 +89,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li>25+ years of industry experience</li><li>NZ-owned and operated</li><li>Trusted by businesses across multiple industries</li><li>Practical, honest advice</li><li>End-to-end uniform and branding solutions</li></ul>",
+            "text": "<ul><li>25+ years of industry experience</li><li>NZ-owned and operated</li><li>Trusted by businesses across multiple industries</li><li>Practical, honest advice</li><li>End-to-end uniform and branding solutions</li><li>Good Communication</li><li>We recommend what actually works (not what’s overstocked)<br/></li><li>We help you avoid costly mistakes<br/></li><li>We make outfitting your team simple<br/></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -118,68 +118,12 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "95fd58c6-8d43-4929-bffc-7a039c9f8967": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14393127141451__95fd58c6-8d43-4929-bffc-7a039c9f8967-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "What you can expect",
-            "heading_size": "h1"
-          }
-        },
-        "template--14393127141451__95fd58c6-8d43-4929-bffc-7a039c9f8967-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Good Communication</li><li>We recommend what actually works (not what’s overstocked)<br/></li><li>We help you avoid costly mistakes<br/></li><li>We make outfitting your team simple<br/></li><li>We’re easy to deal with—and that matters</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14393127141451__95fd58c6-8d43-4929-bffc-7a039c9f8967-heading-1",
-        "template--14393127141451__95fd58c6-8d43-4929-bffc-7a039c9f8967-text-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 52
-      }
-    },
-    "eb1305df-fe74-430a-90ac-c143e6f19b2b": {
-      "type": "multirow",
-      "custom_css": [
-        ".image-with-text__text {order: 3;}",
-        ".image-with-text__text em {font-style: normal; color: rgb(var(--fa-orange));}",
-        ".image-with-text__text--caption {order: 2; color: rgb(var(--fa-green));}",
-        ".image-with-text__media img {position: relative; height: auto;}"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-right",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 84
-      }
     }
   },
   "order": [
     "main",
     "b92ab1b5-b086-4c1a-bd32-00b89721f679",
     "634b2e44-0ac1-4fc6-84d3-0dc8cbb09bfb",
-    "4bfb1a39-7d5f-46e9-a5d6-0c1c69024e6f",
-    "95fd58c6-8d43-4929-bffc-7a039c9f8967",
-    "eb1305df-fe74-430a-90ac-c143e6f19b2b"
+    "4bfb1a39-7d5f-46e9-a5d6-0c1c69024e6f"
   ]
 }

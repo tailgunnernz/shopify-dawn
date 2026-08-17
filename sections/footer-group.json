@@ -13,18 +13,6 @@
   "sections": {
     "dcb36845-8e56-470e-a8fe-b169d0ced531": {
       "type": "image-banner",
-      "blocks": {
-        "sections--14388671873099__dcb36845-8e56-470e-a8fe-b169d0ced531-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Choose Footwear & Apparel, you could not be in better hands.",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "sections--14388671873099__dcb36845-8e56-470e-a8fe-b169d0ced531-heading-1"
-      ],
       "custom_css": [
         ".banner:after,.banner__media:after {background: var(--fa-overlay);}"
       ],
