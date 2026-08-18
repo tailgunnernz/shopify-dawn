@@ -40,7 +40,7 @@
                   <ul class="customNewsletter__interests-list" role="list">
                     {%- for block in section.blocks -%}
                       {%- liquid
-                        assign label = block.settings.label | strip
+                        assign label = block.settings.text | default: block.settings.label | strip
                         if label == blank
                           continue
                         endif
@@ -195,9 +195,8 @@
         "settings": [
           {
             "type": "text",
-            "id": "label",
+            "id": "text",
             "label": "Label",
-            "default": "New interest",
             "info": "Shown next to the checkbox"
           },
           {
@@ -217,55 +216,55 @@
           {
             "type": "interest",
             "settings": {
-              "label": "Country Flags"
+              "text": "Country Flags"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "New Zealand Flags"
+              "text": "New Zealand Flags"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "Flagpoles"
+              "text": "Flagpoles"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "Teardrop & Feather Flags"
+              "text": "Teardrop & Feather Flags"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "RollUp Banners"
+              "text": "RollUp Banners"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "Licensed Sport Products"
+              "text": "Licensed Sport Products"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "Event & Promotional Products"
+              "text": "Event & Promotional Products"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "Streetflags & Flagtrax Flags"
+              "text": "Streetflags & Flagtrax Flags"
             }
           },
           {
             "type": "interest",
             "settings": {
-              "label": "Real Estate Flags"
+              "text": "Real Estate Flags"
             }
           }
         ]

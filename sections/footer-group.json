@@ -137,64 +137,73 @@
         "interest_1": {
           "type": "interest",
           "settings": {
-            "label": "Country Flags",
-            "tag": ""
+            "text": "Country Flags",
+            "tag": "",
+            "label": "Country Flags"
           }
         },
         "interest_2": {
           "type": "interest",
           "settings": {
-            "label": "New Zealand Flags",
-            "tag": ""
+            "text": "New Zealand Flags",
+            "tag": "",
+            "label": "New Zealand Flags"
           }
         },
         "interest_3": {
           "type": "interest",
           "settings": {
-            "label": "Flagpoles",
-            "tag": ""
+            "text": "Flagpoles",
+            "tag": "",
+            "label": "Flagpoles"
           }
         },
         "interest_4": {
           "type": "interest",
           "settings": {
-            "label": "Teardrop & Feather Flags",
-            "tag": ""
+            "text": "Teardrop & Feather Flags",
+            "tag": "",
+            "label": "Teardrop & Feather Flags"
           }
         },
         "interest_5": {
           "type": "interest",
           "settings": {
-            "label": "RollUp Banners",
-            "tag": ""
+            "text": "RollUp Banners",
+            "tag": "",
+            "label": "RollUp Banners"
           }
         },
         "interest_6": {
           "type": "interest",
           "settings": {
-            "label": "Licensed Sport Products",
-            "tag": ""
+            "text": "Licensed Sport Products",
+            "tag": "",
+            "label": "Licensed Sport Products"
           }
         },
         "interest_7": {
           "type": "interest",
           "settings": {
-            "label": "Event & Promotional Products",
-            "tag": ""
+            "text": "Event & Promotional Products",
+            "tag": "",
+            "label": "Event & Promotional Products"
           }
         },
         "interest_8": {
           "type": "interest",
           "settings": {
-            "label": "Streetflags & Flagtrax Flags",
-            "tag": ""
+            "text": "Streetflags & Flagtrax Flags",
+            "tag": "",
+            "label": "Streetflags & Flagtrax Flags"
           }
         },
         "interest_9": {
           "type": "interest",
           "settings": {
-            "label": "Real Estate Flags",
-            "tag": ""
+            "text": "Real Estate Flags",
+            "tag": "",
+            "label": "Real Estate Flags"
           }
         }
       },
