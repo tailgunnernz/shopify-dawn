@@ -7,10 +7,19 @@
   <script src="{{ 'js-cookie.min.js' | asset_url }}" defer></script>
   <script src="{{ 'custom-popup.js' | asset_url }}" defer></script>
   
-  <div id="customNewsletter">
+  {%- liquid
+    assign show_interests = false
+    if section.settings.show_interests and section.blocks.size > 0
+      assign show_interests = true
+    endif
+  -%}
+
+  <div id="customNewsletter" {% if show_interests %}class="has-interests"{% endif %}>
     <!--PRIVATE PAGE:{{ private_page }} -->
       <div class="customNewsletter__container">
-        <button id="customNewsletter__close">X</button>
+        <div class="customNewsletter__bar">
+          <button id="customNewsletter__close" aria-label="Close">X</button>
+        </div>
         <div class="customNewsletter__logo">
           <img src="{{ section.settings.logo | img_url: 'master' }}" alt="Newsletter Image" />
         </div>
@@ -21,6 +30,43 @@
           <p>{{ section.settings.paragraph }}</p>
               
               <input type="hidden" name="contact[tags]" value="newsletter">
+
+              {%- if show_interests -%}
+                <fieldset class="customNewsletter__interests">
+                  <legend class="customNewsletter__interests-title">{{ section.settings.interests_heading }}</legend>
+                  {%- if section.settings.interests_subheading != blank -%}
+                    <p class="customNewsletter__interests-subtitle">{{ section.settings.interests_subheading }}</p>
+                  {%- endif -%}
+                  <ul class="customNewsletter__interests-list" role="list">
+                    {%- for block in section.blocks -%}
+                      {%- liquid
+                        assign label = block.settings.label | strip
+                        if label == blank
+                          continue
+                        endif
+                        if block.settings.tag != blank
+                          assign tag = block.settings.tag | handleize
+                        else
+                          assign tag = label | handleize | prepend: 'interest-'
+                        endif
+                      -%}
+                      <li {{ block.shopify_attributes }}>
+                        <input
+                          type="checkbox"
+                          class="customNewsletter__interest-input"
+                          id="Interest-{{ block.id }}"
+                          data-interest-tag="{{ tag }}"
+                          value="{{ tag }}"
+                        >
+                        <label class="customNewsletter__interest-label" for="Interest-{{ block.id }}">
+                          {{ label }}
+                        </label>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </fieldset>
+              {%- endif -%}
+
               <div class="newsletter-form__field-wrapper">
                 <div class="field">
                   <input
@@ -114,15 +160,115 @@
         "info": "Paragraph area for pop up"
       },
       {
+        "type": "header",
+        "content": "Product interests"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_interests",
+        "label": "Show interest checkboxes",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "interests_heading",
+        "label": "Interests heading",
+        "default": "What products are you interested in?"
+      },
+      {
+        "type": "text",
+        "id": "interests_subheading",
+        "label": "Interests subheading",
+        "default": "Select all that apply."
+      },
+      {
         "type": "checkbox",
         "id": "preview",
         "label": "Preview in Customiser",
         "default": true
       }
     ],
+    "blocks": [
+      {
+        "type": "interest",
+        "name": "Interest option",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Label",
+            "default": "New interest",
+            "info": "Shown next to the checkbox"
+          },
+          {
+            "type": "text",
+            "id": "tag",
+            "label": "Customer tag",
+            "info": "Optional. Leave blank and the tag is built from the label — \"Country Flags\" becomes interest-country-flags. Renaming a label changes the tag, so existing customers keep the old one."
+          }
+        ]
+      }
+    ],
+    "max_blocks": 25,
     "presets": [
       {
-        "name": "Pop Up"
+        "name": "Pop Up",
+        "blocks": [
+          {
+            "type": "interest",
+            "settings": {
+              "label": "Country Flags"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "New Zealand Flags"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "Flagpoles"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "Teardrop & Feather Flags"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "RollUp Banners"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "Licensed Sport Products"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "Event & Promotional Products"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "Streetflags & Flagtrax Flags"
+            }
+          },
+          {
+            "type": "interest",
+            "settings": {
+              "label": "Real Estate Flags"
+            }
+          }
+        ]
       }
     ]
   }

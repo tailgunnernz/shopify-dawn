@@ -133,6 +133,82 @@
     },
     "custom_popup_adTWNC": {
       "type": "custom-popup",
+      "blocks": {
+        "interest_1": {
+          "type": "interest",
+          "settings": {
+            "label": "Country Flags",
+            "tag": ""
+          }
+        },
+        "interest_2": {
+          "type": "interest",
+          "settings": {
+            "label": "New Zealand Flags",
+            "tag": ""
+          }
+        },
+        "interest_3": {
+          "type": "interest",
+          "settings": {
+            "label": "Flagpoles",
+            "tag": ""
+          }
+        },
+        "interest_4": {
+          "type": "interest",
+          "settings": {
+            "label": "Teardrop & Feather Flags",
+            "tag": ""
+          }
+        },
+        "interest_5": {
+          "type": "interest",
+          "settings": {
+            "label": "RollUp Banners",
+            "tag": ""
+          }
+        },
+        "interest_6": {
+          "type": "interest",
+          "settings": {
+            "label": "Licensed Sport Products",
+            "tag": ""
+          }
+        },
+        "interest_7": {
+          "type": "interest",
+          "settings": {
+            "label": "Event & Promotional Products",
+            "tag": ""
+          }
+        },
+        "interest_8": {
+          "type": "interest",
+          "settings": {
+            "label": "Streetflags & Flagtrax Flags",
+            "tag": ""
+          }
+        },
+        "interest_9": {
+          "type": "interest",
+          "settings": {
+            "label": "Real Estate Flags",
+            "tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "interest_1",
+        "interest_2",
+        "interest_3",
+        "interest_4",
+        "interest_5",
+        "interest_6",
+        "interest_7",
+        "interest_8",
+        "interest_9"
+      ],
       "settings": {
         "logo": "shopify://shop_images/main-image-for-website.jpg",
         "heading": "Get a $10 Discount!",

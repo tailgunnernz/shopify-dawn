@@ -6,8 +6,30 @@ document.addEventListener('DOMContentLoaded', ()=>{
   newsletter__close.addEventListener("click", () => {
     Cookies.set('popUpVisited', 'true', { expires: 1 });
     newsletter__modal.style.display = "none";
+    document.body.classList.remove('customNewsletter--open');
+    document.documentElement.classList.remove('customNewsletter--open');
   });
-  
+
+  // close on Escape as well, so the page scroll is never left locked
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && newsletter__modal.style.display === 'flex') {
+      newsletter__close.click();
+    }
+  });
+
+  // fold the ticked interest checkboxes into the customer tags field on submit
+  const newsletter__form = newsletter__modal.querySelector('form');
+  const newsletter__tags = newsletter__modal.querySelector('input[name="contact[tags]"]');
+  if (newsletter__form && newsletter__tags) {
+    newsletter__form.addEventListener('submit', () => {
+      const interests = Array.from(
+        newsletter__modal.querySelectorAll('.customNewsletter__interest-input:checked')
+      ).map((input) => input.dataset.interestTag);
+      // 'newsletter' stays first so the already-subscribed check below still matches
+      newsletter__tags.value = ['newsletter'].concat(interests).join(',');
+    });
+  }
+
   // do not show if cookie, or shopify challenge page
   const cookieStatus = Cookies.get('popUpVisited');
   const challenge = window.location.href.indexOf("challenge?form_key") > -1
@@ -23,6 +45,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
     newsletter__modal.querySelector('.field').after(errorMessage);
   }
   
+  // lock first, then show, so the overlay is laid out against the final viewport width
+  document.body.classList.add('customNewsletter--open');
+  document.documentElement.classList.add('customNewsletter--open');
+
   const popUpForm = document.getElementById('customNewsletter');
   popUpForm.style.display = "flex";
 })
