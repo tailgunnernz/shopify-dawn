@@ -25,18 +25,8 @@
         "show_text_below": true
       }
     },
-    "f74daae5-c9d4-4867-9430-c21a8df44dcb": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<section class=\"page-width scroll-trigger animate--slide-in\">\n  <h1 class=\"h0\" style=\"color: rgb(var(--fa-orange)); margin:0 0 1rem;\" >{{ collection.title }}</h1>\n{% render 'fa-line' %}\n\n  <div>\n    {{ collection.description }}\n  </div>\n</section>",
-        "color_scheme": "",
-        "padding_top": 76,
-        "padding_bottom": 52
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -82,7 +72,6 @@
   },
   "order": [
     "b7fa0023-0ac6-451e-a758-8f5e41a263b6",
-    "f74daae5-c9d4-4867-9430-c21a8df44dcb",
     "banner",
     "product-grid",
     "21de335a-4219-45af-9de5-1b6f4c56c20e"
