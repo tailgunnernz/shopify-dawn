@@ -65,19 +65,6 @@
     },
     "21de335a-4219-45af-9de5-1b6f4c56c20e": {
       "type": "fa-collection-list",
-      "blocks": {
-        "featured_collection_3RwRJk": {
-          "type": "featured_collection",
-          "name": "Medical",
-          "settings": {
-            "collection": "medical",
-            "collection_image": "shopify://shop_images/025f1b3.png"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_3RwRJk"
-      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
