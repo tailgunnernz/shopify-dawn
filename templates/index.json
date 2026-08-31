@@ -14,6 +14,7 @@
       "blocks": {
         "slide_JKHfEt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1-2_price_durapole_July_26_-_EXTENDED.jpg",
             "heading": "",
@@ -182,7 +183,6 @@
         },
         "row_EiTLpk": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
@@ -194,6 +194,7 @@
         },
         "row_VRRTdQ": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
