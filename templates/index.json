@@ -12,6 +12,24 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_REctX8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_5.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "SHOP FATHER'S DAY SALE NOW",
+            "link": "https://www.footwearandapparel.co.nz/collections/fathers-day",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cX8JJa": {
           "type": "slide",
           "settings": {
@@ -86,6 +104,7 @@
         }
       },
       "block_order": [
+        "slide_REctX8",
         "slide_cX8JJa",
         "slide_ydd6RK",
         "slide_jWT4em",
