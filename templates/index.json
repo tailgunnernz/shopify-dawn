@@ -105,6 +105,12 @@
     "2377cec9-f09c-4e08-bd02-72f854c16dce": {
       "type": "fa-collection-list",
       "blocks": {
+        "featured_collection_EVN3fR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fathers-day"
+          }
+        },
         "featured_collection_U63APm": {
           "type": "featured_collection",
           "settings": {
@@ -161,6 +167,7 @@
         }
       },
       "block_order": [
+        "featured_collection_EVN3fR",
         "featured_collection_U63APm",
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-1",
         "template--14388672135243__2377cec9-f09c-4e08-bd02-72f854c16dce-featured_collection-2",
