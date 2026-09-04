@@ -478,10 +478,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Value_Pavement_Flags_visuals_img-02-02.png",
-            "title": "NEW VALUE RETAIL FLAG RANGE!",
-            "text": "<p>A range of stock designs for the budget conscious consumer who want a good quality product at a affordable price.</p>",
-            "link_label": "View Value Range",
-            "link": "https://shop.flagmakers.co.nz/collections/value-range-retail-stock-design-flags"
+            "title": "VALUE Double-Sided Flags & Displays",
+            "text": "<p>Flagmakers VALUE Double-Sided Range is for the budget conscious consumer who wants an affordable double-sided product at a great price.</p>",
+            "link_label": "View VALUE Double-Sided Range",
+            "link": "shopify://collections/value-double-sided-feather-teardrop-flags-and-displays"
           }
         },
         "column_mCQPm9": {
