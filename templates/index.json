@@ -12,6 +12,24 @@
     "a906c273-a8eb-416e-ade7-04155872f8f7": {
       "type": "slideshow",
       "blocks": {
+        "slide_GeJ3Dw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PORTWEST_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Portwest",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cX8JJa": {
           "type": "slide",
           "settings": {
@@ -68,6 +86,7 @@
         }
       },
       "block_order": [
+        "slide_GeJ3Dw",
         "slide_cX8JJa",
         "slide_ydd6RK",
         "slide_dnpCXF"
