@@ -128,7 +128,7 @@
         "custom_liquid_XfNMHt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a class=\"button button--secondary button--full-width product-form__buttons\" style=\"margin-top: -1rem;\" target=\"_blank\" href=\"/pages/contact-us\">Contact us for a custom quote for large quantities</a>"
+            "custom_liquid": "<a class=\"button button--secondary button--full-width product-form__buttons\" style=\"margin-top: -5rem;\" target=\"_blank\" href=\"/pages/contact-us\">Contact us for a custom quote for large quantities</a>"
           }
         },
         "shopacado_volume_discounts_discount_table_3VWU8V": {
