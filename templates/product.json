@@ -105,6 +105,7 @@
         },
         "quotify_button_dnjEn3": {
           "type": "shopify://apps/quotify/blocks/button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
+          "disabled": true,
           "settings": {
             "request_button": true,
             "request_button_text": "Request Quote",
@@ -127,14 +128,12 @@
         "custom_liquid_XfNMHt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a class=\"button button--secondary button--full-width product-form__buttons\" style=\"margin-top: -1rem;\" target=\"_blank\" href=\"/pages/contact-us\">Ask A Question</a>"
+            "custom_liquid": "<a class=\"button button--secondary button--full-width product-form__buttons\" style=\"margin-top: -1rem;\" target=\"_blank\" href=\"/pages/contact-us\">Contact us for a custom quote for large quantities</a>"
           }
         },
         "shopacado_volume_discounts_discount_table_3VWU8V": {
           "type": "shopify://apps/shopacado-discounts/blocks/discount-table/5950831a-4e4e-40a4-82b0-674110b50a14",
-          "settings": {
-            "theme_id": "132965793948"
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
