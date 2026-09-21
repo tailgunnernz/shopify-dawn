@@ -32,6 +32,7 @@
         },
         "slide_pXKKny": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/TE_WIKI_O_TE_REO_MAORI_banner_website-01.jpg",
             "heading": "",
@@ -277,6 +278,7 @@
         },
         "row_cHTp9m": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Maori_language_week-05_b35e2830-ecaa-436e-a830-daa62e8cddcc.png",
             "caption": "Māori Language Week",
@@ -741,7 +743,7 @@
       "type": "apps",
       "blocks": {
         "google_reviews_repocean_repocean_reviews_carousel_3FrGGk": {
-          "type": "shopify://apps/google-reviews-repocean/blocks/repocean-reviews-carousel/019aa132-98b1-7055-b64e-581f915ade43",
+          "type": "shopify://apps/repocean-google-reviews/blocks/repocean-reviews-carousel/019aa132-98b1-7055-b64e-581f915ade43",
           "disabled": true,
           "settings": {
             "section_title": "",
