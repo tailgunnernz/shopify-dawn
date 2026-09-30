@@ -816,16 +816,6 @@
     "multicolumn_rJy89V": {
       "type": "multicolumn",
       "blocks": {
-        "column_bhgRYf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Harcourts_Pop_up_counter-03.jpg",
-            "title": "Oval Pop Up Stand",
-            "text": "",
-            "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Pop_Up_Table_Oval_Template.pdf?v=1784767639"
-          }
-        },
         "column_z4zXYw": {
           "type": "column",
           "settings": {
@@ -835,11 +825,20 @@
             "link_label": "Download",
             "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Pop_Up_Table_Rectangle_Template.pdf?v=1784767639"
           }
+        },
+        "column_kPdGh8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column_bhgRYf",
-        "column_z4zXYw"
+        "column_z4zXYw",
+        "column_kPdGh8"
       ],
       "settings": {
         "title": "Pop up Stand",
