@@ -18,6 +18,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_weYkcj": {
+          "type": "announcement",
+          "settings": {
+            "text": "Use code \"NEW2FAANZ\" at checkout for 15% off your first order!",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -27,6 +34,7 @@
         }
       },
       "block_order": [
+        "announcement_weYkcj",
         "announcement-bar-0"
       ],
       "settings": {
