@@ -708,10 +708,30 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Bunting_A5-46.png",
+            "title": "A6 Triangle Bunting",
+            "text": "<p>105mm x 148mm</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/A5_Bunting_-_Triangle_Template.pdf?v=1722467656"
+          }
+        },
+        "column_bni8zt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bunting_A5-47.png",
+            "title": "A6 Rectangle Bunting",
+            "text": "<p>105mm x 148mm</p>",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/A5_Bunting_-_Rectangle_Template.pdf?v=1722467656"
+          }
+        },
+        "column_Jxf3bU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bunting_A5-46.png",
             "title": "A5 Triangle Bunting",
             "text": "<p>148mm x 210mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/A5_Bunting_-_Triangle_Template.pdf?v=1722467656"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Bunting_A5_Triangle_Template.pdf?v=1791499404"
           }
         },
         "column_46Xqd9": {
@@ -721,7 +741,7 @@
             "title": "A5 Rectangle Bunting",
             "text": "<p>148mm x 210mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/A5_Bunting_-_Rectangle_Template.pdf?v=1722467656"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Bunting_A5_Rectangle_Template.pdf?v=1791499404"
           }
         },
         "column_CQAbTa": {
@@ -731,7 +751,7 @@
             "title": "A4 Triangle Bunting",
             "text": "<p>200mm x 300mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/A4_Bunting_-_Triangle_Template.pdf?v=1722475930"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Bunting_A4_Triangle_Template.pdf?v=1791499405"
           }
         },
         "column_NJCrb3": {
@@ -741,12 +761,14 @@
             "title": "A4 Rectangle Bunting",
             "text": "<p>200mm x 300mm</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/A4_Bunting_-_Rectangle_Template.pdf?v=1722475931"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Bunting_A4_Rectangle_Template.pdf?v=1791499404"
           }
         }
       },
       "block_order": [
         "column_Y7inb9",
+        "column_bni8zt",
+        "column_Jxf3bU",
         "column_46Xqd9",
         "column_CQAbTa",
         "column_NJCrb3"
