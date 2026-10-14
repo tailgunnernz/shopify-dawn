@@ -316,9 +316,9 @@
           "settings": {
             "image": "shopify://shop_images/NZRL_-03.png",
             "caption": "Official Licensee",
-            "heading": "NZRL Handwavers",
-            "text": "<p>Show your support for the Kiwis at the Rugby League World Cup 2026 with NZRL handwavers.&nbsp;</p><p><strong>Order yours today.</strong></p>",
-            "button_label": "View all NZRL Handwavers",
+            "heading": "NZRL&nbsp;",
+            "text": "<p>Show your support for the Rugby League World Cup 2026.</p>",
+            "button_label": "View all NZRL",
             "button_link": "shopify://collections/nzrl"
           }
         },
