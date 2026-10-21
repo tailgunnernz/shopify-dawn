@@ -12,6 +12,24 @@
     "slideshow_eBLxA7": {
       "type": "slideshow",
       "blocks": {
+        "slide_pXKKny": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NZRL_web_banner-04.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/nzrl",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_JKHfEt": {
           "type": "slide",
           "settings": {
@@ -27,24 +45,6 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_pXKKny": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/NZRL_web_banner_3-03_d1827dd7-c337-4db0-85e6-47c809376fd2.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/nzrl",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         },
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "slide_JKHfEt",
         "slide_pXKKny",
+        "slide_JKHfEt",
         "slide_nqVRU6",
         "slide_7fX7tb",
         "slide_m7qP3H"
