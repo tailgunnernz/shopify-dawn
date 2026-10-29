@@ -15,18 +15,18 @@
         "slide_hFNLQM": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Introducing_5.jpg",
+            "image": "shopify://shop_images/Untitled_Design_1_de4a313d-2163-4ac4-8108-f2bfdd542b2e.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop 20% off Oilskins",
+            "button_label": "SHOP 20% OFF OILSKINS",
             "link": "https://www.footwearandapparel.co.nz/collections/hot-deals",
             "button_style_secondary": false,
-            "box_align": "bottom-left",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
         },
