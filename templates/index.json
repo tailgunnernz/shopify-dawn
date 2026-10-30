@@ -32,6 +32,7 @@
         },
         "slide_JKHfEt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Free_mount_WEB_BANNER_-04-04-04.jpg",
             "heading": "",
@@ -182,7 +183,6 @@
         },
         "row_EiTLpk": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex.jpg",
             "caption": "Advanced One-piece design",
@@ -194,6 +194,7 @@
         },
         "row_TeHr3A": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Imagery2022-PlasticBase-SmallFlex_1_-01.jpg",
             "caption": "Advanced One-piece design",
@@ -765,6 +766,7 @@
             "show_no_text_reviews": "auto",
             "only_with_photos": false,
             "hide_reviews_with_keywords": "",
+            "show_only_reviews_with_keywords": "",
             "max_reviews": 20,
             "autoplay_style": "slide",
             "autoplay_speed": 3,
