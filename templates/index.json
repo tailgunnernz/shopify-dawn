@@ -32,14 +32,13 @@
         },
         "slide_JKHfEt": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Free_mount_WEB_BANNER_-04-04-04.jpg",
+            "image": "shopify://shop_images/Switch_it_up_durapole_Artboard_3_copy_3.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/feather-and-teardrop-flags-premium-high-strength",
+            "link": "shopify://collections/retail-flags",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -363,7 +362,7 @@
             "image": "shopify://shop_images/collection_-_value_2.png",
             "caption": " HALF PRICE DEAL",
             "heading": "Retail Flags&nbsp;",
-            "text": "<h3><strong>Buy 1 Full Retail Display and get a 2nd Retail Flag or Flag & Pole Product for HALF PRICE!</strong></h3><p>Simply add 1 full retail display and another retail flag or flag & pole to your cart. Your discount will be automatically applied at checkout!</p>",
+            "text": "<h3><strong>Buy 1 Full Retail Display and Get a 2nd Retail Flag or Flag & Pole Product for HALF PRICE!</strong></h3><p>Simply add 1 full retail display and another eligible retail flag or flag & pole product to your cart. Your discount will be automatically applied at checkout!</p><p>**Offer ends December 18th. <a href=\"https://www.flagmakers.co.nz/pages/t-cs-retail-flags-price-deal\">T&Cs apply</a>.</p>",
             "button_label": "View Retail Flags",
             "button_link": "shopify://collections/retail-flags"
           }
