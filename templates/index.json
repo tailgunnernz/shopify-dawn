@@ -347,11 +347,23 @@
         },
         "row_tW98W9": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/collection_-_value_2.png",
             "caption": "Commercial Grade",
             "heading": "Retail Flags",
-            "text": "<p>Classy new designs with real punch to attract attention.  Double and single-sided options available.</p>",
+            "text": "<p>Classy new designs with real punch to attract attention. &nbsp;Double and single-sided options available.</p>",
+            "button_label": "View Retail Flags",
+            "button_link": "shopify://collections/retail-flags"
+          }
+        },
+        "row_qNqxRm": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/collection_-_value_2.png",
+            "caption": " HALF PRICE DEAL",
+            "heading": "Retail Flags&nbsp;",
+            "text": "<h3><strong>Buy 1 Full Retail Display and get a 2nd Retail Flag or Flag & Pole Product for HALF PRICE!</strong></h3><p>Simply add 1 full retail display and another retail flag or flag & pole to your cart. Your discount will be automatically applied at checkout!</p>",
             "button_label": "View Retail Flags",
             "button_link": "shopify://collections/retail-flags"
           }
@@ -421,6 +433,7 @@
         "row_FmxWaL",
         "row_qGDEbf",
         "row_tW98W9",
+        "row_qNqxRm",
         "row_XcgE9e",
         "row_gyxV7p",
         "row_96nxNJ",
@@ -782,6 +795,7 @@
             "reviewer_name_format": "f_last",
             "padding_top": 36,
             "padding_bottom": 36,
+            "max_width": 1400,
             "cards_per_row_desktop": "4",
             "card_radius": 20,
             "background_color": "#f3f3f3",
