@@ -493,7 +493,7 @@
             "title": "Roll Up 850mm wide",
             "text": "<p>Regular, Traveller, & Prestige</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Roll_up_0.85m_wide_Template.pdf?v=1791427744"
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Roll_up_0.85m_wide_Template_8ea1dd11-100c-46a5-92ef-2bf706ab82d1.pdf?v=1794339228"
           }
         },
         "column_n7MmBz": {
@@ -520,10 +520,21 @@
         "column_zkiRUc": {
           "type": "column",
           "settings": {
-            "title": "",
+            "image": "shopify://shop_images/Roll-ups-website-07.jpg",
+            "title": "Roll Up Prestige 0.83m",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Roll_up_Prestige_0.83m_wide_Template.pdf?v=1794338897"
+          }
+        },
+        "column_hkkKyp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/roll_up_car.jpg",
+            "title": "Roll Up Prestige 1.15m",
+            "text": "",
+            "link_label": "Download",
+            "link": "https://cdn.shopify.com/s/files/1/0714/1883/files/Roll_up_Prestige_1.15m_wide_Template.pdf?v=1794338897"
           }
         }
       },
@@ -531,7 +542,8 @@
         "column_zPBiKt",
         "column_n7MmBz",
         "column_fEt8Gb",
-        "column_zkiRUc"
+        "column_zkiRUc",
+        "column_hkkKyp"
       ],
       "custom_css": [
         "div img {width: 100%; object-fit: contain;}"
