@@ -464,10 +464,21 @@
       "blocks": {
         "column_rzByyE": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/new_zealand_collection-17_2.png",
             "title": "New Zealand Flags",
             "text": "<p>Buy your NZ flags directly from the manufacturer! Free Shipping in NZ for our popular NZ flags!*<br/></p>",
+            "link_label": "View New Zealand Flags",
+            "link": "https://shop.flagmakers.co.nz/collections/new-zealand-flags"
+          }
+        },
+        "column_zYaGGB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/new_zealand_collection-17_2.png",
+            "title": "10% off New Zealand Flags! CHRISTMAS SALE!&nbsp;",
+            "text": "<p><strong>CHRISTMAS SALE! 10% off Standard New Zealand and Country Flags!</strong></p><p><strong>Discount is applied automatically at checkout.</strong></p><p>*Offer available until December 21st 2026.<br/><a href=\"https://www.flagmakers.co.nz/pages/festive-season-sale-terms-conditions\" target=\"_blank\" title=\"Christmas sale T&C's\">T&C's Apply&nbsp;</a></p>",
             "link_label": "View New Zealand Flags",
             "link": "https://shop.flagmakers.co.nz/collections/new-zealand-flags"
           }
@@ -487,8 +498,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/world_flags_collection.png",
-            "title": "Country Flags",
-            "text": "<p>We make beautifully crafted products that you can be proud to fly and are the preferred supplier to the NZ Government.</p>",
+            "title": "10% off Country Flags! CHRISTMAS SALE!",
+            "text": "<p><strong>CHRISTMAS SALE! 10% off Standard New Zealand and Country Flags!</strong></p><p><strong>Discount is applied automatically at checkout.</strong></p><p>*Offer available until December 21st 2026.<br/><a href=\"https://www.flagmakers.co.nz/pages/festive-season-sale-terms-conditions\" target=\"_blank\" title=\"Christmas sale T&C's\">T&C's Apply&nbsp;</a></p>",
             "link_label": "View Country Flags",
             "link": "shopify://collections/country-flags"
           }
@@ -610,6 +621,7 @@
       },
       "block_order": [
         "column_rzByyE",
+        "column_zYaGGB",
         "column_Re38gF",
         "column_3Jae37",
         "column_zA8mTe",
