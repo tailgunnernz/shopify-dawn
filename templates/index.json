@@ -14,14 +14,13 @@
       "blocks": {
         "slide_pXKKny": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/NZRL_web_banner-04.jpg",
+            "image": "shopify://shop_images/CHristmas_email_banner-02_43a316e1-8640-417e-914a-4ce80909560c.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/nzrl",
+            "link": "shopify://collections/country-flags",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
