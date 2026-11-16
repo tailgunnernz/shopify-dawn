@@ -52,6 +52,12 @@
             "collection": "black-caps-licensed-products"
           }
         },
+        "featured_collection_WxjRB4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nzrl"
+          }
+        },
         "featured_collection_UT3EHh": {
           "type": "featured_collection",
           "settings": {
@@ -113,6 +119,7 @@
         "featured_collection_3jQDek",
         "featured_collection_V7NjHm",
         "featured_collection_r8HxHb",
+        "featured_collection_WxjRB4",
         "featured_collection_UT3EHh",
         "featured_collection_rM64fM",
         "featured_collection_GMzhFH",
