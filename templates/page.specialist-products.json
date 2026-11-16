@@ -21,7 +21,7 @@
       "type": "page-header",
       "custom_css": [],
       "settings": {
-        "title": "Case Studies",
+        "title": "Specialist Products",
         "header_image": "shopify://shop_images/transparent.png",
         "image_overlay": true,
         "image_overlay_color": "#104771",
@@ -32,6 +32,7 @@
     },
     "case_studies_KGzPMx": {
       "type": "case-studies",
+      "disabled": true,
       "settings": {
         "title": "Corporate",
         "category": "Corporate",
@@ -41,6 +42,7 @@
     },
     "case_studies_e68AqV": {
       "type": "case-studies",
+      "disabled": true,
       "settings": {
         "title": "Councils",
         "category": "Councils",
@@ -50,6 +52,7 @@
     },
     "case_studies_ynecPi": {
       "type": "case-studies",
+      "disabled": true,
       "settings": {
         "title": "Events",
         "category": "Events",
@@ -59,6 +62,7 @@
     },
     "case_studies_XP8TrD": {
       "type": "case-studies",
+      "disabled": true,
       "settings": {
         "title": "Retail",
         "category": "Retail",
@@ -107,6 +111,16 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "case_studies_6tXra8": {
+      "type": "case-studies",
+      "name": "Case Studies List",
+      "settings": {
+        "title": "",
+        "category": "specialist products",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -116,6 +130,7 @@
     "case_studies_e68AqV",
     "case_studies_ynecPi",
     "case_studies_XP8TrD",
-    "rich_text_tx83XN"
+    "rich_text_tx83XN",
+    "case_studies_6tXra8"
   ]
 }
