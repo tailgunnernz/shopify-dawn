@@ -160,14 +160,14 @@
         "heading_yPCBwh": {
           "type": "heading",
           "settings": {
-            "heading": "Like What You See?",
+            "heading": "Ready To Talk?",
             "heading_size": "h1"
           }
         },
         "text_QJg8MW": {
           "type": "text",
           "settings": {
-            "text": "<p>Get in contact with us to discuss your requirements.</p>"
+            "text": "<p>If you're ready for our services or simply have some questions, then we'd love to hear from you.</p>"
           }
         },
         "button_79qQN8": {
@@ -191,7 +191,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-ca4fc56a-2e94-4c1e-a840-6e039ef09e8a",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
