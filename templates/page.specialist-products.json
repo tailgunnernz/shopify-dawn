@@ -30,44 +30,61 @@
         "padding_bottom": 40
       }
     },
-    "case_studies_KGzPMx": {
-      "type": "case-studies",
-      "disabled": true,
+    "multicolumn_hzCzze": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Pk7MUc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3072.jpg",
+            "title": "<strong>Bags</strong>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "See more",
+            "link": "shopify://blogs/specialist-products/specialist-products-bags"
+          }
+        },
+        "column_UHgEXa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3072.jpg",
+            "title": "Windsocks",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "See more",
+            "link": "shopify://blogs/specialist-products/specialist-products-windsocks"
+          }
+        },
+        "column_K9tKTd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3072.jpg",
+            "title": "Fire & Emergency Pouches&nbsp;",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "See more",
+            "link": "shopify://blogs/specialist-products/fire-emergency-pouches"
+          }
+        }
+      },
+      "block_order": [
+        "column_Pk7MUc",
+        "column_UHgEXa",
+        "column_K9tKTd"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Corporate",
-        "category": "Corporate",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "case_studies_e68AqV": {
-      "type": "case-studies",
-      "disabled": true,
-      "settings": {
-        "title": "Councils",
-        "category": "Councils",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "case_studies_ynecPi": {
-      "type": "case-studies",
-      "disabled": true,
-      "settings": {
-        "title": "Events",
-        "category": "Events",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "case_studies_XP8TrD": {
-      "type": "case-studies",
-      "disabled": true,
-      "settings": {
-        "title": "Retail",
-        "category": "Retail",
-        "padding_top": 40,
-        "padding_bottom": 80
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_tx83XN": {
@@ -111,26 +128,12 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "case_studies_6tXra8": {
-      "type": "case-studies",
-      "name": "Case Studies List",
-      "settings": {
-        "title": "",
-        "category": "specialist products",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
     "main",
     "page_header_FTBBe8",
-    "case_studies_KGzPMx",
-    "case_studies_e68AqV",
-    "case_studies_ynecPi",
-    "case_studies_XP8TrD",
-    "rich_text_tx83XN",
-    "case_studies_6tXra8"
+    "multicolumn_hzCzze",
+    "rich_text_tx83XN"
   ]
 }

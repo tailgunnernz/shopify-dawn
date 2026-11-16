@@ -48,14 +48,205 @@
         "content",
         "share"
       ],
+      "disabled": true,
       "custom_css": [
         ".media {max-width: 800px; margin: 0 auto;}"
       ],
       "settings": {}
+    },
+    "rich_text_EAQ3yL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9FbfbE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Specialist Products - Bags",
+            "heading_size": "h1"
+          }
+        },
+        "text_EdwmGb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_jUWfBp": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9FbfbE",
+        "text_EdwmGb",
+        "button_jUWfBp"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_wbeEx4": {
+      "type": "multirow",
+      "blocks": {
+        "row_BCD48Q": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "TITLE",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_LANKrt": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "&nbsp;TITLE&nbsp;",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_yBFknP": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "&nbsp;TITLE&nbsp;",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_BCD48Q",
+        "row_LANKrt",
+        "row_yBFknP"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7JzLcK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yPCBwh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Like What You See?",
+            "heading_size": "h1"
+          }
+        },
+        "text_QJg8MW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get in contact with us to discuss your requirements.</p>"
+          }
+        },
+        "button_79qQN8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yPCBwh",
+        "text_QJg8MW",
+        "button_79qQN8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-ca4fc56a-2e94-4c1e-a840-6e039ef09e8a",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_4byBkf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gFVWiX": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_HccQ7W": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_X4m9RR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Back to Specialist Products →",
+            "button_link": "shopify://pages/specialist-products",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gFVWiX",
+        "text_HccQ7W",
+        "button_X4m9RR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1330bf84-9d22-4f56-8fd6-b4b20199153a",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "custom_breadcrumbs_VA9YrM",
-    "main"
+    "main",
+    "rich_text_EAQ3yL",
+    "multirow_wbeEx4",
+    "rich_text_7JzLcK",
+    "rich_text_4byBkf"
   ]
 }
