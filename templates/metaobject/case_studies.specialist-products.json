@@ -1,0 +1,98 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page_dRyLjj": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_breadcrumbs_yUjwmM": {
+      "type": "custom-breadcrumbs",
+      "settings": {
+        "color_scheme": "scheme-40872108-8bb0-4ab8-8dba-4e148c49e639"
+      }
+    },
+    "page_header_JmkLr9": {
+      "type": "page-header",
+      "settings": {
+        "title": "{{ metaobject.title.value }}",
+        "header_image": "shopify://shop_images/transparent.png",
+        "image_overlay": true,
+        "image_overlay_color": "#104771",
+        "image_overlay_opacity": 100,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "case_studies_content_KVn7rX": {
+      "type": "case-studies-content",
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_JEyqWQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cBhpmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's Talk",
+            "heading_size": "h1"
+          }
+        },
+        "text_NRg3U9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you're ready for our services or simply have some questions, then we'd love to hear from you.</p>"
+          }
+        },
+        "button_tJDJHC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us Today",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cBhpmz",
+        "text_NRg3U9",
+        "button_tJDJHC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "page_dRyLjj",
+    "custom_breadcrumbs_yUjwmM",
+    "page_header_JmkLr9",
+    "case_studies_content_KVn7rX",
+    "rich_text_JEyqWQ"
+  ]
+}
