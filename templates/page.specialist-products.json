@@ -1,0 +1,121 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "page_header_FTBBe8": {
+      "type": "page-header",
+      "custom_css": [],
+      "settings": {
+        "title": "Case Studies",
+        "header_image": "shopify://shop_images/transparent.png",
+        "image_overlay": true,
+        "image_overlay_color": "#104771",
+        "image_overlay_opacity": 100,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "case_studies_KGzPMx": {
+      "type": "case-studies",
+      "settings": {
+        "title": "Corporate",
+        "category": "Corporate",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "case_studies_e68AqV": {
+      "type": "case-studies",
+      "settings": {
+        "title": "Councils",
+        "category": "Councils",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "case_studies_ynecPi": {
+      "type": "case-studies",
+      "settings": {
+        "title": "Events",
+        "category": "Events",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "case_studies_XP8TrD": {
+      "type": "case-studies",
+      "settings": {
+        "title": "Retail",
+        "category": "Retail",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_tx83XN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qEgzP3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's Talk",
+            "heading_size": "h1"
+          }
+        },
+        "text_xFJCVY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you're ready for our services or simply have some questions, then we'd love to hear from you.</p>"
+          }
+        },
+        "button_KrWyFJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us Today",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qEgzP3",
+        "text_xFJCVY",
+        "button_KrWyFJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_header_FTBBe8",
+    "case_studies_KGzPMx",
+    "case_studies_e68AqV",
+    "case_studies_ynecPi",
+    "case_studies_XP8TrD",
+    "rich_text_tx83XN"
+  ]
+}
