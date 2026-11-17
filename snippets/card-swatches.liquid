@@ -1,0 +1,130 @@
+{%- comment -%}
+  Colour swatches under a product card (Tailgunner, Nov 2026).
+
+  Shown on products whose colour option ("COLOUR", "Colour", "Color") has more
+  than one value. Up to five swatches, then "+N" linking to the product.
+
+  Two looks, never mixed on one card:
+  - Colour dots, when every colour on the product is connected to Shopify's
+    colour swatches (the option is linked to the shopify.color-pattern
+    metafield). A swatch image wins over a swatch colour, which is how two-tone
+    colours get a split dot.
+  - Photo swatches otherwise: a round crop of that colour's own variant photo.
+
+  Hovering a swatch (or tapping it on a touch screen) swaps the card photo to
+  that colour and points the card link at that colour's variant. Clicking a
+  swatch with a mouse opens the product with that colour selected. A colour with
+  no photo of its own still gets a swatch, but the card photo doesn't change.
+  The behaviour lives in assets/card-swatches.js.
+
+  Accepts:
+  - card_product: {Object} Product Liquid object
+{%- endcomment -%}
+{%- liquid
+  assign colour_option = nil
+  for option in card_product.options_with_values
+    assign option_name = option.name | downcase
+    if option_name contains 'colour' or option_name contains 'color'
+      assign colour_option = option
+      break
+    endif
+  endfor
+-%}
+{%- if colour_option and colour_option.values.size > 1 -%}
+  {%- liquid
+    assign use_dots = true
+    for value in colour_option.values
+      if value.swatch == blank or value.swatch.color == blank and value.swatch.image == blank
+        assign use_dots = false
+        break
+      endif
+    endfor
+    assign option_index = colour_option.position | minus: 1
+    assign max_swatches = 5
+    assign extra = colour_option.values.size | minus: max_swatches
+  -%}
+  <ul
+    class="card-swatches{% if use_dots %} card-swatches--dots{% endif %}"
+    aria-label="{{ colour_option.name | capitalize | escape }}"
+  >
+    {%- for value in colour_option.values limit: max_swatches -%}
+      {%- liquid
+        assign swatch_variant = nil
+        assign swatch_media = nil
+        if value.variant.featured_media
+          assign swatch_variant = value.variant
+          assign swatch_media = value.variant.featured_media
+        else
+          for variant in card_product.variants
+            if variant.options[option_index] == value.name
+              if swatch_variant == nil
+                assign swatch_variant = variant
+              endif
+              if variant.featured_media
+                assign swatch_variant = variant
+                assign swatch_media = variant.featured_media
+                break
+              endif
+            endif
+          endfor
+        endif
+        if swatch_variant
+          assign swatch_url = swatch_variant.url
+        else
+          assign swatch_url = card_product.url
+        endif
+      -%}
+      <li>
+        <a
+          href="{{ swatch_url }}"
+          class="card-swatch{% unless use_dots or swatch_media %} card-swatch--no-photo{% endunless %}"
+          title="{{ value.name | escape }}"
+          aria-label="{{ colour_option.name | capitalize | escape }}: {{ value.name | escape }}"
+          {% if swatch_media %}
+            data-src="{{ swatch_media | image_url: width: 533 }}"
+            data-srcset="
+              {%- if swatch_media.width >= 360 -%}{{ swatch_media | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if swatch_media.width >= 533 -%}{{ swatch_media | image_url: width: 533 }} 533w,{%- endif -%}
+              {%- if swatch_media.width >= 720 -%}{{ swatch_media | image_url: width: 720 }} 720w,{%- endif -%}
+              {%- if swatch_media.width >= 940 -%}{{ swatch_media | image_url: width: 940 }} 940w,{%- endif -%}
+              {{ swatch_media | image_url }} {{ swatch_media.width }}w
+            "
+          {% endif %}
+        >
+          {%- if use_dots -%}
+            {%- if value.swatch.image -%}
+              <span
+                class="card-swatch__fill"
+                style="background-image: url('{{ value.swatch.image | image_url: width: 72, height: 72, crop: 'center' }}');"
+              ></span>
+            {%- else -%}
+              <span class="card-swatch__fill" style="background-color: {{ value.swatch.color }};"></span>
+            {%- endif -%}
+          {%- elsif swatch_media -%}
+            <img
+              class="card-swatch__photo"
+              src="{{ swatch_media | image_url: width: 120, height: 120, crop: 'center' }}"
+              alt=""
+              width="60"
+              height="60"
+              loading="lazy"
+            >
+          {%- else -%}
+            <span class="card-swatch__fill"></span>
+          {%- endif -%}
+        </a>
+      </li>
+    {%- endfor -%}
+    {%- if extra > 0 -%}
+      <li>
+        <a
+          href="{{ card_product.url }}"
+          class="card-swatches__more"
+          aria-label="{{ extra }} more {% if extra == 1 %}colour{% else %}colours{% endif %}"
+        >
+          +{{ extra }}
+        </a>
+      </li>
+    {%- endif -%}
+  </ul>
+{%- endif -%}
