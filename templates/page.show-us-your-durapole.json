@@ -37,7 +37,7 @@
         "collapsible_row_g8qHyR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How it works:",
+            "heading": "How it works",
             "icon": "question_mark",
             "row_content": "<ol><li>Take a photo or video of your custom Durapole® in use.<br/></li><li>Upload your photo directly through the form below. For videos, upload your video to Google Drive and paste the shareable link into the video submission field.<br/></li><li>Submit your entry and you're in the draw to win a $50 Flagmakers voucher!<br/></li></ol><p>A winner is drawn each month and contacted by email. You can enter again in future months with new photos and videos, but previously submitted content can't be entered again.<br/></p><h3>Photo & video credit</h3><p>You can choose whether you'd like Flagmakers to credit you or your business if we feature your content in our marketing.</p><p>By entering, you give Flagmakers permission to use your submitted photos and videos in our marketing and promotional materials. You retain ownership of your content.</p><p>Read the full <a href=\"https://www.flagmakers.co.nz/pages/t-cs-show-us-your-durapole\">Terms & Conditions here</a>.</p>",
             "page": ""
@@ -80,12 +80,12 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
