@@ -110,8 +110,8 @@
     "brand_headline": "Raising The Standard",
     "brand_description": "<p>Our mission is to deliver beautifully crafted products anywhere and on-time. We are a dedicated and passionate company which cares about the fine detail of our products. Our finishing team put that extra effort in to make sure you will always receive a crafted high quality product.</p>",
     "brand_image": "shopify://shop_images/new_Flagmakers_logo_RGB_Transparent_Background_1.png",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=61596527597151",
+    "social_instagram_link": "https://www.instagram.com/flagmakers_nz/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -151,14 +151,12 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
+          "greeting_message": "👋 Hi, message us with any questions. Or if you'd prefer to talk to someone, you can call us on 0800 900 800. We're happy to help!",
           "button_color": "#104771",
-          "secondary_color": "#ffffff",
-          "ternary_color": "#6A6A6A",
           "button_icon": "chat_bubble",
           "button_text": "need_help",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋 Hi, message us with any questions. Or if you'd prefer to talk to someone, you can call us on 0800 900 800. We're happy to help!"
+          "button_vertical_position": "lowest"
         }
       },
       "7974659707553285070": {
@@ -182,9 +180,7 @@
       "5460929749692845798": {
         "type": "shopify://apps/shopacado-discounts/blocks/enable/5950831a-4e4e-40a4-82b0-674110b50a14",
         "disabled": false,
-        "settings": {
-          "theme_id": "132965793948"
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
